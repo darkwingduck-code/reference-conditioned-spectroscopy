@@ -1,0 +1,30 @@
+{
+  "status": "COMPLETED",
+  "cases": 16,
+  "fits": 32,
+  "start_attempts": 96,
+  "elapsed_seconds": 21.202999999994063,
+  "reference_rms_scale": 26.965025258932673,
+  "real_component_sigmas": [
+    0.0026965025258932677,
+    0.026965025258932674
+  ],
+  "source_hashes": {
+    "research\\reference_control_study_20260927\\study.py": "9c223a308331ea60c188607886b9dad35a182d9012b412506bd29401891c29d5",
+    "research\\reference_control_study_20260927\\test_study.py": "a2be2dfa907105c9f154053afa0d54647b7c8d9d5c39ac0504339c61dc8c07ef",
+    "research\\reference_control_study_20260927\\plan.md": "76e9a902e244c9f4ddeadf5aca7328c6ba221779f9a4ca1e6e53af8629b4fae7",
+    "research\\prl_reference_validation_20260927\\experiment.py": "f0ef6ff2da31aac9241e67d58e47ba75be43e71686595f7fb296c3f2c8217f56",
+    "research\\prl_physical_discrimination_20260912\\oscillator_pilot.py": "f3f6986bbf06c68b13323d8de9a192c4b06912acd9f3951ee5845aadab92e2a2",
+    "research\\prl_physical_discrimination_20260912\\discrimination_core.py": "9f64e4ed699ca29c0b22d5c566ed1f6e37bb733be965feb1f63c1ed27850f933",
+    "research\\reference_control_study_20260927\\wide_study.py": "802eaee008ff925a2273ad0757f0cfb281c2109b31217c1ca9d76d768713bf3b",
+    "research\\reference_control_study_20260927\\wide_plan.md": "c81e4aaf76f5f5523acf528b32eb89596213da7cf52b146d804a92f6baeebf72",
+    "research\\reference_control_study_20260927\\run_01\\validation.json": "741de1433d24bd8b6840fdc3520ccc054547d08a6ceb743ca9a5060cf722924b"
+  },
+  "all_sources_unchanged": true,
+  "training_complex_samples": 162,
+  "heldout_complex_samples": 158,
+  "failures_retained": 3,
+  "boundary_fits_retained": 0,
+  "acquisition_assumption": "same number of equally costly complex points and frequency-independent absolute noise",
+  "scope": "finite oscillator inverse problem; no material validation or identification certificate"
+}

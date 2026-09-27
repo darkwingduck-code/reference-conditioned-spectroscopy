@@ -1,0 +1,33 @@
+{
+  "source_hashes": {
+    "pole_zero_work\\code\\generate_prl_main_figures_premium.py": "859c5a5f420394b3f700c785c80f0a2e579743d294e7a8348795fc9e4bdbe18e",
+    "pole_zero_work\\code\\generate_prl_supplement_figures_premium.py": "b791bcc422e050f08339282786d3d0284b15a30eb26c6907ef43ebbef34c8487",
+    "pole_zero_work\\code\\generate_weyl_full_zero_revision.py": "0c475337a9317fddea27c891e1dff30e1cf5ae3ec746e2826747cbf8f826a404",
+    "pole_zero_work\\data_prl\\fig1_dispersion.csv": "7c3b15a296b1efa12c60b621e2bfa9fba34a54d9804e50c5c93e76e78da15f3b",
+    "pole_zero_work\\data_prl\\fig1_field_intercept.csv": "03a84d630f704f295b938a1c932e61e1061c4d44bd60d7db9052e82cfef2ac36",
+    "pole_zero_work\\data_prl\\fig2_pole_zero_tomography.csv": "f6afe6925eb62a73129345a5b7740b1072fddbd7a3353517af3c303b167b8bf5",
+    "pole_zero_work\\data_prl\\fig2_frequency_residue_circle.csv": "6c7255bb401369948be924eb0016c9c251698d9a1828e53fb86e188514a9dd13",
+    "pole_zero_work\\data_prl\\figS7_multimode_poles_zeros.csv": "0a19ae468fd8a1af8dbd20ebf763e71e99da38a7e67bffb1c654dc247cbb9f29",
+    "pole_zero_work\\data_prl\\figS7_loss_only_ambiguity.csv": "06ccd5e4fd5e0ea819f700750dc262c126706e0c37169dbdacab23c5f5efef6d",
+    "pole_zero_work\\data_prl\\figS7_cofactor_jacobi_residuals.csv": "27111b4ad84a627108f80c40f791d7769d64983bba1a17d8a738b3461a92bfd9",
+    "pole_zero_work\\data_prl\\figS7_background_dependent_total_zeros.csv": "dcfed27d731f244c321d521b18710bf30ee36795b07892cff6e0fdfd6554293c",
+    "pole_zero_work\\data_prl\\weyl_full_zero_revision.csv": "72a15b7d5c10f13a5a038223fa2dd2f236a2874c26c200d34e31f7837c3b35ba",
+    "pole_zero_work\\data_prl\\weyl_full_zero_revision_field.csv": "9b4f6f18cf96e19713c6abe07628c22b66830312d91ba5d322bb313babd1e64e",
+    "research\\figure_revision_20260927\\jpc\\render_selected.py": "715738ff11dbac91f254531e21f0300cd5bb846011d7a046c03758b26df277c9"
+  },
+  "sources_unchanged": true,
+  "numerical_artists_unchanged_by_label_edits": true,
+  "no_scientific_solver_executed": true,
+  "modifications": [
+    "Field panel b legend scopes exact crossover to the specified linear-drift comparator.",
+    "The separately normalized dotted 1/b curve is labeled a scaling guide, not an exact asymptotic coefficient.",
+    "Cofactor panel a title wraps onto two lines; all numerical artists unchanged.",
+    "Full-zero audit removes the obsolete Fig.2 pointer; field tick labels use the archived editorial spacing."
+  ],
+  "output_hashes": {
+    "jpc_cofactor_multimode.pdf": "d505e1bc80fd80c3dee1c441d79985bbdb3a57bc726677244224d5d6f95f6d48",
+    "jpc_field_intercept.pdf": "606b15317651b20baa31549de300fbd3594febfb89a0c430506e8aec25d45c01",
+    "jpc_full_zero_audit.pdf": "7fb25ea0bf92487167084b4efd4c8329d559bc0579b6a5951598df3d45504021",
+    "jpc_pole_zero.pdf": "421a7e5305012be541b345720f1c5a712f5d402d68ae32e1a087746364bd62c4"
+  }
+}

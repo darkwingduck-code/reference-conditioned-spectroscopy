@@ -1,0 +1,28 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+SPDX-License-Identifier: CC-BY-4.0
+
+Copyright (c) 2026, the authors of "Pole-Zero Spectroscopy of Hidden Collective Modes"
+
+Unless a file states otherwise, the numerical source data, figure data,
+project documentation, and original manuscript-supporting materials in this
+archive are licensed under the Creative Commons Attribution 4.0 International
+Public License.
+
+You may share and adapt the licensed material for any purpose, including
+commercially, provided that you:
+
+1. give appropriate credit to the authors;
+2. provide a link to the CC BY 4.0 license;
+3. indicate whether changes were made; and
+4. do not imply endorsement by the authors.
+
+Full legal code:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Recommended attribution:
+"Pole-Zero Spectroscopy of Hidden Collective Modes," associated source data
+and documentation, version 1.0.0, Zenodo DOI: [INSERT CODE/DATA DOI].
+
+Third-party material, if any, remains subject to its original terms and is not
+relicensed by this notice.

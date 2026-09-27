@@ -1,0 +1,13 @@
+{
+  "inputs": {
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\structured_dark_sector_20260927\\run_02\\summary.json": "ce4c1fe074e89bf05ea1f3f8bde4ada14f1089c066de0a24c7a7f6687e80785c",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\structured_dark_sector_20260927\\run_02\\trials.csv": "2e3b003db8043fd065184c224450a271eb608aa006ba49a3cce102e439d6bcd9",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\structured_dark_sector_20260927\\render_extended.py": "512f0dfe4780e911b2fc7b87a6413d8f340e568bf1c1918c15095d6e91e80d15",
+    "C:\\Users\\sadva\\orca\\recovered-sessions\\pde-papers\\weyl-revision\\research\\structured_dark_sector_20260927\\run_study.py": "1caf83c3bcef02478e47dcce0673ebbdba407111d789054d7fd38ad40eac933c"
+  },
+  "outputs": {
+    "structured_sector.pdf": "4aece4438e4c13f8d1e2649fe54c8218d1547b8a3e2aad5895f9c5d9f7f6e8bc",
+    "structured_sector.png": "e22956ac4e6780e4b2f6b15d0d41dec1b14df94f4c6f264dbbea3c7cc8837428"
+  },
+  "interval_selection": "B=.1, epsilon=.001, replicate=0, both far-bath strengths"
+}

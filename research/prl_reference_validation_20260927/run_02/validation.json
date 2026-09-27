@@ -1,0 +1,26 @@
+{
+  "case_count": 792,
+  "elapsed_seconds": 40.80967378616333,
+  "direct_schur_identity_max_absolute_error": 2.33447172204761e-10,
+  "direct_schur_identity_max_scaled_error": 8.152636574546666e-13,
+  "minimum_stiffness_eigenvalue": 0.7387140709817912,
+  "maximum_physical_pole_imaginary": -0.002265613745521644,
+  "minimum_positive_frequency_loss": 0.0453313294550327,
+  "pointwise_calibration_bound_failures": 0,
+  "valid_free_model_false_rejections": 0,
+  "valid_free_compatible_cases": 396,
+  "valid_free_omega_interval_misses": 0,
+  "valid_free_gamma_interval_misses": 0,
+  "exact_rational_witnesses": 831,
+  "all_saved_witnesses_verified": true,
+  "source_hashes": {
+    "research\\prl_reference_validation_20260927\\experiment.py": "f0ef6ff2da31aac9241e67d58e47ba75be43e71686595f7fb296c3f2c8217f56",
+    "research\\prl_reference_validation_20260927\\test_experiment.py": "9b89be6e62b33eb368ac3dbef9efa08b4fc9d23f00d6aed8f89b913bcd487207",
+    "research\\prl_reference_validation_20260927\\plan.md": "61f40ad6909efa3f9d55033daa7bd6c868deca838839b6c8b4e5a75a60fdd6dd",
+    "research\\prl_physical_discrimination_20260912\\oscillator_pilot.py": "f3f6986bbf06c68b13323d8de9a192c4b06912acd9f3951ee5845aadab92e2a2",
+    "research\\prl_physical_discrimination_20260912\\discrimination_core.py": "9f64e4ed699ca29c0b22d5c566ed1f6e37bb733be965feb1f63c1ed27850f933"
+  },
+  "all_source_hashes_unchanged": true,
+  "status": "COMPLETED",
+  "scope": "conditional finite-oscillator inference; feasible rectangles do not establish model truth"
+}

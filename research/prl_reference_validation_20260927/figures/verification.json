@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "case_count": 792,
+  "valid_cases": 396,
+  "invalid_cases": 396,
+  "valid_false_rejections": 0,
+  "valid_numerical_interval_misses": 0,
+  "invalid_status_counts": {
+    "inconsistent": 327,
+    "compatible": 66,
+    "inconclusive": 3
+  },
+  "exact_rational_witnesses_verified": 831,
+  "run_01_run_02_common_scientific_columns_identical": true,
+  "excluded_comparison_columns": [
+    "fixed_estimated_parameters_in_outer_set",
+    "free_estimated_parameters_in_outer_set"
+  ],
+  "repeat_change": "Corrected joint-vs-marginal membership labels, saved source snapshots, added an overdamped check; all scientific estimates, intervals and status decisions unchanged",
+  "tests": {
+    "new_tests": 0,
+    "legacy_tests": 0
+  },
+  "max_valid_gamma_point_error": 2.2553401439400628e-05,
+  "max_valid_omega_point_error": 2.5113234561890962e-05,
+  "max_valid_gamma_interval_width": 0.0002789138589879992,
+  "max_valid_omega_interval_width": 0.00023719492452656254,
+  "figure": "reference_validation_20260927.pdf",
+  "precision_scope": "numerical marginal intervals, exact stored-float separation witnesses; no general model certificate"
+}

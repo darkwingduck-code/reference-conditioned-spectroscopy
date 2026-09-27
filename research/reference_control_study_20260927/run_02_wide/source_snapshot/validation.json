@@ -1,0 +1,24 @@
+{
+  "status": "COMPLETED",
+  "cases": 48,
+  "fitted_models": 144,
+  "unrestricted_starts": 438,
+  "profile_points": 585,
+  "profile_start_attempts": 1170,
+  "elapsed_seconds": 214.625,
+  "reference_rms_scale": 26.965025258932673,
+  "total_training_complex_samples_per_case": 162,
+  "noise_budget_equal_between_models": true,
+  "source_hashes": {
+    "research\\reference_control_study_20260927\\study.py": "9c223a308331ea60c188607886b9dad35a182d9012b412506bd29401891c29d5",
+    "research\\reference_control_study_20260927\\test_study.py": "a2be2dfa907105c9f154053afa0d54647b7c8d9d5c39ac0504339c61dc8c07ef",
+    "research\\reference_control_study_20260927\\plan.md": "76e9a902e244c9f4ddeadf5aca7328c6ba221779f9a4ca1e6e53af8629b4fae7",
+    "research\\prl_reference_validation_20260927\\experiment.py": "f0ef6ff2da31aac9241e67d58e47ba75be43e71686595f7fb296c3f2c8217f56",
+    "research\\prl_physical_discrimination_20260912\\oscillator_pilot.py": "f3f6986bbf06c68b13323d8de9a192c4b06912acd9f3951ee5845aadab92e2a2",
+    "research\\prl_physical_discrimination_20260912\\discrimination_core.py": "9f64e4ed699ca29c0b22d5c566ed1f6e37bb733be965feb1f63c1ed27850f933"
+  },
+  "all_sources_unchanged": true,
+  "optimizer_failures_retained": 28,
+  "profile_point_failures_retained": 160,
+  "scope": "finite oscillator likelihood and nominal profile support; no material or coverage certificate"
+}

@@ -1,0 +1,5 @@
+{
+  "run_01\\fits.csv": "c0a3dca4f104f069c906184cca0070504ee9a0e599593baeb95c064d5490d465",
+  "run_02_wide\\fits.csv": "493fd90452ac6fb35ec470bf0ac35154db390d9d33744a3e5099c3cc1f4fc2f7",
+  "analyze_wide.py": "de26cb9e49610e7a52b8642d1cdb98329da48a35cb027495ddb945949a889dfe"
+}

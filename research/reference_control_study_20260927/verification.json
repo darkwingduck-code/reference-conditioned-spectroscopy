@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "recomputed_fit_and_holdout_objectives": 208,
+  "common_training_noise_vectors_checked": 32,
+  "max_common_training_noise_difference": 1.4211288389453755e-14,
+  "max_training_chi2_relative_reconstruction_error": 0.0,
+  "wide_design_dense_inverse_check": true,
+  "all_snapshot_source_hashes_match": true,
+  "current_source_differences": [
+    {
+      "run": "run_02_wide",
+      "source": "research\\reference_control_study_20260927\\wide_study.py",
+      "reason": "output CLI only; scientific tail and outputs checked identical"
+    }
+  ],
+  "current_sources_match_run_01_and_run_03": true,
+  "wide_rerun_scientific_tables_byte_identical": true,
+  "wide_rerun_observation_arrays_identical": true,
+  "wide_driver_scientific_function_and_main_tail_ast_identical": true
+}

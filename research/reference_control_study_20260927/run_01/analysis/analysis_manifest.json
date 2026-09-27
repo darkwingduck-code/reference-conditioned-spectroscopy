@@ -1,0 +1,15 @@
+{
+  "fits": 144,
+  "profile_curves": 42,
+  "requested_profile_curves": 42,
+  "profile_curves_with_failed_optimizations": 39,
+  "profile_curves_with_unresolved_minimum": 0,
+  "profile_curves_with_accepted_bound": 0,
+  "numerical_failure_rows_retained": true,
+  "input_hashes": {
+    "run_01\\fits.csv": "c0a3dca4f104f069c906184cca0070504ee9a0e599593baeb95c064d5490d465",
+    "run_01\\profiles.csv": "4550ddc3f07fdf77cbbce7f0d9e24247300ff2b1fd928d5fb280034eaa2e2cba",
+    "run_01\\validation.json": "741de1433d24bd8b6840fdc3520ccc054547d08a6ceb743ca9a5060cf722924b"
+  },
+  "analyzer_sha256": "778ccf7c76c082f8d3930ee42aa30596c6cabd4ef8bc198c004b61180c5ae805"
+}
