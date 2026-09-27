@@ -1,0 +1,91 @@
+{
+  "all_checks_passed": true,
+  "number_of_checks": 17,
+  "checks": [
+    {
+      "name": "hybrid branches are the dominant continuous layer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "hybrid branches use a narrow separation stroke",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reference lines are below the hybrid spectrum",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reference identity is carried by hollow rings",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reconstructed zero uses hollow diamonds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "caption describes the balanced hierarchy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "caption explains hollow reconstruction markers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "fig1_field_intercept PDF exists",
+      "passed": true,
+      "detail": "69919"
+    },
+    {
+      "name": "fig1_field_intercept has no Type-3 fonts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "fig1_field_intercept retains a strong hybrid-color footprint",
+      "passed": true,
+      "detail": "67612"
+    },
+    {
+      "name": "fig1_field_intercept preview remains high resolution",
+      "passed": true,
+      "detail": "4194x1524"
+    },
+    {
+      "name": "fig2_pole_zero_tomography PDF exists",
+      "passed": true,
+      "detail": "78718"
+    },
+    {
+      "name": "fig2_pole_zero_tomography has no Type-3 fonts",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "fig2_pole_zero_tomography retains a strong hybrid-color footprint",
+      "passed": true,
+      "detail": "61498"
+    },
+    {
+      "name": "fig2_pole_zero_tomography preview remains high resolution",
+      "passed": true,
+      "detail": "4194x1524"
+    },
+    {
+      "name": "main manuscript remains three pages",
+      "passed": true,
+      "detail": "3"
+    },
+    {
+      "name": "LaTeX log has no layout/reference failure",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "status": "COMPLETED",
+  "scope": "Synthetic passive finite oscillator; conditional star-model parameter boxes, no material or universal continuation certificate",
+  "rows": 11280,
+  "primary_rows": 10800,
+  "heldout_rows": 480,
+  "conditional_boxes": 11280,
+  "conditional_box_coverage_failures": 0,
+  "pointwise_calibration_bound_failures": 0,
+  "fit_failures": 0,
+  "seconds": 18.118696451187134,
+  "source_sha256": {
+    "oscillator_pilot.py": "f3f6986bbf06c68b13323d8de9a192c4b06912acd9f3951ee5845aadab92e2a2",
+    "discrimination_core.py": "9f64e4ed699ca29c0b22d5c566ed1f6e37bb733be965feb1f63c1ed27850f933",
+    "run_production.py": "a20acfd3b46bda87dcc1c8aab2bfb2c7ab4a779931260ed077ef1d60f38d1e01",
+    "production_plan.md": "dcfd0ed8ffd477559c8f9d524632f7582c60e538bf341107faac3a4617c749d1",
+    "test_discrimination.py": "75e10f740b556229573dbbac746370788518034f27f1c69c5ae402a1b0a6d9de"
+  },
+  "all_source_bytes_unchanged": true,
+  "noise_distribution": "Independent complex uniform disk with declared radius; calibration and baseline shared across fields within one q/eta/replica group",
+  "holdout_scope": "New q/B combinations are held out from the pilot; interlaced frequencies score against synthetic noiseless truth only after fitting",
+  "file_sha256": {
+    "trials.csv": "f4c4795b6f4fbc1dae90a4e685b3a6a7bb1e132d56ccce903b49b49f8e8d568c",
+    "illustration_inputs.npz": "32a4bb4f0533aeb676d7c81522c3889cad803418ee30611a08e6fd263a51c155",
+    "summary.csv": "36e8eb63309aac9aaa2406124b73338396b1f2952057cdb28fdeed9cdab49e5f"
+  }
+}

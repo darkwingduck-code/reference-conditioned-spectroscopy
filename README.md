@@ -1,7 +1,7 @@
 # Reference-conditioned spectroscopy: data and code
 
 Research artifacts for **Reference-conditioned spectroscopy with control drift
-and structured hidden sectors**, Gyeongtae Im. Version 1.1.0, 27 September 2026.
+and structured hidden sectors**, Gyeongtae Im. Version 1.2.0, 27 September 2026.
 Journal target: *The European Physical Journal Plus* (Springer Nature).
 This is a research-data release, not a claim of journal acceptance.
 
@@ -91,6 +91,52 @@ python -B research/figure_style_epjp_20260927/epjp/verify.py --output reproducti
 
 Use a new output directory for each render. The release verification also
 checks every final asset and the preserved original source/data hashes.
+
+## Restored supplementary evidence in version 1.2.0
+
+Version 1.2.0 adds the computational evidence behind the reintegrated technical
+supplement. Version 1.0.0/1.1.0 histories and all earlier scientific bytes remain
+unchanged. The expanded archive includes:
+
+- The reduced Weyl, gauge-completion, pole/zero, full-response versus principal-
+  part, inverse-problem and visibility generators under `pole_zero_work/code`,
+  with their retained `pole_zero_work/data_prl` tables and failed controls.
+- Full-band ensemble/Ward/Landau production inputs, independent repeat and
+  **historical failed comparison** under `data_prl/full_band_reproduction`.
+  Its Nky=16 diagnostic still fails the original 1e-6 tolerance. The later
+  current-table repeat passes using a documented replacement aggregation
+  recipe; the missing historical recipe was not recovered. Degenerate Landau
+  eigenvector overlaps are compared by invariant projector sums; the raw
+  differences and per-cell decisions remain available.
+- The earlier 11280 conditional oscillator boxes, separate 594 reduced-Weyl
+  transfer controls, pilot and first-production records under
+  `research/prl_physical_discrimination_20260912`. They are not pooled with the
+  later 792-case reference study. Historical `certified` fields mean a
+  model-conditioned numerical test, not model validation or outward-rounded
+  interval arithmetic.
+
+`release_support/verify_supporting_records.py` checks these distinct input
+lineages, retained failures and source hashes without repeating the studies.
+The expanded `verify_release.py --tests` also runs the small pole/zero and
+gauge-completion controls. SymPy/mpmath are recorded for the existing symbolic
+checks; no new scientific implementation was substituted.
+
+Original editorial/manuscript validators inside the historical code directory
+are preserved for provenance and are not part of the portable bounded test
+command: their absent manuscript files are intentional. The data archive
+contains no manuscript TeX, author block or cover letter. Historical README
+links to those materials describe the original work tree, not released files.
+
+## Recreate the restored supplemental figures
+
+The eleven restored figures are in `research/supplement_reintegration_20260927/figure_run_05`.
+The renderer reads stored numerical tables; it does not refit the data.
+
+```sh
+python -B research/supplement_reintegration_20260927/render_restored_figures.py --output reproduction/restored_supplement
+```
+
+Use a new output directory.
 
 ## Provenance, citation and licensing
 

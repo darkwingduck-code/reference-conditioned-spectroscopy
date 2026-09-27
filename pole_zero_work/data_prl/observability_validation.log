@@ -1,0 +1,17 @@
+[ok] observability table has complete schema: columns=['gap_to_sum_halfwidth_ratio', 'complex_response_snr', 'trials', 'fit_failures', 'median_zero_error_over_gamma', 'p90_zero_error_over_gamma', 'median_pole_error_over_gamma', 'probability_zero_error_below_0p2gamma', 'median_design_condition_number']
+[ok] observability grid contains 9x9 points: shape=(81, 9)
+[ok] all Monte Carlo fits completed: max failures=0
+[ok] all reported errors and condition numbers are finite: finite numeric table
+[ok] probabilities lie in [0,1]: range=0,1
+[ok] higher SNR improves zero inference at gap ratio 0.2: low/high=1.206/0.3362
+[ok] higher SNR improves zero inference at gap ratio 0.306: low/high=1.187/0.0853
+[ok] higher SNR improves zero inference at gap ratio 0.468: low/high=1.071/0.01945
+[ok] higher SNR improves zero inference at gap ratio 0.716: low/high=0.6879/0.006542
+[ok] higher SNR improves zero inference at gap ratio 1.1: low/high=0.1325/0.003264
+[ok] resolved interior splitting outperforms unresolved poles at high SNR: best/low-gap=4.779e-04/3.362e-01
+[ok] well-resolved high-SNR points achieve high success probability: minimum success=1.000
+[ok] unresolved low-SNR point fails the stringent zero criterion: success=0.000
+[ok] summary trial count matches table: summary/table=45/45
+[ok] summary best error matches table: delta=7.535e-17
+[ok] observability figure artifact exists: figS8_tomography_observability_map.pdf: figS8_tomography_observability_map.pdf
+[ok] observability figure artifact exists: figS8_tomography_observability_map.png: figS8_tomography_observability_map.png

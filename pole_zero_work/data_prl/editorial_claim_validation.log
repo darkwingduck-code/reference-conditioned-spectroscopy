@@ -1,0 +1,21 @@
+[ok] complex Schur determinant identity: max rel=2.794e-15
+[ok] Schur complement inherits node-exchange covariance: max abs=0.000e+00
+[ok] basis-change determinant invariance: max rel=3.200e-15
+[ok] brightened crossing stays in illustrative q window: max q=0.092670, qmax=0.2
+[ok] field-created trajectory exits and re-enters finite q window: inside count=7/11
+[ok] analytic observation-window threshold: b_win=0.00463353
+[ok] high-level suite passed: validator flag
+[ok] nonnegative-F0x controlled region exists: 4198
+[ok] alternative perturbative gap check: err=7.452e-05
+[ok] residue-sum correction is quadratic: power=2.034588
+[ok] Subrahmanyam public record is present: bibliography entry
+[ok] Subrahmanyam entry uses arXiv 2605.27031: 
+  author = {{Subrahmanyam D} and Gangadharaiah, Suhas and Mishchenko, E. G.},
+  title = {Anomaly-Induced Hybrid Bulk El
+[ok] no unverified DOI in Subrahmanyam entry: no doi field
+[ok] no unverified journal in Subrahmanyam entry: no journal field
+[ok] main defines field-intercept index: main normal form
+[ok] main states finite observation-window distinction: main comparison paragraph
+[ok] supplement contains full-Maxwell Schur proof: supplement section
+[ok] supplement states additional-pole limitation: scope boundary
+[ok] material-specific limitation is explicit: main scope

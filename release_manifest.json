@@ -1,7 +1,7 @@
 {
   "paper": "epjp",
   "repository": "reference-conditioned-spectroscopy",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "source_repository": "https://github.com/darkwingduck-code/weyl-collective-modes",
   "source_base_commit": "1414cdb6aac3f6db87c781de1ad484a69399bcaf",
   "provenance": "Selected working-tree bytes; per-file hashes identify changes after the base commit.",
@@ -19,12 +19,36 @@
     [
       "research/prl_physical_discrimination_20260912",
       "test_discrimination.py"
+    ],
+    [
+      "pole_zero_work/code",
+      "test_weyl_continuum_stress.py"
     ]
   ],
   "self_checks": [
     [
       "research/structured_dark_sector_20260927/run_study.py",
       "--self-check"
+    ],
+    [
+      "release_support/verify_supporting_records.py",
+      "--paper",
+      "epjp"
+    ],
+    [
+      "pole_zero_work/code/test_zero_assignment_revision.py"
+    ],
+    [
+      "pole_zero_work/code/test_inverse_problem_stress.py"
+    ],
+    [
+      "pole_zero_work/code/tests/run_gauge_completion_checks.py"
+    ],
+    [
+      "pole_zero_work/code/symbolic_normal_form_check.py"
+    ],
+    [
+      "release_support/verify_full_band_controls.py"
     ]
   ],
   "scope": "Paper-specific data and code; no manuscript text, personal notes, credentials or Git history.",
@@ -780,14 +804,14 @@
       "origin": "research/structured_dark_sector_20260927/run_study.py"
     },
     "README.md": {
-      "sha256": "b03e86e9e3f6e2e023486d1b1413a281a9fce272ba8bf6e9c76389ac34220e5a",
-      "bytes": 5507,
-      "origin": "research/publication_release_20260927/jpc_README.md"
+      "sha256": "0854d3c597b0ad8c0d6b7f635dc9650296b06271fb243b9912ad1fc2dc03b2c0",
+      "bytes": 8017,
+      "origin": "generated version 1.2.0 release metadata"
     },
     "verify_release.py": {
-      "sha256": "a06f9059756bccd4170ed2647906c9b98d352f1976921de649763ba778b21d11",
-      "bytes": 3158,
-      "origin": "scripts/verify_public_data.py"
+      "sha256": "fee8bd1fe684520b09d729e6bb92f6df8f96a795abcc6cbcf5c65a8e2dc8f40d",
+      "bytes": 3190,
+      "origin": "generated version 1.2.0 release metadata"
     },
     ".gitattributes": {
       "sha256": "95f31cf05320e4b69a8725275e53395fe8d93d5cbe22c12320b16f99569545f2",
@@ -800,14 +824,14 @@
       "origin": "generated release metadata"
     },
     "requirements.txt": {
-      "sha256": "91bfd6c7bb4c609740dadcc92f689271b477e87676b724413859cdd1bfa7b918",
-      "bytes": 91,
-      "origin": "generated release metadata"
+      "sha256": "a231c4604c90e97ec45e1f11d614b19a7c8e84305073cef2a117fef7532e78b7",
+      "bytes": 119,
+      "origin": "generated version 1.2.0 release metadata"
     },
     "CITATION.cff": {
-      "sha256": "b7e9b8726baea822a08fa6ea4c6146c5c8aeb5b7305557ad918e06c1a78cce9d",
+      "sha256": "8fe59bc2229142f34d3ac17adf393942960eea8a78c00186d38d0b298d2cfdbe",
       "bytes": 390,
-      "origin": "generated release metadata"
+      "origin": "generated version 1.2.0 release metadata"
     },
     "paper/jpc_strengthened/figures/jpc_cofactor_multimode.pdf": {
       "sha256": "d505e1bc80fd80c3dee1c441d79985bbdb3a57bc726677244224d5d6f95f6d48",
@@ -973,6 +997,1106 @@
       "sha256": "e5a8916edbe5c780b7e093880e859bb9ba4cceea43f27acac58114f9be6f9366",
       "bytes": 6666,
       "origin": "research/figure_style_epjp_20260927/figure_style.py"
+    },
+    "pole_zero_work/code/full_bz_completion/__init__.py": {
+      "sha256": "8e8ba4758ef49a71b26639511f0abadb396d9c01098e4271457147fe0817c3a6",
+      "bytes": 80,
+      "origin": "pole_zero_work/code/full_bz_completion/__init__.py"
+    },
+    "pole_zero_work/code/full_bz_completion/ensemble.py": {
+      "sha256": "b22f592d7350231e7f9079716930a21f4c397df448fc98ebd8959b65bfb963df",
+      "bytes": 1384,
+      "origin": "pole_zero_work/code/full_bz_completion/ensemble.py"
+    },
+    "pole_zero_work/code/full_bz_completion/examples/material_gamma_omega_example.npz": {
+      "sha256": "90e1db08ea434920a88eed0b208737ae78c546471ca9fad8f30fa0dcaa346e9a",
+      "bytes": 3703,
+      "origin": "pole_zero_work/code/full_bz_completion/examples/material_gamma_omega_example.npz"
+    },
+    "pole_zero_work/code/full_bz_completion/generate_landau_data.py": {
+      "sha256": "352c596b59b94645981c0ad23d030fd4c964f1887e614a91559f3d4a8ceba2c7",
+      "bytes": 3819,
+      "origin": "pole_zero_work/code/full_bz_completion/generate_landau_data.py"
+    },
+    "pole_zero_work/code/full_bz_completion/generate_slab_data.py": {
+      "sha256": "a50edc626037664124dc9e42be63410c5690e0cbbc99c1f830cf98c119642850",
+      "bytes": 3048,
+      "origin": "pole_zero_work/code/full_bz_completion/generate_slab_data.py"
+    },
+    "pole_zero_work/code/full_bz_completion/generate_torus_data.py": {
+      "sha256": "ffd0cc0c6e12eb25203016fc38f08cbb6c908e74200f76c7c73c2226ca7e0035",
+      "bytes": 2044,
+      "origin": "pole_zero_work/code/full_bz_completion/generate_torus_data.py"
+    },
+    "pole_zero_work/code/full_bz_completion/landau_projection.py": {
+      "sha256": "ba1a332872685949119be09f6599736ef8beb1220f5bee03602d1a64baab5fec",
+      "bytes": 4040,
+      "origin": "pole_zero_work/code/full_bz_completion/landau_projection.py"
+    },
+    "pole_zero_work/code/full_bz_completion/lattice_kubo.py": {
+      "sha256": "cb24110da3c172584c720658f313a21720553c85c0099a1ed1518820e4973434",
+      "bytes": 8269,
+      "origin": "pole_zero_work/code/full_bz_completion/lattice_kubo.py"
+    },
+    "pole_zero_work/code/full_bz_completion/make_completion_figures.py": {
+      "sha256": "b004582bc3a8cb15ee769926dff3082179c3a01fc2d3c1f11dc77e60d819e20b",
+      "bytes": 4910,
+      "origin": "pole_zero_work/code/full_bz_completion/make_completion_figures.py"
+    },
+    "pole_zero_work/code/full_bz_completion/material_gamma_omega_schema.md": {
+      "sha256": "faf8ebc11b87057634813bb5718475cdc3a7b934a7fdfa500566c08f6fde97be",
+      "bytes": 1501,
+      "origin": "pole_zero_work/code/full_bz_completion/material_gamma_omega_schema.md"
+    },
+    "pole_zero_work/code/full_bz_completion/project_material_gamma_omega.py": {
+      "sha256": "c76f1a0f30522d40ee4c115da0c2036d8c0c862f623c92037cfdff7adfabc054",
+      "bytes": 4812,
+      "origin": "pole_zero_work/code/full_bz_completion/project_material_gamma_omega.py"
+    },
+    "pole_zero_work/code/full_bz_completion/reproduce_production.py": {
+      "sha256": "bffa524625bae4b719fe8bd4b192000781b5bc86bddb6d9ce92f1273f1075282",
+      "bytes": 17269,
+      "origin": "pole_zero_work/code/full_bz_completion/reproduce_production.py"
+    },
+    "pole_zero_work/code/full_bz_completion/run_convergence_point.py": {
+      "sha256": "928636c3c7c4845e431fea4d4e262cc0b61dfb5808627792c95254cd7fe5f0c9",
+      "bytes": 1139,
+      "origin": "pole_zero_work/code/full_bz_completion/run_convergence_point.py"
+    },
+    "pole_zero_work/code/full_bz_completion/validate_completion.py": {
+      "sha256": "1bcaf02c40ed1a8fa7c802140a2d0429947d41b3d42c476e570e83fb8d041952",
+      "bytes": 10318,
+      "origin": "pole_zero_work/code/full_bz_completion/validate_completion.py"
+    },
+    "pole_zero_work/code/generate_competitor_asymptotic.py": {
+      "sha256": "03ae88b5d4f089ac16c92e721d9b655d26000281caef700b532ec890d866f6e7",
+      "bytes": 5278,
+      "origin": "pole_zero_work/code/generate_competitor_asymptotic.py"
+    },
+    "pole_zero_work/code/generate_high_level_reinforcement.py": {
+      "sha256": "68544fc411cf5137f652c4227a79467bab96f2417d4077e4c711421ec787c11b",
+      "bytes": 10875,
+      "origin": "pole_zero_work/code/generate_high_level_reinforcement.py"
+    },
+    "pole_zero_work/code/generate_observability_map.py": {
+      "sha256": "babf8c966d73da09621daa958fdc29887a8b1e0bfab70294133db17993659a6e",
+      "bytes": 6291,
+      "origin": "pole_zero_work/code/generate_observability_map.py"
+    },
+    "pole_zero_work/code/generate_zero_assignment_revision.py": {
+      "sha256": "f9dd46dd21de9a440ad01e6d3f51bdf75f1346f7ff78042ad32f0fb12c2459ed",
+      "bytes": 8274,
+      "origin": "pole_zero_work/code/generate_zero_assignment_revision.py"
+    },
+    "pole_zero_work/code/inverse_problem_stress.py": {
+      "sha256": "eec3e1241afce6c8df36859fcea45cc205db220b1b58ae37e19499a5a57e7815",
+      "bytes": 25589,
+      "origin": "pole_zero_work/code/inverse_problem_stress.py"
+    },
+    "pole_zero_work/code/symbolic_normal_form_check.py": {
+      "sha256": "752611b368eed225fed4f8901c66876efe7eac1b98e0cdbbb1cd561926961118",
+      "bytes": 3539,
+      "origin": "pole_zero_work/code/symbolic_normal_form_check.py"
+    },
+    "pole_zero_work/code/symbolic_pole_zero_proofs.py": {
+      "sha256": "e6602d0712f13b640079e5778ad6fb0a17dd114c23924a61d659a0b19b20d5f1",
+      "bytes": 4479,
+      "origin": "pole_zero_work/code/symbolic_pole_zero_proofs.py"
+    },
+    "pole_zero_work/code/test_inverse_problem_stress.py": {
+      "sha256": "96a8478ef43fce46c63db0efbe7e6f7ed084f0864a022d1528ee656cd4aaeea2",
+      "bytes": 4080,
+      "origin": "pole_zero_work/code/test_inverse_problem_stress.py"
+    },
+    "pole_zero_work/code/test_manuscript_boundaries.py": {
+      "sha256": "a0c286ee4facaa2e6bf3ebd26a9ad6e5025a368e88845d66c25d3e8987c4cac0",
+      "bytes": 8064,
+      "origin": "pole_zero_work/code/test_manuscript_boundaries.py"
+    },
+    "pole_zero_work/code/test_weyl_continuum_stress.py": {
+      "sha256": "55240b062967a170b05c0d33c529a1ad410cf7a8ec8bd7c8685d6a81977f77c4",
+      "bytes": 2552,
+      "origin": "pole_zero_work/code/test_weyl_continuum_stress.py"
+    },
+    "pole_zero_work/code/test_zero_assignment_revision.py": {
+      "sha256": "ddcfa4db3a141ca77bca2a9045cf0a1b8b9ba6f2a0df96c0e64cf98fb0668f45",
+      "bytes": 7058,
+      "origin": "pole_zero_work/code/test_zero_assignment_revision.py"
+    },
+    "pole_zero_work/code/tests/run_gauge_completion_checks.py": {
+      "sha256": "596322e53c1d5c69b7770f2714143476517fe1fae8eafb9af053140e569df477",
+      "bytes": 13831,
+      "origin": "pole_zero_work/code/tests/run_gauge_completion_checks.py"
+    },
+    "pole_zero_work/code/validate_competitor_crossover.py": {
+      "sha256": "2dc142767fe47745d5a7a411867dde5840c11f601a07ef098d2dea9f22306071",
+      "bytes": 12292,
+      "origin": "pole_zero_work/code/validate_competitor_crossover.py"
+    },
+    "pole_zero_work/code/validate_high_level_reinforcement.py": {
+      "sha256": "eac3f8c80d3bef65379edfc01aa60f8cea712d909f2e8b535d7a2f59d969ae95",
+      "bytes": 5278,
+      "origin": "pole_zero_work/code/validate_high_level_reinforcement.py"
+    },
+    "pole_zero_work/code/validate_main_figure_hybrid_priority_v13.py": {
+      "sha256": "3f5927e3bf0a30c543935f4d7bd507cf93e2e8fc9bbe68efcd1f285009fbe21f",
+      "bytes": 2958,
+      "origin": "pole_zero_work/code/validate_main_figure_hybrid_priority_v13.py"
+    },
+    "pole_zero_work/code/validate_multimode_tomography.py": {
+      "sha256": "b2e334ff83d1732aed4fceb5f060ac096465517d21199c0e8a06f0b2cf8d35bf",
+      "bytes": 11866,
+      "origin": "pole_zero_work/code/validate_multimode_tomography.py"
+    },
+    "pole_zero_work/code/validate_observability_map.py": {
+      "sha256": "d36b37f7f168c013821c3c66e81307b896f1edca82afa338638f0a2021f78711",
+      "bytes": 5011,
+      "origin": "pole_zero_work/code/validate_observability_map.py"
+    },
+    "pole_zero_work/code/validate_pole_zero_reinforcement.py": {
+      "sha256": "a885ae91dc351644e9a34e4a33c02db45be479c6855bf454e54f15b77f0fd557",
+      "bytes": 7677,
+      "origin": "pole_zero_work/code/validate_pole_zero_reinforcement.py"
+    },
+    "pole_zero_work/code/validate_prl_editorial_claims.py": {
+      "sha256": "05962f0db2a9f018f876b7f6a95d24545a02c1b7cf97cd202868483e20188279",
+      "bytes": 7564,
+      "origin": "pole_zero_work/code/validate_prl_editorial_claims.py"
+    },
+    "pole_zero_work/code/validate_prl_reinforcement.py": {
+      "sha256": "ee38d1a24ca6fc3bdbd993064b097a5eceaf3141127025665c53e49e09d148a6",
+      "bytes": 7369,
+      "origin": "pole_zero_work/code/validate_prl_reinforcement.py"
+    },
+    "pole_zero_work/code/validate_public_archive.py": {
+      "sha256": "81a10f942f6a7cc929dbdbfa7271cbf013253b49779c7c176e550c6e2ce89d97",
+      "bytes": 1541,
+      "origin": "pole_zero_work/code/validate_public_archive.py"
+    },
+    "pole_zero_work/code/validate_solver.py": {
+      "sha256": "4360b2e10b9bf910099231b19bd30736b7595a18aac1e3b02f1b6da2522448ba",
+      "bytes": 21068,
+      "origin": "pole_zero_work/code/validate_solver.py"
+    },
+    "pole_zero_work/code/weyl_continuum_stress.py": {
+      "sha256": "867b2127dbd507763cc3c9eb632efa49b14c26e3e47e22f5041d19dfd728992c",
+      "bytes": 13433,
+      "origin": "pole_zero_work/code/weyl_continuum_stress.py"
+    },
+    "pole_zero_work/code/weyl_gauge_completion/__init__.py": {
+      "sha256": "24932ef311750ae703f4eec3b722b9961e9eb107f6f9a59d26fa66b6e9175c37",
+      "bytes": 1447,
+      "origin": "pole_zero_work/code/weyl_gauge_completion/__init__.py"
+    },
+    "pole_zero_work/code/weyl_gauge_completion/kernels.py": {
+      "sha256": "736a6975253e04f58ff287d14f96783e626c7e6cc21e5a6d79d4a9e4cad93e3e",
+      "bytes": 10295,
+      "origin": "pole_zero_work/code/weyl_gauge_completion/kernels.py"
+    },
+    "pole_zero_work/code/weyl_gauge_completion/vertices.py": {
+      "sha256": "00e707eb7ab4a18ff66508842d5abf8a79bcd3a14521bdf72bc2e020882338e5",
+      "bytes": 7971,
+      "origin": "pole_zero_work/code/weyl_gauge_completion/vertices.py"
+    },
+    "pole_zero_work/data_prl/alternative_parameter_gap_check.csv": {
+      "sha256": "b5a722b1877a1b65ff5720aaefbc4d6a69aa7c486aea1d1be96bb6c11e33e662",
+      "bytes": 496,
+      "origin": "pole_zero_work/data_prl/alternative_parameter_gap_check.csv"
+    },
+    "pole_zero_work/data_prl/competitor_crossover_validation.json": {
+      "sha256": "e7e974eefa21b2a3adc69203921bce56de108e075bc4e83b6883eab5e87af45a",
+      "bytes": 6567,
+      "origin": "pole_zero_work/data_prl/competitor_crossover_validation.json"
+    },
+    "pole_zero_work/data_prl/competitor_crossover_validation.log": {
+      "sha256": "16157bb3afcd86195c227185a7ed7a43c4e198d139b3858d906af14921db0849",
+      "bytes": 2851,
+      "origin": "pole_zero_work/data_prl/competitor_crossover_validation.log"
+    },
+    "pole_zero_work/data_prl/competitor_exact_trajectory_summary.json": {
+      "sha256": "0849bfc7fcc8bc46eec6c819a8847bcf64365fc76f043d2caae424be519c29b4",
+      "bytes": 625,
+      "origin": "pole_zero_work/data_prl/competitor_exact_trajectory_summary.json"
+    },
+    "pole_zero_work/data_prl/editorial_claim_validation.json": {
+      "sha256": "c7651f3277644a0485e648f1d808d62ca06603c8c72ee33cca9aeec2543d4c38",
+      "bytes": 2941,
+      "origin": "pole_zero_work/data_prl/editorial_claim_validation.json"
+    },
+    "pole_zero_work/data_prl/editorial_claim_validation.log": {
+      "sha256": "084e32d7a340e7608941ebc589efffe6cf5597f63bd740d3e0929624010a801d",
+      "bytes": 1343,
+      "origin": "pole_zero_work/data_prl/editorial_claim_validation.log"
+    },
+    "pole_zero_work/data_prl/fig2_universal_collapse.csv": {
+      "sha256": "76e3e8b923a9ce61c319d55b361f2528cef6ff1c1a41eee35af50bc84af7c204",
+      "bytes": 27262,
+      "origin": "pole_zero_work/data_prl/fig2_universal_collapse.csv"
+    },
+    "pole_zero_work/data_prl/fig3_conserving_dispersion.csv": {
+      "sha256": "282f8fe5f6c3af08463427ddbd1bd21ee021dd80818e66053e472067d2e59ba3",
+      "bytes": 14782,
+      "origin": "pole_zero_work/data_prl/fig3_conserving_dispersion.csv"
+    },
+    "pole_zero_work/data_prl/fig3_conserving_gap.csv": {
+      "sha256": "e9e3c6b1208d78bc0dd7c4fdddc19e2aba4a47c4d6aa403bc7a3a74c443841ad",
+      "bytes": 2149,
+      "origin": "pole_zero_work/data_prl/fig3_conserving_gap.csv"
+    },
+    "pole_zero_work/data_prl/fig3_ward_residuals.csv": {
+      "sha256": "bee98763f86dd0a0f13481a6cd6e2577a892c8f8fc832ac7b691c3f897f3ced0",
+      "bytes": 5138,
+      "origin": "pole_zero_work/data_prl/fig3_ward_residuals.csv"
+    },
+    "pole_zero_work/data_prl/figS1_alternative_dispersion.csv": {
+      "sha256": "317d94c61b9f32843e680bc0499378d43b5de739f861a1326ae25d23baf3d05d",
+      "bytes": 10396,
+      "origin": "pole_zero_work/data_prl/figS1_alternative_dispersion.csv"
+    },
+    "pole_zero_work/data_prl/figS1_interaction_crossing_map.csv": {
+      "sha256": "0f6292020bab7e66e00dc65b989431ea0db06d8b40846bb7083026ae2298e80a",
+      "bytes": 845381,
+      "origin": "pole_zero_work/data_prl/figS1_interaction_crossing_map.csv"
+    },
+    "pole_zero_work/data_prl/figS4_complex_tomography_noise.csv": {
+      "sha256": "63524d863fb0d130b1eeb3e6bf195882e96b6f779a66bd6ee8d2153bccd86ba4",
+      "bytes": 51215,
+      "origin": "pole_zero_work/data_prl/figS4_complex_tomography_noise.csv"
+    },
+    "pole_zero_work/data_prl/figS4_three_mode_diagnostic.csv": {
+      "sha256": "255036c40d3e46aebf7848ab7c61dd3047477f50b7bb7fa33ddad076e56d1b0c",
+      "bytes": 6172,
+      "origin": "pole_zero_work/data_prl/figS4_three_mode_diagnostic.csv"
+    },
+    "pole_zero_work/data_prl/figS5_genealogy_model_selection.csv": {
+      "sha256": "57f7dce9ade53f8549423ad27869f9e284f30fa168151bb9c1550ba075250a98",
+      "bytes": 3303,
+      "origin": "pole_zero_work/data_prl/figS5_genealogy_model_selection.csv"
+    },
+    "pole_zero_work/data_prl/figS5_genealogy_representative_fits.csv": {
+      "sha256": "6edced74b837ecaaac565be0b5c80c2babf8a6fb23ac73c26f5b3f8bb3ef731e",
+      "bytes": 2858,
+      "origin": "pole_zero_work/data_prl/figS5_genealogy_representative_fits.csv"
+    },
+    "pole_zero_work/data_prl/figS5_genealogy_summary.json": {
+      "sha256": "60cb80024a98831d49b27f969068484c7b236586cb35a8a9b865afb2924e21da",
+      "bytes": 225,
+      "origin": "pole_zero_work/data_prl/figS5_genealogy_summary.json"
+    },
+    "pole_zero_work/data_prl/figS6_symmetry_selection_rules.csv": {
+      "sha256": "b97738a3a20bd23be73307f9e49ec15977f4ac776c971440953998e4c881cb58",
+      "bytes": 9432,
+      "origin": "pole_zero_work/data_prl/figS6_symmetry_selection_rules.csv"
+    },
+    "pole_zero_work/data_prl/figS8_tomography_observability_map.csv": {
+      "sha256": "ee57b7d5a377293d5ac8fc53b1052106998f07d3982eed3d31ac11d41ae99d71",
+      "bytes": 9996,
+      "origin": "pole_zero_work/data_prl/figS8_tomography_observability_map.csv"
+    },
+    "pole_zero_work/data_prl/figS9_competitor_exact_trajectory.csv": {
+      "sha256": "52229b8013a89b5036d040add8aa363d25e178af1cba515a5e14a7b37c04b86d",
+      "bytes": 70606,
+      "origin": "pole_zero_work/data_prl/figS9_competitor_exact_trajectory.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/archived_reference/exact_landau_projection_summary.json": {
+      "sha256": "b9ca0fc62e9d8c0a540beafc1a81983a0930865c0eacaf7069b47942c230cf9f",
+      "bytes": 1267,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/archived_reference/exact_landau_projection_summary.json"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/archived_reference/exact_landau_spectrum.csv": {
+      "sha256": "280648ec611269037e08f2a58e572ad0784e0a483b07813c990d8bd760dfb243",
+      "bytes": 3408,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/archived_reference/exact_landau_spectrum.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/archived_reference/magnetic_torus_even_coefficients.csv": {
+      "sha256": "c0e39a3f0e856d2cf416a87074f0c4800fb607c99920c0b7305722fa8238b9dc",
+      "bytes": 1383,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/archived_reference/magnetic_torus_even_coefficients.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/archived_reference/magnetic_torus_full_band.csv": {
+      "sha256": "90e85974a241c7b2faa2e6f5aba8dcc3b56ae1bb225e787f7d7db166d8307e36",
+      "bytes": 2973,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/archived_reference/magnetic_torus_full_band.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/archived_reference/magnetic_torus_summary.json": {
+      "sha256": "2ea866e7fa808763fe4212390296d72678a6afc3424db4f96d59dbc9673e3eec",
+      "bytes": 116,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/archived_reference/magnetic_torus_summary.json"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/archived_reference/magnetic_torus_ward_rpa.csv": {
+      "sha256": "bc38f584ff617b10adecfa8754eed5255c92b0b3bbc52cff2619d4a84522d9ca",
+      "bytes": 802,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/archived_reference/magnetic_torus_ward_rpa.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/archived_reference/slab_chain_rule_summary.json": {
+      "sha256": "abe86229f6eb8ab4bdf1a9cb750853f5c69606f0ae1938e8cf60acfec63a5653",
+      "bytes": 748,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/archived_reference/slab_chain_rule_summary.json"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/archived_reference/slab_full_band_fits.csv": {
+      "sha256": "715c8d4a1f8e69dc0e5f3c4d911be8a3085706ebae714890241549488b5d2abb",
+      "bytes": 520,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/archived_reference/slab_full_band_fits.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/archived_reference/slab_full_band_raw.csv": {
+      "sha256": "c408b7a5dacf5ac9d5d1b275b9fad28fb491ed304162ee5257ac23a5f2bafd9d",
+      "bytes": 3408,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/archived_reference/slab_full_band_raw.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/archived_reference/slab_ky_convergence.csv": {
+      "sha256": "c400842807de7b7b104c752939c3127a92d442f1d1bdb4351aede6183a1b82ad",
+      "bytes": 1163,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/archived_reference/slab_ky_convergence.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/archived_reference/slab_size_convergence.csv": {
+      "sha256": "f48915421a2064d5a8f5a44e8140bdde84d223ab8eb27d3e82a98877b1ce2b15",
+      "bytes": 369,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/archived_reference/slab_size_convergence.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/archived_reference/slab_ward_rpa.csv": {
+      "sha256": "fbacb66d3cc3877ad466263f018ab828fbc9d31b2878068cda9a3bae91165234",
+      "bytes": 1199,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/archived_reference/slab_ward_rpa.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/comparison.csv": {
+      "sha256": "e974191db154e2121aa635cc85ed223567996735cd350f9ce462a683cf1acb9e",
+      "bytes": 990,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/comparison.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/comparison_cells.csv": {
+      "sha256": "c951bb4dd09e8d3558aeaf544bdaee9dfbf26bbf45518e6e71c6072a5f00db79",
+      "bytes": 113175,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/comparison_cells.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/convergence_raw.csv": {
+      "sha256": "77aadcd0e7bb1f8419fb294b7cf60f0a3834176ca333eaa00639e0b4d532a47d",
+      "bytes": 3630,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/convergence_raw.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/exact_landau_projection_summary.json": {
+      "sha256": "d61a8da538bddd5b6ae0a7be52698cd805e7a3f2e07a62c0ba2e303e6ef3948d",
+      "bytes": 1310,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/exact_landau_projection_summary.json"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/exact_landau_spectrum.csv": {
+      "sha256": "c5184404d5593d355e73f281b21da2b6211b5de1a23af87568aeb268bc314afa",
+      "bytes": 3443,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/exact_landau_spectrum.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/magnetic_torus_even_coefficients.csv": {
+      "sha256": "e60a43367544f539264798ec58df15deecee3e3a60269ff754d66587cfeca3b6",
+      "bytes": 1398,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/magnetic_torus_even_coefficients.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/magnetic_torus_full_band.csv": {
+      "sha256": "16ffe9da2307492160a1aee0af268b4b0ae8b81d65c43bc1f697632178e4b821",
+      "bytes": 2986,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/magnetic_torus_full_band.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/magnetic_torus_summary.json": {
+      "sha256": "c72d506763e22c6e7a4d46eea36547acceb325e6d5da66ece4570c9fb4135905",
+      "bytes": 121,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/magnetic_torus_summary.json"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/magnetic_torus_ward_rpa.csv": {
+      "sha256": "be79f3aa02a5163e6f850b9aa5534cd9429da90c1698ed421ac4949bf75a588c",
+      "bytes": 810,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/magnetic_torus_ward_rpa.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/slab_chain_rule_summary.json": {
+      "sha256": "3b4562688f58507e46b634b355e56abb0a381a70c0af8c8ab39265a274ed61a6",
+      "bytes": 769,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/slab_chain_rule_summary.json"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/slab_full_band_fits.csv": {
+      "sha256": "51480f7b9f75ca0a9417b836bd8e5bc29f9ccd2c34c0e03691f8a5324b08c144",
+      "bytes": 527,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/slab_full_band_fits.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/slab_full_band_raw.csv": {
+      "sha256": "3aabe5375dcdaacfb4b91cc0071c090b4892595031fc4e3ca9ba60f255d9e530",
+      "bytes": 3451,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/slab_full_band_raw.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/slab_ky_convergence.csv": {
+      "sha256": "227dd81c0d8903641df0d969fffcf5280c31eb90322d55e2669a7777affc0f2f",
+      "bytes": 1166,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/slab_ky_convergence.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/slab_size_convergence.csv": {
+      "sha256": "972fb7706aefa23c43687fc516ff997e7f50e50f6de968d6ba6b070fc3414e7e",
+      "bytes": 409,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/slab_size_convergence.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/slab_ward_rpa.csv": {
+      "sha256": "0302b78c444f5ae06346b210b4d08cbff60c6b24259dc0f62771cb9c2dc2e344",
+      "bytes": 1210,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/data_prl/full_bz_completion/slab_ward_rpa.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/fresh_validation.json": {
+      "sha256": "b2bbba7bbf428f58f8f166e207edbed19ceb286568935792d170a2061fd24325",
+      "bytes": 2233,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/fresh_validation.json"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/fresh_validation.log": {
+      "sha256": "17c4c533cf8091c762d201373031b585e4b626d5813c38811b1ffa44d957e290",
+      "bytes": 2469,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/fresh_validation.log"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/comparison.csv": {
+      "sha256": "9b7b81c70ea9638cc46b7965cb24ad4c7a7cc26d3c66f0fa0c7dd2a28964e7f2",
+      "bytes": 1418,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/comparison.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/comparison_cells.csv": {
+      "sha256": "7f473d2c1a6d078f6543af28bcef76fe67bed83e618f189fb175af613cfe37de",
+      "bytes": 131918,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/comparison_cells.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/convergence_raw.csv": {
+      "sha256": "77aadcd0e7bb1f8419fb294b7cf60f0a3834176ca333eaa00639e0b4d532a47d",
+      "bytes": 3630,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/convergence_raw.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/exact_landau_projection_summary.json": {
+      "sha256": "d61a8da538bddd5b6ae0a7be52698cd805e7a3f2e07a62c0ba2e303e6ef3948d",
+      "bytes": 1310,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/exact_landau_projection_summary.json"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/exact_landau_spectrum.csv": {
+      "sha256": "c5184404d5593d355e73f281b21da2b6211b5de1a23af87568aeb268bc314afa",
+      "bytes": 3443,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/exact_landau_spectrum.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/magnetic_torus_even_coefficients.csv": {
+      "sha256": "e60a43367544f539264798ec58df15deecee3e3a60269ff754d66587cfeca3b6",
+      "bytes": 1398,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/magnetic_torus_even_coefficients.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/magnetic_torus_full_band.csv": {
+      "sha256": "16ffe9da2307492160a1aee0af268b4b0ae8b81d65c43bc1f697632178e4b821",
+      "bytes": 2986,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/magnetic_torus_full_band.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/magnetic_torus_summary.json": {
+      "sha256": "c72d506763e22c6e7a4d46eea36547acceb325e6d5da66ece4570c9fb4135905",
+      "bytes": 121,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/magnetic_torus_summary.json"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/magnetic_torus_ward_rpa.csv": {
+      "sha256": "be79f3aa02a5163e6f850b9aa5534cd9429da90c1698ed421ac4949bf75a588c",
+      "bytes": 810,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/magnetic_torus_ward_rpa.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/slab_chain_rule_summary.json": {
+      "sha256": "3b4562688f58507e46b634b355e56abb0a381a70c0af8c8ab39265a274ed61a6",
+      "bytes": 769,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/slab_chain_rule_summary.json"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/slab_full_band_fits.csv": {
+      "sha256": "51480f7b9f75ca0a9417b836bd8e5bc29f9ccd2c34c0e03691f8a5324b08c144",
+      "bytes": 527,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/slab_full_band_fits.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/slab_full_band_raw.csv": {
+      "sha256": "3aabe5375dcdaacfb4b91cc0071c090b4892595031fc4e3ca9ba60f255d9e530",
+      "bytes": 3451,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/slab_full_band_raw.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/slab_ky_convergence.csv": {
+      "sha256": "227dd81c0d8903641df0d969fffcf5280c31eb90322d55e2669a7777affc0f2f",
+      "bytes": 1166,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/slab_ky_convergence.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/slab_size_convergence.csv": {
+      "sha256": "972fb7706aefa23c43687fc516ff997e7f50e50f6de968d6ba6b070fc3414e7e",
+      "bytes": 409,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/slab_size_convergence.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/slab_ward_rpa.csv": {
+      "sha256": "0302b78c444f5ae06346b210b4d08cbff60c6b24259dc0f62771cb9c2dc2e344",
+      "bytes": 1210,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/data_prl/full_bz_completion/slab_ward_rpa.csv"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/reproduction.log": {
+      "sha256": "bfe0be691dde07821464fff5598559cb1d8fc881a86c4e4ab7e74c5f52e559f0",
+      "bytes": 2395,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/reproduction.log"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/reproduction_metadata.json": {
+      "sha256": "543dcc8dcb6acf310c0027afea1d087d311f80e7cd577aaca8134d1856343479",
+      "bytes": 10606,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/reproduction_metadata.json"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/README.md": {
+      "sha256": "8ab3ebdf4652b1f97c9baa87148ba857cba867836a09452f7882458a2f3c523d",
+      "bytes": 4771,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/README.md"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/reproduction.log": {
+      "sha256": "bfe0be691dde07821464fff5598559cb1d8fc881a86c4e4ab7e74c5f52e559f0",
+      "bytes": 2395,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/reproduction.log"
+    },
+    "pole_zero_work/data_prl/full_band_reproduction/reproduction_metadata.json": {
+      "sha256": "e2d8a7dd267c38fcde6b21b5e4d40d3803f5f8b58683741516cfcb824cc67071",
+      "bytes": 10179,
+      "origin": "pole_zero_work/data_prl/full_band_reproduction/reproduction_metadata.json"
+    },
+    "pole_zero_work/data_prl/full_bz_completion/exact_landau_projection_summary.json": {
+      "sha256": "d61a8da538bddd5b6ae0a7be52698cd805e7a3f2e07a62c0ba2e303e6ef3948d",
+      "bytes": 1310,
+      "origin": "pole_zero_work/data_prl/full_bz_completion/exact_landau_projection_summary.json"
+    },
+    "pole_zero_work/data_prl/full_bz_completion/exact_landau_spectrum.csv": {
+      "sha256": "c5184404d5593d355e73f281b21da2b6211b5de1a23af87568aeb268bc314afa",
+      "bytes": 3443,
+      "origin": "pole_zero_work/data_prl/full_bz_completion/exact_landau_spectrum.csv"
+    },
+    "pole_zero_work/data_prl/full_bz_completion/full_bz_completion_validation.log": {
+      "sha256": "17c4c533cf8091c762d201373031b585e4b626d5813c38811b1ffa44d957e290",
+      "bytes": 2469,
+      "origin": "pole_zero_work/data_prl/full_bz_completion/full_bz_completion_validation.log"
+    },
+    "pole_zero_work/data_prl/full_bz_completion/magnetic_torus_even_coefficients.csv": {
+      "sha256": "e60a43367544f539264798ec58df15deecee3e3a60269ff754d66587cfeca3b6",
+      "bytes": 1398,
+      "origin": "pole_zero_work/data_prl/full_bz_completion/magnetic_torus_even_coefficients.csv"
+    },
+    "pole_zero_work/data_prl/full_bz_completion/magnetic_torus_full_band.csv": {
+      "sha256": "16ffe9da2307492160a1aee0af268b4b0ae8b81d65c43bc1f697632178e4b821",
+      "bytes": 2986,
+      "origin": "pole_zero_work/data_prl/full_bz_completion/magnetic_torus_full_band.csv"
+    },
+    "pole_zero_work/data_prl/full_bz_completion/magnetic_torus_summary.json": {
+      "sha256": "c72d506763e22c6e7a4d46eea36547acceb325e6d5da66ece4570c9fb4135905",
+      "bytes": 121,
+      "origin": "pole_zero_work/data_prl/full_bz_completion/magnetic_torus_summary.json"
+    },
+    "pole_zero_work/data_prl/full_bz_completion/magnetic_torus_ward_rpa.csv": {
+      "sha256": "be79f3aa02a5163e6f850b9aa5534cd9429da90c1698ed421ac4949bf75a588c",
+      "bytes": 810,
+      "origin": "pole_zero_work/data_prl/full_bz_completion/magnetic_torus_ward_rpa.csv"
+    },
+    "pole_zero_work/data_prl/full_bz_completion/slab_chain_rule_summary.json": {
+      "sha256": "3b4562688f58507e46b634b355e56abb0a381a70c0af8c8ab39265a274ed61a6",
+      "bytes": 769,
+      "origin": "pole_zero_work/data_prl/full_bz_completion/slab_chain_rule_summary.json"
+    },
+    "pole_zero_work/data_prl/full_bz_completion/slab_full_band_fits.csv": {
+      "sha256": "51480f7b9f75ca0a9417b836bd8e5bc29f9ccd2c34c0e03691f8a5324b08c144",
+      "bytes": 527,
+      "origin": "pole_zero_work/data_prl/full_bz_completion/slab_full_band_fits.csv"
+    },
+    "pole_zero_work/data_prl/full_bz_completion/slab_full_band_raw.csv": {
+      "sha256": "3aabe5375dcdaacfb4b91cc0071c090b4892595031fc4e3ca9ba60f255d9e530",
+      "bytes": 3451,
+      "origin": "pole_zero_work/data_prl/full_bz_completion/slab_full_band_raw.csv"
+    },
+    "pole_zero_work/data_prl/full_bz_completion/slab_ky_convergence.csv": {
+      "sha256": "227dd81c0d8903641df0d969fffcf5280c31eb90322d55e2669a7777affc0f2f",
+      "bytes": 1166,
+      "origin": "pole_zero_work/data_prl/full_bz_completion/slab_ky_convergence.csv"
+    },
+    "pole_zero_work/data_prl/full_bz_completion/slab_size_convergence.csv": {
+      "sha256": "972fb7706aefa23c43687fc516ff997e7f50e50f6de968d6ba6b070fc3414e7e",
+      "bytes": 409,
+      "origin": "pole_zero_work/data_prl/full_bz_completion/slab_size_convergence.csv"
+    },
+    "pole_zero_work/data_prl/full_bz_completion/slab_ward_rpa.csv": {
+      "sha256": "0302b78c444f5ae06346b210b4d08cbff60c6b24259dc0f62771cb9c2dc2e344",
+      "bytes": 1210,
+      "origin": "pole_zero_work/data_prl/full_bz_completion/slab_ward_rpa.csv"
+    },
+    "pole_zero_work/data_prl/high_level_reinforcement_summary.json": {
+      "sha256": "ee1bd8a813d16785a1588433b8d170fa3988b1de9e346d9529dd2740a03ac244",
+      "bytes": 1756,
+      "origin": "pole_zero_work/data_prl/high_level_reinforcement_summary.json"
+    },
+    "pole_zero_work/data_prl/high_level_validation.json": {
+      "sha256": "559746c389c1b74d8e41e6f80c6405d6fa6fc6284e3d40078438afe4d1c54368",
+      "bytes": 573,
+      "origin": "pole_zero_work/data_prl/high_level_validation.json"
+    },
+    "pole_zero_work/data_prl/high_level_validation.log": {
+      "sha256": "d6998455dc9163c79ecfeb0f67199149c1c770410c99ff589067ce68f069d037",
+      "bytes": 3544,
+      "origin": "pole_zero_work/data_prl/high_level_validation.log"
+    },
+    "pole_zero_work/data_prl/inverse_problem_stress.json": {
+      "sha256": "4434598a62c64468b3471388aaf384975a80d7cff4ad04fb66338fee0e63ab7e",
+      "bytes": 19453,
+      "origin": "pole_zero_work/data_prl/inverse_problem_stress.json"
+    },
+    "pole_zero_work/data_prl/inverse_problem_stress_summary.csv": {
+      "sha256": "af55493dc1d9f371e792deb9d026074878de92fe37dfd8caac6309e2624fab56",
+      "bytes": 3856,
+      "origin": "pole_zero_work/data_prl/inverse_problem_stress_summary.csv"
+    },
+    "pole_zero_work/data_prl/inverse_problem_stress_trials.csv": {
+      "sha256": "64f1b47d150945235adf993f5845bea6d14582de2b92864b09fce6360a936460",
+      "bytes": 300638,
+      "origin": "pole_zero_work/data_prl/inverse_problem_stress_trials.csv"
+    },
+    "pole_zero_work/data_prl/multimode_tomography_summary.json": {
+      "sha256": "fab812c8eb62355d64ac2d92db5a05532ca3cc45cd89c98f68a790cd8105d514",
+      "bytes": 711,
+      "origin": "pole_zero_work/data_prl/multimode_tomography_summary.json"
+    },
+    "pole_zero_work/data_prl/multimode_validation.json": {
+      "sha256": "c55df91af8e966ff0ae3a08827a7149fe54ea325eedbdf5ef1abbd7fbc3df3a0",
+      "bytes": 5256,
+      "origin": "pole_zero_work/data_prl/multimode_validation.json"
+    },
+    "pole_zero_work/data_prl/multimode_validation.log": {
+      "sha256": "32ca60870b464112b945e026588748596412294bb96fbdcd04139d3b4362903c",
+      "bytes": 2795,
+      "origin": "pole_zero_work/data_prl/multimode_validation.log"
+    },
+    "pole_zero_work/data_prl/observability_validation.json": {
+      "sha256": "b4c6eb1a73d44ba5200cc0c51dad4e6b5f30237738e2bcacd85c49f49256b618",
+      "bytes": 2964,
+      "origin": "pole_zero_work/data_prl/observability_validation.json"
+    },
+    "pole_zero_work/data_prl/observability_validation.log": {
+      "sha256": "f786b8a9065f504fdbeba8e4ef75f27e9a6312a1505a8cb157e5a48e28ae94f7",
+      "bytes": 1605,
+      "origin": "pole_zero_work/data_prl/observability_validation.log"
+    },
+    "pole_zero_work/data_prl/physical_scale_table.csv": {
+      "sha256": "234247c0ee39d69b0b06b63f23ab7df25681bc09874d463b88ed443524fcdd52",
+      "bytes": 403,
+      "origin": "pole_zero_work/data_prl/physical_scale_table.csv"
+    },
+    "pole_zero_work/data_prl/pole_zero_reinforcement_summary.json": {
+      "sha256": "405053e7cc5055fabd2e6c3534be5aad50c586307123f41790b4202f939e3efc",
+      "bytes": 795,
+      "origin": "pole_zero_work/data_prl/pole_zero_reinforcement_summary.json"
+    },
+    "pole_zero_work/data_prl/pole_zero_validation.json": {
+      "sha256": "769787e08bd8020f83692ba602a08fe98d834f6ad4271007ebbe74c32d61f74b",
+      "bytes": 4279,
+      "origin": "pole_zero_work/data_prl/pole_zero_validation.json"
+    },
+    "pole_zero_work/data_prl/pole_zero_validation.log": {
+      "sha256": "2d32dbc2a2b147ab626826517c90c50fc22368d3446a82a2fd30e90ff2ed08fa",
+      "bytes": 2005,
+      "origin": "pole_zero_work/data_prl/pole_zero_validation.log"
+    },
+    "pole_zero_work/data_prl/prl_reinforcement_summary.json": {
+      "sha256": "655d2c0c04d22e29928fa054e0fc773f6532a5fa2e239b5f5420bde90799dcb9",
+      "bytes": 982,
+      "origin": "pole_zero_work/data_prl/prl_reinforcement_summary.json"
+    },
+    "pole_zero_work/data_prl/prl_reinforcement_validation.json": {
+      "sha256": "b378dc5793f7deecf7fa499fdb0bad61a88f7e92484d5fa2fb7a5b93015fb409",
+      "bytes": 908,
+      "origin": "pole_zero_work/data_prl/prl_reinforcement_validation.json"
+    },
+    "pole_zero_work/data_prl/prl_reinforcement_validation.log": {
+      "sha256": "e3668242bc56f9e3e758429e78ce15d5f68e498ea45caf2fa623ebc59559a176",
+      "bytes": 3249,
+      "origin": "pole_zero_work/data_prl/prl_reinforcement_validation.log"
+    },
+    "pole_zero_work/data_prl/spectral_weight_sum_rule.csv": {
+      "sha256": "b12d9d7731c848587b5a4bb90e982e80c2e0ac3d58d478b4a80f65b670903cb2",
+      "bytes": 8028,
+      "origin": "pole_zero_work/data_prl/spectral_weight_sum_rule.csv"
+    },
+    "pole_zero_work/data_prl/spectral_weight_sum_rule_summary.csv": {
+      "sha256": "d9655a4904ba58f8ae2e746a95e2e6df34eb58e80ff71bda3b0436abdde457ee",
+      "bytes": 246,
+      "origin": "pole_zero_work/data_prl/spectral_weight_sum_rule_summary.csv"
+    },
+    "pole_zero_work/data_prl/symbolic_normal_form_check.txt": {
+      "sha256": "d2f9be1c5e67ac1a3c86e833c0c8ef0e85887df6e55f151d63ff8f6c3e47ba1f",
+      "bytes": 1464,
+      "origin": "pole_zero_work/data_prl/symbolic_normal_form_check.txt"
+    },
+    "pole_zero_work/data_prl/symbolic_pole_zero_proofs.json": {
+      "sha256": "4e47669181ae129a0b2a4c54dc764ce05062803423aca8aec5272fdb4a539a74",
+      "bytes": 1783,
+      "origin": "pole_zero_work/data_prl/symbolic_pole_zero_proofs.json"
+    },
+    "pole_zero_work/data_prl/symbolic_pole_zero_proofs.txt": {
+      "sha256": "cfd2d61160ed6b5561e0b64705acdb0535cfd837bcaff996a6ee1538c84a0ddf",
+      "bytes": 721,
+      "origin": "pole_zero_work/data_prl/symbolic_pole_zero_proofs.txt"
+    },
+    "pole_zero_work/data_prl/tomography_observability_summary.json": {
+      "sha256": "d9c48cc555b8569849af0c20ee9264b5c8d5c178092204898ba26551a50d9877",
+      "bytes": 311,
+      "origin": "pole_zero_work/data_prl/tomography_observability_summary.json"
+    },
+    "pole_zero_work/data_prl/v13_hybrid_priority_validation.json": {
+      "sha256": "b6a4a9e8cfae8a135e077deb6e5f416a8760185b3fc554dea0d885ddf69c9db0",
+      "bytes": 2111,
+      "origin": "pole_zero_work/data_prl/v13_hybrid_priority_validation.json"
+    },
+    "pole_zero_work/data_prl/weyl_continuum_stress.csv": {
+      "sha256": "cb62d4404341387859b2dd733d02e042a04901e893de67fd0e003fd33e3be653",
+      "bytes": 68186,
+      "origin": "pole_zero_work/data_prl/weyl_continuum_stress.csv"
+    },
+    "pole_zero_work/data_prl/weyl_continuum_stress.json": {
+      "sha256": "9a741aca66a5817612aa931e3e0dda7e390565f853e7a32d44374a511d73c9ce",
+      "bytes": 5246,
+      "origin": "pole_zero_work/data_prl/weyl_continuum_stress.json"
+    },
+    "pole_zero_work/data_prl/weyl_continuum_stress_roots.csv": {
+      "sha256": "037329b92b2f6178b352d23f1ad9ea421f5f9f916b3a4b4987222cf1691c69bf",
+      "bytes": 700,
+      "origin": "pole_zero_work/data_prl/weyl_continuum_stress_roots.csv"
+    },
+    "pole_zero_work/data_prl/weyl_full_zero_revision.json": {
+      "sha256": "5786ff741dd9ce5765527cd46b74bd746da657de23af16e5a76c2a5c068012cd",
+      "bytes": 978,
+      "origin": "pole_zero_work/data_prl/weyl_full_zero_revision.json"
+    },
+    "pole_zero_work/data_prl/zero_assignment_revision.json": {
+      "sha256": "b8f1edb2cc12a4b3b9785ffd224e3735cfa2b7c1d2e317b8713f6ab2e022d494",
+      "bytes": 2847,
+      "origin": "pole_zero_work/data_prl/zero_assignment_revision.json"
+    },
+    "pole_zero_work/data_prl/zero_assignment_revision_samples.csv": {
+      "sha256": "a808fb5be1e0c8c0d4de5e1949b4b79a59a0412ee166fbb7a9dd24e767a70503",
+      "bytes": 31563,
+      "origin": "pole_zero_work/data_prl/zero_assignment_revision_samples.csv"
+    },
+    "pole_zero_work/metadata/symbolic_normal_form_reconstruction.json": {
+      "sha256": "c3d8a07b43d245b336fd3dbfa2a870fb493f79ac2ce2df987d03ba414713f7c6",
+      "bytes": 1455,
+      "origin": "pole_zero_work/metadata/symbolic_normal_form_reconstruction.json"
+    },
+    "pole_zero_work/revision_validation/final_artifact_audit.json": {
+      "sha256": "2a3641b12489cdf61327978331557111a5b8d81a7622852c12e3573913711700",
+      "bytes": 37667,
+      "origin": "pole_zero_work/revision_validation/final_artifact_audit.json"
+    },
+    "pole_zero_work/revision_validation/validation.json": {
+      "sha256": "3428242f2d513575f31d34e653e411e7d05fd0ce14f8712c5b4a0954d2080904",
+      "bytes": 42391,
+      "origin": "pole_zero_work/revision_validation/validation.json"
+    },
+    "research/prl_physical_discrimination_20260912/analysis/representative_summary.csv": {
+      "sha256": "971a1450d583940626f8588a544d1fcd9540f0f69c20d2b47415dac1442d9bc1",
+      "bytes": 893,
+      "origin": "research/prl_physical_discrimination_20260912/analysis/representative_summary.csv"
+    },
+    "research/prl_physical_discrimination_20260912/analysis/unit_tests.txt": {
+      "sha256": "67b718b3096225d130f136fc65deb8cce38a5270dcea1d96e3fc808a2d94d09f",
+      "bytes": 1622,
+      "origin": "research/prl_physical_discrimination_20260912/analysis/unit_tests.txt"
+    },
+    "research/prl_physical_discrimination_20260912/analysis/validation.json": {
+      "sha256": "24357ec160d09c544de0f17a7ba2a1d1021cea8cfbd6cab1d9565d4cc7c8280b",
+      "bytes": 796,
+      "origin": "research/prl_physical_discrimination_20260912/analysis/validation.json"
+    },
+    "research/prl_physical_discrimination_20260912/analyze_results.py": {
+      "sha256": "cd1724a683f305a015fb88d6509cf848553bbb0833e641d2e53992bacacb0598",
+      "bytes": 8138,
+      "origin": "research/prl_physical_discrimination_20260912/analyze_results.py"
+    },
+    "research/prl_physical_discrimination_20260912/controls/background_decomposition.csv": {
+      "sha256": "195bc8dc407064551641953e21b083fd70a847a0b9d7db9e57fd08e8e88df0ba",
+      "bytes": 4454,
+      "origin": "research/prl_physical_discrimination_20260912/controls/background_decomposition.csv"
+    },
+    "research/prl_physical_discrimination_20260912/controls/diagnostic.json": {
+      "sha256": "72c9913502110f56e4542acd8103a4f65b66e42fefe2eafcaccab9947b284286",
+      "bytes": 799,
+      "origin": "research/prl_physical_discrimination_20260912/controls/diagnostic.json"
+    },
+    "research/prl_physical_discrimination_20260912/controls/finite_intercept_control.csv": {
+      "sha256": "c82f8c9e40868ee75918de34c5260badfea4a28e792cd82156ca54d965cf374b",
+      "bytes": 1883,
+      "origin": "research/prl_physical_discrimination_20260912/controls/finite_intercept_control.csv"
+    },
+    "research/prl_physical_discrimination_20260912/controls/structural_controls.csv": {
+      "sha256": "1da907b24ec02441356232552097209856ec454552ebdba69357abe0cc4fc99b",
+      "bytes": 9394,
+      "origin": "research/prl_physical_discrimination_20260912/controls/structural_controls.csv"
+    },
+    "research/prl_physical_discrimination_20260912/controls/weyl_transfer_trials.csv": {
+      "sha256": "f600609ade4def20dd026df2542ab30cc4ff2962bd59d4b96b31b88ce4b04db3",
+      "bytes": 157733,
+      "origin": "research/prl_physical_discrimination_20260912/controls/weyl_transfer_trials.csv"
+    },
+    "research/prl_physical_discrimination_20260912/final_validation/validation.json": {
+      "sha256": "439fb6b42528add11986b7ff6d668062d98df138b3a8046c87a6ee8d69e509be",
+      "bytes": 3207,
+      "origin": "research/prl_physical_discrimination_20260912/final_validation/validation.json"
+    },
+    "research/prl_physical_discrimination_20260912/pilot/pilot.csv": {
+      "sha256": "fc22a041f86afc7be100620e9ec71fdd88a414b2aa2a6af5a05980ad9e122a43",
+      "bytes": 102735,
+      "origin": "research/prl_physical_discrimination_20260912/pilot/pilot.csv"
+    },
+    "research/prl_physical_discrimination_20260912/pilot/pilot.json": {
+      "sha256": "74027bc6f3b89646feee00fdf824cbecb6c569d7014e36ab93f54539aec09104",
+      "bytes": 5386,
+      "origin": "research/prl_physical_discrimination_20260912/pilot/pilot.json"
+    },
+    "research/prl_physical_discrimination_20260912/pilot_plan.md": {
+      "sha256": "bd449e57355d3649572523daff361c5dc881c651e4130911340b53a53f357c15",
+      "bytes": 2281,
+      "origin": "research/prl_physical_discrimination_20260912/pilot_plan.md"
+    },
+    "research/prl_physical_discrimination_20260912/production/diagnostic.json": {
+      "sha256": "ed4a7d41095d6c8e0327f68c6b6011c35400afcda0d6eb42a50657e5d2c1dc3c",
+      "bytes": 1579,
+      "origin": "research/prl_physical_discrimination_20260912/production/diagnostic.json"
+    },
+    "research/prl_physical_discrimination_20260912/production/illustration_inputs.npz": {
+      "sha256": "32a4bb4f0533aeb676d7c81522c3889cad803418ee30611a08e6fd263a51c155",
+      "bytes": 44187,
+      "origin": "research/prl_physical_discrimination_20260912/production/illustration_inputs.npz"
+    },
+    "research/prl_physical_discrimination_20260912/production/source_snapshot/discrimination_core.py": {
+      "sha256": "62478764e33c7e9fb3ada883ec56607d835332eb8bec420236e807fbc00a10a4",
+      "bytes": 5849,
+      "origin": "research/prl_physical_discrimination_20260912/production/source_snapshot/discrimination_core.py"
+    },
+    "research/prl_physical_discrimination_20260912/production/source_snapshot/oscillator_pilot.py": {
+      "sha256": "f3f6986bbf06c68b13323d8de9a192c4b06912acd9f3951ee5845aadab92e2a2",
+      "bytes": 4433,
+      "origin": "research/prl_physical_discrimination_20260912/production/source_snapshot/oscillator_pilot.py"
+    },
+    "research/prl_physical_discrimination_20260912/production/source_snapshot/run_production.py": {
+      "sha256": "a20acfd3b46bda87dcc1c8aab2bfb2c7ab4a779931260ed077ef1d60f38d1e01",
+      "bytes": 7573,
+      "origin": "research/prl_physical_discrimination_20260912/production/source_snapshot/run_production.py"
+    },
+    "research/prl_physical_discrimination_20260912/production/source_snapshot/test_discrimination.py": {
+      "sha256": "087e7c02e95df9d02b260845344d40df9232f608f3032bc95835be960a3da7eb",
+      "bytes": 4271,
+      "origin": "research/prl_physical_discrimination_20260912/production/source_snapshot/test_discrimination.py"
+    },
+    "research/prl_physical_discrimination_20260912/production/summary.csv": {
+      "sha256": "123f92b4490b79d42ef6c751a64e9eb1ef3eb89cde8a09fd253bc00355cdd4a4",
+      "bytes": 16243,
+      "origin": "research/prl_physical_discrimination_20260912/production/summary.csv"
+    },
+    "research/prl_physical_discrimination_20260912/production/trials.csv": {
+      "sha256": "a09bd09459e4dd84b51f97e75e4b2f1cf77cb3933b92fbe14d8dd6935d9deefe",
+      "bytes": 11328451,
+      "origin": "research/prl_physical_discrimination_20260912/production/trials.csv"
+    },
+    "research/prl_physical_discrimination_20260912/production_plan.md": {
+      "sha256": "dcfd0ed8ffd477559c8f9d524632f7582c60e538bf341107faac3a4617c749d1",
+      "bytes": 4243,
+      "origin": "research/prl_physical_discrimination_20260912/production_plan.md"
+    },
+    "research/prl_physical_discrimination_20260912/production_v2/diagnostic.json": {
+      "sha256": "368254a5581319e2014ac0bcc98c01d7eca761f1fdbbbeae6bd9a389c3682363",
+      "bytes": 1579,
+      "origin": "research/prl_physical_discrimination_20260912/production_v2/diagnostic.json"
+    },
+    "research/prl_physical_discrimination_20260912/production_v2/illustration_inputs.npz": {
+      "sha256": "32a4bb4f0533aeb676d7c81522c3889cad803418ee30611a08e6fd263a51c155",
+      "bytes": 44187,
+      "origin": "research/prl_physical_discrimination_20260912/production_v2/illustration_inputs.npz"
+    },
+    "research/prl_physical_discrimination_20260912/production_v2/summary.csv": {
+      "sha256": "36e8eb63309aac9aaa2406124b73338396b1f2952057cdb28fdeed9cdab49e5f",
+      "bytes": 16245,
+      "origin": "research/prl_physical_discrimination_20260912/production_v2/summary.csv"
+    },
+    "research/prl_physical_discrimination_20260912/production_v2/trials.csv": {
+      "sha256": "f4c4795b6f4fbc1dae90a4e685b3a6a7bb1e132d56ccce903b49b49f8e8d568c",
+      "bytes": 12513998,
+      "origin": "research/prl_physical_discrimination_20260912/production_v2/trials.csv"
+    },
+    "research/prl_physical_discrimination_20260912/README.md": {
+      "sha256": "d27d73f172ad9d54ec72cbf7e7f5984d47404846ab5450e1da0ef15eb55c4018",
+      "bytes": 4328,
+      "origin": "research/prl_physical_discrimination_20260912/README.md"
+    },
+    "research/prl_physical_discrimination_20260912/reproduction_controls_01/background_decomposition.csv": {
+      "sha256": "195bc8dc407064551641953e21b083fd70a847a0b9d7db9e57fd08e8e88df0ba",
+      "bytes": 4454,
+      "origin": "research/prl_physical_discrimination_20260912/reproduction_controls_01/background_decomposition.csv"
+    },
+    "research/prl_physical_discrimination_20260912/reproduction_controls_01/byte_comparison.json": {
+      "sha256": "826ef5a56c53d103a4d04261f615050abc6e8b437f4baf2956be698fb62f1e55",
+      "bytes": 158,
+      "origin": "research/prl_physical_discrimination_20260912/reproduction_controls_01/byte_comparison.json"
+    },
+    "research/prl_physical_discrimination_20260912/reproduction_controls_01/diagnostic.json": {
+      "sha256": "43f9c44baf860bd0a4ee761357cbd5ad0e36751578c71142eba01806a2c9ea00",
+      "bytes": 799,
+      "origin": "research/prl_physical_discrimination_20260912/reproduction_controls_01/diagnostic.json"
+    },
+    "research/prl_physical_discrimination_20260912/reproduction_controls_01/finite_intercept_control.csv": {
+      "sha256": "c82f8c9e40868ee75918de34c5260badfea4a28e792cd82156ca54d965cf374b",
+      "bytes": 1883,
+      "origin": "research/prl_physical_discrimination_20260912/reproduction_controls_01/finite_intercept_control.csv"
+    },
+    "research/prl_physical_discrimination_20260912/reproduction_controls_01/structural_controls.csv": {
+      "sha256": "1da907b24ec02441356232552097209856ec454552ebdba69357abe0cc4fc99b",
+      "bytes": 9394,
+      "origin": "research/prl_physical_discrimination_20260912/reproduction_controls_01/structural_controls.csv"
+    },
+    "research/prl_physical_discrimination_20260912/reproduction_controls_01/weyl_transfer_trials.csv": {
+      "sha256": "f600609ade4def20dd026df2542ab30cc4ff2962bd59d4b96b31b88ce4b04db3",
+      "bytes": 157733,
+      "origin": "research/prl_physical_discrimination_20260912/reproduction_controls_01/weyl_transfer_trials.csv"
+    },
+    "research/prl_physical_discrimination_20260912/run_controls.py": {
+      "sha256": "c2d1184ed5b7da029cef0b6b83138232c9a9a58e6bdd0ea5dbba75a5c8eab0dc",
+      "bytes": 5467,
+      "origin": "research/prl_physical_discrimination_20260912/run_controls.py"
+    },
+    "research/prl_physical_discrimination_20260912/run_controls_reproducible.py": {
+      "sha256": "d7280b188aba59fe9260baac365e01accaf2a7c679c465938845d5f5b9401375",
+      "bytes": 5704,
+      "origin": "research/prl_physical_discrimination_20260912/run_controls_reproducible.py"
+    },
+    "research/prl_physical_discrimination_20260912/run_production.py": {
+      "sha256": "a20acfd3b46bda87dcc1c8aab2bfb2c7ab4a779931260ed077ef1d60f38d1e01",
+      "bytes": 7573,
+      "origin": "research/prl_physical_discrimination_20260912/run_production.py"
+    },
+    "research/supplement_reintegration_20260927/epjp/supporting_records.json": {
+      "sha256": "38258ca18d4217e4ffb156e9408adce4b61ae779da548e785c93175c1d8ece3e",
+      "bytes": 7875,
+      "origin": "research/supplement_reintegration_20260927/epjp/supporting_records.json"
+    },
+    "release_support/verify_supporting_records.py": {
+      "sha256": "9ffae79dff7f91060ceb72e45001f4d4ba324491a0be37d0ef7d98e0bd9d8f8e",
+      "bytes": 3849,
+      "origin": "research/supplement_reintegration_20260927/release/verify_supporting_records.py"
+    },
+    "research/supplement_reintegration_20260927/render_restored_figures.py": {
+      "sha256": "a9ec10af2c569b9edddc7a15401c1a148140eab4e63a73e89d25a95cede3b6dd",
+      "bytes": 9159,
+      "origin": "research/supplement_reintegration_20260927/render_restored_figures.py"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/figS10_zero_assignment_revision.pdf": {
+      "sha256": "3d80024df601507c567097a0a3c96959c29c2004eac22cc230c90927abe2d53f",
+      "bytes": 32502,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/figS10_zero_assignment_revision.pdf"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/figS10_zero_assignment_revision.png": {
+      "sha256": "8b94212088a879c5c4657885bee5306ba1c53bfc3c544ce482acab46629658a1",
+      "bytes": 102664,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/figS10_zero_assignment_revision.png"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/figS12_inverse_problem_stress.pdf": {
+      "sha256": "442fd20aaedbc6db85419369f646fe2944ef27658ea713d3ad4654aa25de8837",
+      "bytes": 35985,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/figS12_inverse_problem_stress.pdf"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/figS12_inverse_problem_stress.png": {
+      "sha256": "c78b090403b1f3d2d6ddef439d3c88275d1b47b643dd88e18f8df5a05fb5b2db",
+      "bytes": 145113,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/figS12_inverse_problem_stress.png"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/figS13_weyl_continuum_stress.pdf": {
+      "sha256": "bb5a527f242ca79515347cdd9a7777c2f86bc2208fbd22d936e968afd3ceb3d0",
+      "bytes": 28985,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/figS13_weyl_continuum_stress.pdf"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/figS13_weyl_continuum_stress.png": {
+      "sha256": "4cc4e68b5edecdbe995172a697b4d1ad610693831c73091f2ec12ed7e690a497",
+      "bytes": 114080,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/figS13_weyl_continuum_stress.png"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/figS1_interaction_robustness.pdf": {
+      "sha256": "ddd48be346b29114251eb26c12b5c8a041ad7b4a4a48bf387aceecec4a2cf768",
+      "bytes": 33089,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/figS1_interaction_robustness.pdf"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/figS1_interaction_robustness.png": {
+      "sha256": "835fda0a0018ac8afffcfc01ccb2b88110ee74fdb726cbfcce83a65c4cd71a3f",
+      "bytes": 88271,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/figS1_interaction_robustness.png"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/figS2_full_band_ensemble.pdf": {
+      "sha256": "856567d81b4968460922e0c1c851b9504eb40bb83ce14b2f3cf9c6890fe59d68",
+      "bytes": 26389,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/figS2_full_band_ensemble.pdf"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/figS2_full_band_ensemble.png": {
+      "sha256": "ef627fd611cafdadfe958d673fbdbc33a871851a23a10d768a04be2d199ef508",
+      "bytes": 97320,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/figS2_full_band_ensemble.png"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/figS3_ward_landau_completion.pdf": {
+      "sha256": "e112a2bdc5021a1f0284b1437af97084d1bfa9a1a8addc2f3211e1cd5e763249",
+      "bytes": 30196,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/figS3_ward_landau_completion.pdf"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/figS3_ward_landau_completion.png": {
+      "sha256": "1a99a3894a714dd6c23ecd34f9103c2509850259b1b9d9b4f01a60273f1f2b1d",
+      "bytes": 158137,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/figS3_ward_landau_completion.png"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/figS4_complex_tomography.pdf": {
+      "sha256": "edcf1c6af6da16d6ab0b1e0f4c4218dc938f5beb369be3d2b825a63913f05633",
+      "bytes": 33530,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/figS4_complex_tomography.pdf"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/figS4_complex_tomography.png": {
+      "sha256": "508952fbbb6793da53a9447bab9fbdb2ce21190206429f96137534cc735e1f2f",
+      "bytes": 106065,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/figS4_complex_tomography.png"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/figS5_genealogy_inference.pdf": {
+      "sha256": "b57b2e2320d8848c77db71ca399108517029a5faf38a323933f5e2ba02b47811",
+      "bytes": 24821,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/figS5_genealogy_inference.pdf"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/figS5_genealogy_inference.png": {
+      "sha256": "23db831f57567d12e380e434d4a617fc6d063ab27df68bf297fca0b99b73fd22",
+      "bytes": 84541,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/figS5_genealogy_inference.png"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/figS6_symmetry_selection_rules.pdf": {
+      "sha256": "e8e6d4e55a30b671279fa2d2f995adccf2b679cc4009a2e96ca5a29155c75cf4",
+      "bytes": 24941,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/figS6_symmetry_selection_rules.pdf"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/figS6_symmetry_selection_rules.png": {
+      "sha256": "2b5135c3cb1f4c623e440ab742ff09bd7a2b60971c68ad0ca3bed93f711240bc",
+      "bytes": 65019,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/figS6_symmetry_selection_rules.png"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/figS8_tomography_observability_map.pdf": {
+      "sha256": "54764c8742425396114fd476965e4597b4660504a471f47df5afc9d61ae9bd98",
+      "bytes": 25084,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/figS8_tomography_observability_map.pdf"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/figS8_tomography_observability_map.png": {
+      "sha256": "bdc4b0d62246a4990d43ea7ff39553e5ba4f01acb42627375950596c4de3c379",
+      "bytes": 47115,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/figS8_tomography_observability_map.png"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/figS9_competitor_exact_trajectory.pdf": {
+      "sha256": "16dcfc05154a0ca9b8987c0fb794f3aa8bbfd53bc883087aaa608b17c2ce9954",
+      "bytes": 26028,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/figS9_competitor_exact_trajectory.pdf"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/figS9_competitor_exact_trajectory.png": {
+      "sha256": "d9652e1257c0d02503d877b19627d930378ada9046669d70fe4cc015ebc1b063",
+      "bytes": 77033,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/figS9_competitor_exact_trajectory.png"
+    },
+    "research/supplement_reintegration_20260927/figure_run_05/manifest.json": {
+      "sha256": "04494c0e1c94cdc98d345050682d22cfb1f2975cf4d452a8eb1cd2e74b5d9d68",
+      "bytes": 38304,
+      "origin": "research/supplement_reintegration_20260927/figure_run_05/manifest.json"
+    },
+    "research/supplement_reintegration_20260927/epjp/figure_mapping.json": {
+      "sha256": "b81b7aec457cb05f356cdc649dced631e47a4a8c2f48ef976aabdfa57de51a4f",
+      "bytes": 2940,
+      "origin": "research/supplement_reintegration_20260927/epjp/figure_mapping.json"
+    },
+    "release_support/verify_full_band_controls.py": {
+      "sha256": "ee2e2b0d5e2793d88e6cb3dd1b1eebd9bd81c14db8164a37f1d80163001dcbc0",
+      "bytes": 916,
+      "origin": "research/supplement_reintegration_20260927/release/verify_full_band_controls.py"
     }
   },
   "previous_release": {
@@ -989,5 +2113,24 @@
       "README.md",
       "CITATION.cff"
     ]
+  },
+  "release_history": [
+    {
+      "version": "1.0.0",
+      "commit": "1b9e9be99163d77fb32082b7e76a5fee89c4e3cc",
+      "tag_object": "a8f0f30c56af8f919cc81cbca196e4942ee82f3f"
+    },
+    {
+      "version": "1.1.0",
+      "commit": "44a12f18be850f52ff22dd7dbb74d22ea778211f",
+      "tag_object": "98689e8107485c311aab9b2044ec24b34a5048c5"
+    }
+  ],
+  "supplement_update": {
+    "scope": "Restored technical-support data/code and retained failures; no manuscript or production recomputation",
+    "supporting_record_verifier": "release_support/verify_supporting_records.py",
+    "preparation_helper_sha256": "d676ce753f0bcd472ecf54aab15fe11a99f66f56bb6cabe8961d60db7e08e515",
+    "source_commit": "9483cd09e955ba8fcf6829b6ca36a8ce3c85fdbd",
+    "restored_figure_directory": "research/supplement_reintegration_20260927/figure_run_05"
   }
 }

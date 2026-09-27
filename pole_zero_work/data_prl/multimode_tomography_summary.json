@@ -1,0 +1,32 @@
+{
+  "multimode_dimension": 6,
+  "max_dark_zero_match": 0.0,
+  "max_scalar_cofactor_relative_residual": 3.1786588952043124e-14,
+  "max_multiprobe_jacobi_relative_residual": 2.1612808529776033e-14,
+  "maximum_loss_difference_between_real_backgrounds": 0.0,
+  "real_response_difference_rms": 10.0,
+  "singular_response_zero": [
+    0.267,
+    -0.019
+  ],
+  "total_response_zeros_background_1": [
+    [
+      0.27815426005570215,
+      -0.02170353432890461
+    ],
+    [
+      0.09184573994429786,
+      -0.014296465671095398
+    ]
+  ],
+  "total_response_zeros_background_2": [
+    [
+      0.4160542278855327,
+      -0.020405796774418575
+    ],
+    [
+      0.2539457721144676,
+      -0.01559420322558143
+    ]
+  ]
+}

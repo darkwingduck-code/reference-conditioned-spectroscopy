@@ -1,0 +1,30 @@
+[ok] zero at infinity / vanishing prefactor is rejected: The summed residue/prefactor is too small for tomography
+[ok] rank-one cofactor identity for analytic non-Hermitian kernels: max rel=1.539e-14
+[ok] probe-basis covariance of scalar tomography: max rel=1.145e-15
+[ok] multi-probe Jacobi determinant identity: max rel=1.028e-14
+[ok] N-mode response zeros equal dark-compression roots: max abs=0.000e+00
+[ok] first spectral moment reconstructs bright diagonal: max abs=2.361e-12
+[ok] second connected moment reconstructs total bright-dark coupling: max abs=8.118e-13
+[ok] exactly decoupled dark factors cancel from scalar response: max abs=4.578e-16
+[ok] perfectly dark poles have zero auto-response residue: residues=[ 1.00000000e+00-1.42608779e-16j -1.49731937e-17+1.09671581e-16j
+  7.25635107e-18-5.26280691e-17j]
+[ok] weak mixing lifts cancellation with quadratic borrowed residue: W(2eps)/W(eps)=3.999999
+[ok] generic cross response is not a principal-dark cofactor: relative difference=1.122e+00
+[ok] coupling product invariant under dark rescaling a=(0.2-0.1j): err=3.909e-19
+[ok] coupling product invariant under dark rescaling a=(1.7+0.3j): err=2.424e-19
+[ok] coupling product invariant under dark rescaling a=(-0.8+1.1j): err=3.909e-19
+[ok] normalized rational fit keeps exact response zero: err=6.939e-18
+[ok] normalized rational fit keeps exact poles: poles=((1000.12-0.012000000000000021j), (1000.31-0.026000000000000096j))
+[ok] frequency centering reduces design conditioning: normalized=1.072e+02, raw=4.215e+20
+[ok] real analytic backgrounds leave finite-window loss unchanged: max Im diff=0.000e+00
+[ok] same loss is compatible with different phase response: RMS Re diff=1.000e+01
+[ok] complex causal fits remove distinct analytic backgrounds: errors=3.123e-17,2.082e-17
+[ok] vanishing-velocity branch has no crossing in a fixed q window as B->0: min separations=1.000,0.979
+[ok] finite-window genealogy classifier recovers p=0.5: label=divergent, pfit=0.49250000000000005, dBIC=-2103.76
+[ok] finite-window genealogy classifier recovers p=1: label=divergent, pfit=1.0005555555555556, dBIC=-24227.00
+[ok] finite-window genealogy classifier recovers p=2: label=divergent, pfit=2.000277777777778, dBIC=-167599.51
+[ok] new multimode source artifact: figS7_multimode_poles_zeros.csv: figS7_multimode_poles_zeros.csv
+[ok] new multimode source artifact: figS7_cofactor_jacobi_residuals.csv: figS7_cofactor_jacobi_residuals.csv
+[ok] new multimode source artifact: figS7_loss_only_ambiguity.csv: figS7_loss_only_ambiguity.csv
+[ok] new multimode source artifact: figS7_background_dependent_total_zeros.csv: figS7_background_dependent_total_zeros.csv
+[ok] new multimode source artifact: multimode_tomography_summary.json: multimode_tomography_summary.json

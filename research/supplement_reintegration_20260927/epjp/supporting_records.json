@@ -1,0 +1,47 @@
+{
+  "scope": "Supporting computational paths for the restored scientific sections. No study was rerun for this content restoration. Publication exports should retain failed outcomes and provenance records, not only figure inputs.",
+  "groups": [
+    {
+      "name": "Reduced Weyl model, analytic normal forms, cofactor and trajectory tests",
+      "code_directories": ["pole_zero_work/code"],
+      "core_modules": ["pole_zero_work/code/weyl_fl_prb_solver.py", "pole_zero_work/code/weyl_prl_theory.py", "pole_zero_work/code/pole_zero_tomography.py", "pole_zero_work/code/weyl_gauge_completion"],
+      "data_directories": ["pole_zero_work/data_prl"],
+      "validation_records": ["pole_zero_work/revision_validation/validation.json", "pole_zero_work/revision_validation/final_artifact_audit.json", "pole_zero_work/metadata/symbolic_normal_form_reconstruction.json"],
+      "note": "The code directory is small and contains the interdependent generators, symbolic checks, solver, and validators used across these sections. Manuscript/editorial validators may require the archived PRL layout and are not new EPJP build checks. Exclude __pycache__ and private runtime metadata from exports."
+    },
+    {
+      "name": "Full-band, ensemble, Ward, and Landau benchmarks",
+      "code_directories": ["pole_zero_work/code/full_bz_completion"],
+      "production_entrypoint": "pole_zero_work/code/full_bz_completion/reproduce_production.py",
+      "data_directories": ["pole_zero_work/data_prl/full_bz_completion", "pole_zero_work/data_prl/full_band_reproduction"],
+      "validation_records": ["pole_zero_work/data_prl/full_band_reproduction/reproduction_metadata.json", "pole_zero_work/data_prl/full_band_reproduction/historical_comparison/reproduction_metadata.json", "pole_zero_work/data_prl/full_band_reproduction/fresh_validation.json", "pole_zero_work/data_prl/full_band_reproduction/README.md"],
+      "note": "Retain archived_reference, historical_comparison, per-cell comparisons, and convergence_raw. The historical Nky=16 diagnostic remains FAIL at its original tolerance; the subsequent independently regenerated current-table comparison is separate. The missing aggregation recipe is reconstructed, not recovered."
+    },
+    {
+      "name": "Earlier common-known-damping reference experiment",
+      "code_files": ["research/prl_physical_discrimination_20260912/oscillator_pilot.py", "research/prl_physical_discrimination_20260912/discrimination_core.py", "research/prl_physical_discrimination_20260912/run_production.py", "research/prl_physical_discrimination_20260912/run_controls.py", "research/prl_physical_discrimination_20260912/run_controls_reproducible.py", "research/prl_physical_discrimination_20260912/test_discrimination.py"],
+      "external_module_dependencies": ["pole_zero_work/code/weyl_continuum_stress.py", "pole_zero_work/code/weyl_fl_prb_solver.py", "pole_zero_work/code/pole_zero_tomography.py"],
+      "frozen_records": ["research/prl_physical_discrimination_20260912/production_plan.md", "research/prl_physical_discrimination_20260912/production_v2", "research/prl_physical_discrimination_20260912/controls", "research/prl_physical_discrimination_20260912/reproduction_controls_01", "research/prl_physical_discrimination_20260912/analysis/validation.json", "research/prl_physical_discrimination_20260912/analysis/representative_summary.csv", "research/prl_physical_discrimination_20260912/README.md"],
+      "note": "11280 conditional boxes and the separate Weyl controls are retained as historical model-conditioned results. They are not pooled with the 792-case study, and the old certified flag is not a model-validity or outward-rounded certificate."
+    },
+    {
+      "name": "Existing 792-case extension and subsequent EPJP studies",
+      "directories_already_in_current_release": ["research/prl_reference_validation_20260927", "research/reference_control_study_20260927", "research/structured_dark_sector_20260927"],
+      "frozen_runs": ["research/prl_reference_validation_20260927/run_02", "research/reference_control_study_20260927/run_01", "research/reference_control_study_20260927/run_03_wide", "research/structured_dark_sector_20260927/run_02"],
+      "note": "The original 270-line reference extension is retained through reference_methods.tex with only context edits; the restored old body links to it rather than duplicating its 792 cases."
+    }
+  ],
+  "figures": [
+    {"file": "figS9_competitor_exact_trajectory_editorial.pdf", "renderer": "scripts/render_prl_editorial_competitor.py", "underlying_renderer": "pole_zero_work/code/generate_prl_supplement_figures_premium.py:figS9", "inputs": ["pole_zero_work/data_prl/figS9_competitor_exact_trajectory.csv"]},
+    {"file": "figS5_genealogy_inference_editorial.pdf", "renderer": "scripts/render_prl_editorial_competitor.py", "underlying_renderer": "pole_zero_work/code/generate_prl_supplement_figures_premium.py:figS5", "inputs": ["pole_zero_work/data_prl/figS5_genealogy_model_selection.csv", "pole_zero_work/data_prl/figS5_genealogy_representative_fits.csv"]},
+    {"file": "figS1_interaction_robustness_editorial.pdf", "renderer": "scripts/render_prl_editorial_interaction_visibility.py", "renderer_dependency": "scripts/render_prl_editorial_competitor.py", "underlying_renderer": "pole_zero_work/code/generate_prl_supplement_figures_premium.py:figS1", "inputs": ["pole_zero_work/data_prl/figS1_alternative_dispersion.csv", "pole_zero_work/data_prl/figS1_interaction_crossing_map.csv"]},
+    {"file": "figS4_complex_tomography.pdf", "renderer": "pole_zero_work/code/generate_prl_supplement_figures_premium.py:figS4", "inputs": ["pole_zero_work/data_prl/figS4_complex_tomography_noise.csv", "pole_zero_work/data_prl/figS4_three_mode_diagnostic.csv"]},
+    {"file": "figS6_symmetry_selection_rules.pdf", "renderer": "pole_zero_work/code/generate_prl_supplement_figures_premium.py:figS6", "inputs": ["pole_zero_work/data_prl/figS6_symmetry_selection_rules.csv"]},
+    {"file": "figS8_tomography_observability_map.pdf", "renderer": "pole_zero_work/code/generate_prl_supplement_figures_premium.py:figS8", "inputs": ["pole_zero_work/data_prl/figS8_tomography_observability_map.csv"]},
+    {"file": "figS2_full_band_ensemble.pdf", "renderer": "pole_zero_work/code/generate_prl_supplement_figures_premium.py:figS2S3_fullbz", "inputs": ["pole_zero_work/data_prl/full_bz_completion"]},
+    {"file": "figS3_ward_landau_completion.pdf", "renderer": "pole_zero_work/code/generate_prl_supplement_figures_premium.py:figS2S3_fullbz", "inputs": ["pole_zero_work/data_prl/full_bz_completion"]},
+    {"file": "figS10_zero_assignment_revision.pdf", "renderer": "pole_zero_work/code/generate_zero_assignment_revision.py:main plotting block", "inputs": ["pole_zero_work/data_prl/zero_assignment_revision_samples.csv", "pole_zero_work/data_prl/zero_assignment_revision.json"], "render_only_note": "No standalone plot function. Reconstruct exact_arr/biased_arr from retained sample columns and extract the existing plotting block; do not rerun the noisy fits just to restyle."},
+    {"file": "figS12_inverse_problem_stress.pdf", "renderer": "pole_zero_work/code/inverse_problem_stress.py:make_figure", "inputs": ["pole_zero_work/data_prl/inverse_problem_stress_trials.csv", "pole_zero_work/data_prl/inverse_problem_stress.json"], "render_only_note": "Load CSV numeric and Boolean fields with their original types. make_figure uses retained summaries plus a deterministic analytic loss-only example; do not call run_study."},
+    {"file": "figS13_weyl_continuum_stress.pdf", "renderer": "pole_zero_work/code/weyl_continuum_stress.py:make_figure", "inputs": ["pole_zero_work/data_prl/weyl_continuum_stress.csv", "pole_zero_work/data_prl/weyl_continuum_stress_roots.csv"], "render_only_note": "Read the two CSVs as data frames and call make_figure; do not call main, which reruns fitting."}
+  ]
+}

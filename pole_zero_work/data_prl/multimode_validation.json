@@ -1,0 +1,158 @@
+{
+  "all_checks_passed": true,
+  "number_of_checks": 29,
+  "max_rank_one_cofactor_relative_residual": 1.5394334718465514e-14,
+  "max_multiprobe_jacobi_relative_residual": 1.0278854807867076e-14,
+  "max_N_mode_dark_zero_error": 0.0,
+  "max_bright_moment_error": 2.361310011439798e-12,
+  "max_coupling_moment_error": 8.118058778842294e-13,
+  "normalized_fit_condition_number": 107.19362473267974,
+  "unnormalized_fit_condition_number": 4.215065391420177e+20,
+  "checks": [
+    {
+      "name": "zero at infinity / vanishing prefactor is rejected",
+      "passed": true,
+      "detail": "The summed residue/prefactor is too small for tomography"
+    },
+    {
+      "name": "rank-one cofactor identity for analytic non-Hermitian kernels",
+      "passed": true,
+      "detail": "max rel=1.539e-14"
+    },
+    {
+      "name": "probe-basis covariance of scalar tomography",
+      "passed": true,
+      "detail": "max rel=1.145e-15"
+    },
+    {
+      "name": "multi-probe Jacobi determinant identity",
+      "passed": true,
+      "detail": "max rel=1.028e-14"
+    },
+    {
+      "name": "N-mode response zeros equal dark-compression roots",
+      "passed": true,
+      "detail": "max abs=0.000e+00"
+    },
+    {
+      "name": "first spectral moment reconstructs bright diagonal",
+      "passed": true,
+      "detail": "max abs=2.361e-12"
+    },
+    {
+      "name": "second connected moment reconstructs total bright-dark coupling",
+      "passed": true,
+      "detail": "max abs=8.118e-13"
+    },
+    {
+      "name": "exactly decoupled dark factors cancel from scalar response",
+      "passed": true,
+      "detail": "max abs=4.578e-16"
+    },
+    {
+      "name": "perfectly dark poles have zero auto-response residue",
+      "passed": true,
+      "detail": "residues=[ 1.00000000e+00-1.42608779e-16j -1.49731937e-17+1.09671581e-16j\n  7.25635107e-18-5.26280691e-17j]"
+    },
+    {
+      "name": "weak mixing lifts cancellation with quadratic borrowed residue",
+      "passed": true,
+      "detail": "W(2eps)/W(eps)=3.999999"
+    },
+    {
+      "name": "generic cross response is not a principal-dark cofactor",
+      "passed": true,
+      "detail": "relative difference=1.122e+00"
+    },
+    {
+      "name": "coupling product invariant under dark rescaling a=(0.2-0.1j)",
+      "passed": true,
+      "detail": "err=3.909e-19"
+    },
+    {
+      "name": "coupling product invariant under dark rescaling a=(1.7+0.3j)",
+      "passed": true,
+      "detail": "err=2.424e-19"
+    },
+    {
+      "name": "coupling product invariant under dark rescaling a=(-0.8+1.1j)",
+      "passed": true,
+      "detail": "err=3.909e-19"
+    },
+    {
+      "name": "normalized rational fit keeps exact response zero",
+      "passed": true,
+      "detail": "err=6.939e-18"
+    },
+    {
+      "name": "normalized rational fit keeps exact poles",
+      "passed": true,
+      "detail": "poles=((1000.12-0.012000000000000021j), (1000.31-0.026000000000000096j))"
+    },
+    {
+      "name": "frequency centering reduces design conditioning",
+      "passed": true,
+      "detail": "normalized=1.072e+02, raw=4.215e+20"
+    },
+    {
+      "name": "real analytic backgrounds leave finite-window loss unchanged",
+      "passed": true,
+      "detail": "max Im diff=0.000e+00"
+    },
+    {
+      "name": "same loss is compatible with different phase response",
+      "passed": true,
+      "detail": "RMS Re diff=1.000e+01"
+    },
+    {
+      "name": "complex causal fits remove distinct analytic backgrounds",
+      "passed": true,
+      "detail": "errors=3.123e-17,2.082e-17"
+    },
+    {
+      "name": "vanishing-velocity branch has no crossing in a fixed q window as B->0",
+      "passed": true,
+      "detail": "min separations=1.000,0.979"
+    },
+    {
+      "name": "finite-window genealogy classifier recovers p=0.5",
+      "passed": true,
+      "detail": "label=divergent, pfit=0.49250000000000005, dBIC=-2103.76"
+    },
+    {
+      "name": "finite-window genealogy classifier recovers p=1",
+      "passed": true,
+      "detail": "label=divergent, pfit=1.0005555555555556, dBIC=-24227.00"
+    },
+    {
+      "name": "finite-window genealogy classifier recovers p=2",
+      "passed": true,
+      "detail": "label=divergent, pfit=2.000277777777778, dBIC=-167599.51"
+    },
+    {
+      "name": "new multimode source artifact: figS7_multimode_poles_zeros.csv",
+      "passed": true,
+      "detail": "figS7_multimode_poles_zeros.csv"
+    },
+    {
+      "name": "new multimode source artifact: figS7_cofactor_jacobi_residuals.csv",
+      "passed": true,
+      "detail": "figS7_cofactor_jacobi_residuals.csv"
+    },
+    {
+      "name": "new multimode source artifact: figS7_loss_only_ambiguity.csv",
+      "passed": true,
+      "detail": "figS7_loss_only_ambiguity.csv"
+    },
+    {
+      "name": "new multimode source artifact: figS7_background_dependent_total_zeros.csv",
+      "passed": true,
+      "detail": "figS7_background_dependent_total_zeros.csv"
+    },
+    {
+      "name": "new multimode source artifact: multimode_tomography_summary.json",
+      "passed": true,
+      "detail": "multimode_tomography_summary.json"
+    }
+  ]
+}

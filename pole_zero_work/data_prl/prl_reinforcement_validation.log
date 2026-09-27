@@ -1,0 +1,80 @@
+PRL reinforcement validation passed.
+
+{
+  "max_Dprime_absolute_error": 1.3988454838909092e-09,
+  "max_small_b_l0_gap_relative_error": 0.000335027632395013,
+  "max_charge_continuity_residual": 1.4210854715202004e-14,
+  "brightening_q_shift_power": 1.9990570124777087,
+  "mean_brightening_zeta": 0.0005067871665203097,
+  "mean_anomaly_zeta": 0.9518912795624129,
+  "max_exact_crossover_zeta_error": 1.1102230246251565e-16,
+  "weakest_field_anomaly_zeta": 0.9987056774420352,
+  "frequency_collapse_errors": {
+    "0.0025": 0.0026164401970358853,
+    "0.005": 0.005270821766521827,
+    "0.01": 0.010704974714001114,
+    "0.02": 0.022156896051460873
+  },
+  "residue_collapse_errors": {
+    "0.0025": 0.003194068232306946,
+    "0.005": 0.006398486161351191,
+    "0.01": 0.0128377472573602,
+    "0.02": 0.02583844005634628
+  },
+  "original_validator_returncode": 0,
+  "gauge_validator_returncode": 0,
+  "all_checks_passed": true
+}
+
+Original validator tail:
+    "root_relative_residual_lt": 3e-09,
+    "fast_full_frequency_error_lt": 2e-10,
+    "field_parity_frequency_error_lt": 2e-10,
+    "factorization_error_lt": 2e-10,
+    "sampled_loss_min_ge": -1e-10,
+    "residue_positive": true,
+    "eta_position_error_lt": 5e-06,
+    "eta_area_error_lt": 0.01,
+    "eta_fwhm_error_lt": 0.02,
+    "l2_l3_relative_error_lt": 2e-10,
+    "mobius_linear_relative_error_lt": 0.0002,
+    "local_robustness_qstar_lt": 0.13,
+    "local_robustness_omega_star_lt": 0.2,
+    "local_robustness_coefficient_gt": 0.15,
+    "alpha_sqrt_scaling_spread_lt": 1e-12,
+    "alpha_0p01_to_0p04_inside_low_energy_window": true,
+    "phase_velocity_coefficient_spread_lt": 2e-09,
+    "residue_law_error_lt": 0.03,
+    "residue_sum_error_lt": 0.001,
+    "dark_weight_exponent_between": [
+      1.9,
+      2.1
+    ],
+    "dark_weight_small_b_fit_error_lt": 0.02,
+    "damped_pole_formula_error_lt": 1e-12,
+    "angular_selection_error_lt": 1e-14,
+    "high_frequency_epsilon_error_lt": 0.001
+  },
+  "all_checks_passed": true
+}
+
+Gauge validator:
+[ok] two-node lattice regularization and isotropic chiralities
+[ok] retarded branch and complex-frequency analytic continuation
+[ok] second-order equilibrium Fermi surface
+[ok] magnetic and electric dipoles from the same band energy
+[ok] mixed electric/magnetic dipole reciprocity
+[ok] field-corrected Berry flux and phase-space measure
+[ok] microscopic D + chi b delta + b^2 kappa kernel
+[ok] finite-difference extraction of delta(s) and kappa_micro(s)
+[ok] node current identity and covariant anomaly coefficient
+[ok] wave-packet transport/polarization/magnetization continuity identity
+[ok] gradient Landau antisymmetry, reciprocity, and q-parallel-B decoupling
+[ok] consistent contact converts covariant node current to conserved charge current
+[ok] interacting charge continuity including backflow/contact current
+[ok] complete microscopic c2 including direct and interaction pieces
+[ok] left and right longitudinal Ward-Takahashi transversality
+[ok] large-s cancellation-free asymptotics
+[ok] consistent contact/backflow current normalization
+[ok] orthonormal-basis to physical two-node susceptibility normalization
+[ok] all 18 gauge-completion checks passed

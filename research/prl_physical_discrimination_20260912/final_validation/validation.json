@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "pdf_pages": 7,
+  "embedded_font_count": 18,
+  "missing_fonts": [],
+  "out_of_page_text_blocks": [],
+  "overfull_count": 0,
+  "local_links": [
+    {
+      "document": "research_journal_ko.md",
+      "target": "production_v2/diagnostic.json",
+      "exists": true
+    },
+    {
+      "document": "research_journal_ko.md",
+      "target": "production_v2/trials.csv",
+      "exists": true
+    },
+    {
+      "document": "research_journal_ko.md",
+      "target": "controls/diagnostic.json",
+      "exists": true
+    },
+    {
+      "document": "research_journal_ko.md",
+      "target": "controls/structural_controls.csv",
+      "exists": true
+    },
+    {
+      "document": "research_journal_ko.md",
+      "target": "test_discrimination.py",
+      "exists": true
+    },
+    {
+      "document": "research_journal_ko.md",
+      "target": "production_plan.md",
+      "exists": true
+    },
+    {
+      "document": "research_journal_ko.md",
+      "target": "pilot/pilot.json",
+      "exists": true
+    },
+    {
+      "document": "research_journal_ko.md",
+      "target": "figures/linewidth_discrimination.pdf",
+      "exists": true
+    },
+    {
+      "document": "research_journal_ko.md",
+      "target": "figures/scope_controls.pdf",
+      "exists": true
+    },
+    {
+      "document": "research_journal_ko.md",
+      "target": "controls/weyl_transfer_trials.csv",
+      "exists": true
+    },
+    {
+      "document": "research_journal_ko.md",
+      "target": "controls/diagnostic.json",
+      "exists": true
+    },
+    {
+      "document": "research_journal_ko.md",
+      "target": "main_insert.tex",
+      "exists": true
+    },
+    {
+      "document": "research_journal_ko.md",
+      "target": "physical_discrimination_note.tex",
+      "exists": true
+    },
+    {
+      "document": "research_journal_ko.md",
+      "target": "figures/main_frequency_bias.pdf",
+      "exists": true
+    },
+    {
+      "document": "research_journal_ko.md",
+      "target": "physical_discrimination_note.pdf",
+      "exists": true
+    }
+  ],
+  "production_source_and_output_hashes_match": true,
+  "latex_font_discovery_warnings": "Tectonic logs report fontconfig/GID lookup warnings; actual PDF fonts are embedded and pages rendered for separate visual review",
+  "final_artifact_sha256": {
+    "main_insert.tex": "6e9d7bc1333fb4330a163cdc8cac15be95d14f14b6482da5f1aed8d282810b26",
+    "supplement_insert.tex": "e65f0392e677207622d74e8a52a082762b69b0397ef91c3c7f149aa398b7878b",
+    "physical_discrimination_note.tex": "1355fa1e9cb2ac9851e1912a185aee58d2a1ea647821da22a5deb4dbd5891dc8",
+    "physical_discrimination_note.pdf": "8498e07f28d9beda4dab3ba97abbcd6249b20afbcb9c9525dd544f45972622f6",
+    "research_journal_ko.md": "1cd9c2134bf013ca2eee4bc0bfbf3019b3f7dbb48c7e600abf0a03b1026e915b",
+    "figures/main_frequency_bias.pdf": "16c043ae74129b9fde1b0b8792ff2ca4869ac78ccb3e047366c6705b3639daf8",
+    "figures/linewidth_discrimination.pdf": "8e3f18a11b8e29505d135391175806816e3228ea4cfa6cfa12f182ea67121eac",
+    "figures/scope_controls.pdf": "8635be1399faa7b10ede436984809db68e8c0ec9ca6ef53047d95e1c638269fc"
+  }
+}

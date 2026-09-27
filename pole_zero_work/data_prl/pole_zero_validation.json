@@ -1,0 +1,155 @@
+{
+  "all_checks_passed": true,
+  "number_of_checks": 29,
+  "max_exact_zero_error": 3.5821094699185227e-16,
+  "max_weyl_hidden_zero_error": 1.2114939062612962e-05,
+  "circle_residual_b_0p0025": 0.007505467046632797,
+  "median_noisy_zero_error_snr_120": 0.00126207059154395,
+  "checks": [
+    {
+      "name": "exact complex response-zero reconstruction",
+      "passed": true,
+      "detail": "max=3.582e-16"
+    },
+    {
+      "name": "exact companion-pole reconstruction",
+      "passed": true,
+      "detail": "max=4.471e-16"
+    },
+    {
+      "name": "exact coupling-product reconstruction",
+      "passed": true,
+      "detail": "max=9.155e-16"
+    },
+    {
+      "name": "exact prefactor sum rule",
+      "passed": true,
+      "detail": "max=4.475e-16"
+    },
+    {
+      "name": "exact rational fit order 0 residual",
+      "passed": true,
+      "detail": "rms=9.361e-16"
+    },
+    {
+      "name": "exact rational fit order 0 zero",
+      "passed": true,
+      "detail": "err=6.059e-17"
+    },
+    {
+      "name": "exact rational fit order 1 residual",
+      "passed": true,
+      "detail": "rms=3.169e-15"
+    },
+    {
+      "name": "exact rational fit order 1 zero",
+      "passed": true,
+      "detail": "err=9.160e-17"
+    },
+    {
+      "name": "Weyl hidden-pole reconstruction",
+      "passed": true,
+      "detail": "max abs=1.211e-05"
+    },
+    {
+      "name": "circle-law weak-field accuracy",
+      "passed": true,
+      "detail": "max abs=7.505e-03"
+    },
+    {
+      "name": "circle-law correction decreases toward zero field",
+      "passed": true,
+      "detail": "small=7.505e-03, large=3.195e-02"
+    },
+    {
+      "name": "complex tomography at SNR 120",
+      "passed": true,
+      "detail": "median=1.262e-03"
+    },
+    {
+      "name": "omitted-pole residual diagnoses model order, weight 0.02",
+      "passed": true,
+      "detail": "near=1.066e-03, far=6.010e-06"
+    },
+    {
+      "name": "omitted-pole residual diagnoses model order, weight 0.05",
+      "passed": true,
+      "detail": "near=2.516e-03, far=1.503e-05"
+    },
+    {
+      "name": "omitted-pole residual diagnoses model order, weight 0.1",
+      "passed": true,
+      "detail": "near=4.564e-03, far=3.006e-05"
+    },
+    {
+      "name": "omitted-pole residual diagnoses model order, weight 0.2",
+      "passed": true,
+      "detail": "near=7.539e-03, far=6.014e-05"
+    },
+    {
+      "name": "exact-crossover classifier at span 8, 1% noise: finite",
+      "passed": true,
+      "detail": "accuracy=1.000"
+    },
+    {
+      "name": "exact-crossover classifier at span 8, 1% noise: vanishing",
+      "passed": true,
+      "detail": "accuracy=1.000"
+    },
+    {
+      "name": "symmetry-broken O(B) finite intercept still classified finite",
+      "passed": true,
+      "detail": "label=finite, dBIC=inf"
+    },
+    {
+      "name": "general p divergent class recovered",
+      "passed": true,
+      "detail": "label=divergent, p=1.0005555555555556, dBIC=-45632.172"
+    },
+    {
+      "name": "exact crossover fit recovers q_inf",
+      "passed": true,
+      "detail": "qinf=0.0657600004"
+    },
+    {
+      "name": "exact crossover fit recovers B_c",
+      "passed": true,
+      "detail": "Bc=0.00999999991"
+    },
+    {
+      "name": "exact crossover selected over finite intercept",
+      "passed": true,
+      "detail": "label=vanishing, dBIC=-32052.375"
+    },
+    {
+      "name": "node-exchange q shift exponent",
+      "passed": true,
+      "detail": "p=2.000000000100"
+    },
+    {
+      "name": "broken-covariance q shift exponent",
+      "passed": true,
+      "detail": "p=1.007734"
+    },
+    {
+      "name": "mixing-order gap exponents",
+      "passed": true,
+      "detail": "p1=1.000000000000, p2=2.000000000000"
+    },
+    {
+      "name": "legacy solver source data included",
+      "passed": true,
+      "detail": "data/eta_convergence.csv"
+    },
+    {
+      "name": "pole-zero figure source data included",
+      "passed": true,
+      "detail": "CSV present"
+    },
+    {
+      "name": "new generator and validator import cleanly",
+      "passed": true,
+      "detail": "module import succeeded"
+    }
+  ]
+}

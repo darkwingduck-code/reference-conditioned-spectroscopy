@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "rows_direct_3x3_cofactor_checks": 11280,
+  "max_direct_cofactor_difference": 6.466036496704424e-15,
+  "unit_test_count": 12,
+  "unit_test_exit": 0,
+  "conditional_boxes_contain_truth": 11280,
+  "pp_fit_outside_conditional_box_count": 4196,
+  "all_production_boxes_available": true,
+  "largest_box_radius_HWHM": 6.811998679996452,
+  "max_left_inverse_defect": 2.0206059048177852e-14,
+  "source_sha256": "cd1724a683f305a015fb88d6509cf848553bbb0833e641d2e53992bacacb0598",
+  "frozen_trials_sha256": "f4c4795b6f4fbc1dae90a4e685b3a6a7bb1e132d56ccce903b49b49f8e8d568c",
+  "trials_unchanged": true,
+  "scope": "Independent direct 3x3 vs expanded cofactor and output accounting; model/optimizer implementation remains author-written, not an external replication"
+}

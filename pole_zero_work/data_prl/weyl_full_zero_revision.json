@@ -1,0 +1,18 @@
+{
+  "scope": "43 archived Fig2 samples with freshly solved full screened zeros; 4 fresh field points and 18 complex matrix identities. Undamped reduced model outside the continuum only.",
+  "all_checks_passed": true,
+  "q_samples": 43,
+  "field_samples": 4,
+  "complex_identity_samples": 18,
+  "principal_bias_min": 1.314760483608901e-06,
+  "principal_bias_max": 2.114804503322576e-06,
+  "full_reference_shift_abs_max": 1.4229743565935538e-05,
+  "max_direct_zero_residual": 4.969535893906141e-11,
+  "max_normalization_residual": 7.96645993062994e-14,
+  "max_cofactor_residual": 1.1486341068284619e-13,
+  "source_sha256": {
+    "code/generate_weyl_full_zero_revision.py": "0c475337a9317fddea27c891e1dff30e1cf5ae3ec746e2826747cbf8f826a404",
+    "code/weyl_fl_prb_solver.py": "25d3c5cf490d84eceec58ae476819f264a8387d27170417072f868fc9f6b60a6",
+    "data_prl/fig2_pole_zero_tomography.csv": "f6afe6925eb62a73129345a5b7740b1072fddbd7a3353517af3c303b167b8bf5"
+  }
+}

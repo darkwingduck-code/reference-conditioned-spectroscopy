@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "artifact": "code/symbolic_normal_form_check.py",
+  "status": "new_reconstruction",
+  "created_date": "2026-09-08",
+  "original_source_recovered": false,
+  "provenance_statement": "The original symbolic_normal_form_check.py source remains unrecovered. This is a new independent reconstruction limited to exact statements preserved in the archived transcript and the current validator contract.",
+  "preserved_transcript": {
+    "path": "data_prl/symbolic_normal_form_check.txt",
+    "sha256": "d2f9be1c5e67ac1a3c86e833c0c8ef0e85887df6e55f151d63ff8f6c3e47ba1f"
+  },
+  "reconstructed_source_sha256": "752611b368eed225fed4f8901c66876efe7eac1b98e0cdbbb1cd561926961118",
+  "validator_contract": {
+    "caller": "code/validate_high_level_reinforcement.py",
+    "required_exit_code": 0,
+    "required_stdout_substring": "All symbolic residuals vanish exactly"
+  },
+  "reconstruction_scope": [
+    "stationary O(B^2) crossing shift from the squared two-mode half splitting",
+    "minimum squared half splitting g^2 B^2 and corresponding 2|gB| full gap",
+    "even field parity of the crossing shift",
+    "exact eigenvalues of the canonical [[X,1],[1,-X]] normal form",
+    "exact lower and upper charge-residue fractions and unit sum",
+    "large-positive-X dark-fraction coefficient 1/4"
+  ],
+  "scope_limit": "No unrecorded derivation, historical implementation detail, numerical result, or original-source provenance is claimed."
+}

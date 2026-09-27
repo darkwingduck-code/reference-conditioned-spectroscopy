@@ -1,0 +1,38 @@
+[PASS] 01. physical formula reduces to sqrt(1+x^2)/x | value=5.405631803283739e-16 | tol=3e-14
+[PASS] 02. crossing is even under B sign | value=0.0 | tol=1e-15
+[PASS] 03. angle scaling is 1/abs(cos theta) | value=1.7763568394002505e-15 | tol=3e-13
+[PASS] 04. analytic genealogy exponent matches log finite difference | value=4.4734715931582514e-10 | tol=2e-09
+[PASS] 05. weak-field q*x tends to one | value=1.0000000000000049 | tol=1e-13
+[PASS] 06. weak-field first correction is x^2/2 | value=0.49999998323585415 | tol=2e-05
+[PASS] 07. zeta tends to one at weak field | value=0.9999999999989999 | tol=2e-12
+[PASS] 08. zeta equals one half at x=1 | value=0.5 | tol=1e-15
+[PASS] 09. normalized q tends to one at large x | value=1.00000000005 | tol=1e-10
+[PASS] 10. large-x correction is 1/(2x^2) | value=0.9999969862454372 | tol=0.0002
+[PASS] 11. zeta tends to zero at large x | value=9.999999999e-11 | tol=1.1e-10
+[PASS] 12. q(x) is strictly decreasing
+[PASS] 13. q(x) stays above its large-x scale
+[PASS] 14. zeta(x) is strictly decreasing
+[PASS] 15. zeta lies between zero and one
+[PASS] 16. exact finite-window threshold | value=3.552713678800501e-15 | tol=4e-14
+[PASS] 17. no normalized crossing window exists for qmax<=1
+[PASS] 18. weak-window threshold approaches exact threshold | value=0.0206207261596576 | tol=0.021
+[PASS] 19. finite-intercept example tends to q0 | value=1.0 | tol=1e-15
+[PASS] 20. finite-intercept zeta tends to zero | value=-1.5999999999966716e-13 | tol=2e-13
+[PASS] 21. finite-intercept analytic exponent matches finite difference | value=5.4420245264056935e-11 | tol=3e-09
+[PASS] 22. finite-intercept example remains bounded | value=1.07999200079992 | tol=1.081
+[PASS] 23. crossing diverges as cos(theta)->0 | value=1000000.0 | tol=999000.0
+[PASS] 24. velocity is linear in abs(v_Omega) at weak field | value=0.0 | tol=1e-12
+[PASS] 25. trajectory CSV exists | value=70606
+[PASS] 26. trajectory summary exists | value=625
+[PASS] 27. trajectory PDF exists | value=29797
+[PASS] 28. trajectory PNG exists | value=144833
+[PASS] 29. CSV q column matches independent formula | value=8.986901794384185e-14 | tol=3e-13
+[PASS] 30. CSV zeta column matches independent formula | value=3.3306690738754696e-16 | tol=3e-12
+[PASS] 31. summary values match independent formula
+[PASS] 32. main field-intercept CSV exists
+[PASS] 33. main trajectory contains exact-crossover columns | value=[]
+[PASS] 34. main exact crossing matches sqrt(1+x^2)/x | value=6.217248937900877e-15 | tol=3e-13
+[PASS] 35. main exact local exponent matches 1/(1+x^2) | value=1.1102230246251565e-16 | tol=3e-13
+[PASS] 36. main weak asymptote is separately stored | value=4.6629367034256575e-14 | tol=3e-13
+[PASS] 37. main curve shows finite-x correction | value=0.10435618762670718 | tol=0.01
+TOTAL: 37 checks; all_passed=True

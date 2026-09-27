@@ -1,0 +1,92 @@
+{
+  "scope": "synthetic_only",
+  "seed": 20260908,
+  "model": "chi_cal=(1+a*z)*(z-z_dark)/((z-p1)*(z-p2))",
+  "parameters": {
+    "p1": [
+      0.18,
+      -0.02
+    ],
+    "p2": [
+      0.42,
+      -0.03
+    ],
+    "z_dark": [
+      0.3,
+      -0.01
+    ],
+    "a": 1.5
+  },
+  "exact_fit": {
+    "relative_rms": 2.4287418083465647e-15,
+    "condition_number": 64.33051106754299,
+    "principal_part_zero": [
+      0.28487108874222494,
+      -0.00938464460377017
+    ],
+    "full_zero_near_z_dark": [
+      0.29999999999999993,
+      -0.0100000000000002
+    ],
+    "remote_prefactor_zero": [
+      -0.6666666666666687,
+      -7.077671781985373e-16
+    ],
+    "principal_bias_abs": 0.015141420610672623,
+    "corrected_error_abs": 2.0707251061514404e-16,
+    "candidate_diagnostics": [
+      {
+        "root": [
+          -0.6666666666666687,
+          -7.077671781985373e-16
+        ],
+        "inside_window": false,
+        "cancelled": false,
+        "slope_scaled": 0.06787855596095732,
+        "root_condition_number": 14.732193191840798,
+        "eligible": false,
+        "reason": "outside_measured_window"
+      },
+      {
+        "root": [
+          0.29999999999999993,
+          -0.0100000000000002
+        ],
+        "inside_window": true,
+        "cancelled": false,
+        "slope_scaled": 4.265924029478074,
+        "root_condition_number": 0.23441580138086698,
+        "eligible": true,
+        "reason": "eligible"
+      }
+    ]
+  },
+  "calibrated_background_noise_stress": {
+    "attempted_samples": 240,
+    "successful_samples": 240,
+    "failed_samples": 0,
+    "relative_complex_noise_rms": 0.0002,
+    "noise_uncertainty_complex_rms": 3.05022859470155e-06,
+    "exact_calibration_mean": [
+      0.2999999104605842,
+      -0.00999998469294422
+    ],
+    "calibration_bias_complex": [
+      -9.083549434629745e-06,
+      4.4935654798690383e-07
+    ],
+    "calibration_bias_abs": 9.094657312872272e-06,
+    "calibration_error": "background estimate offset by 0.0015-0.0020*z"
+  },
+  "interpretation": {
+    "response_zero_alias": "principal_part_zero",
+    "full_response_zeros": "zeros of the scalar supplied to the fit",
+    "calibration_rule": "calibrate the measured probe before fitting when a different scalar response is the target",
+    "eligibility_limit": "a calibrated-window numerical candidate, not proof of causality or a physical compressed-sector mode"
+  },
+  "source_sha256": {
+    "code/pole_zero_tomography.py": "31ff7b434b3054ec5fe702ded55b12b3b60715990f136319ad5a798f9e4998e9",
+    "code/test_zero_assignment_revision.py": "ddcfa4db3a141ca77bca2a9045cf0a1b8b9ba6f2a0df96c0e64cf98fb0668f45",
+    "code/generate_zero_assignment_revision.py": "f9dd46dd21de9a440ad01e6d3f51bdf75f1346f7ff78042ad32f0fb12c2459ed"
+  }
+}

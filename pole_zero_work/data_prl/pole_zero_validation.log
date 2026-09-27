@@ -1,0 +1,29 @@
+[ok] exact complex response-zero reconstruction: max=3.582e-16
+[ok] exact companion-pole reconstruction: max=4.471e-16
+[ok] exact coupling-product reconstruction: max=9.155e-16
+[ok] exact prefactor sum rule: max=4.475e-16
+[ok] exact rational fit order 0 residual: rms=9.361e-16
+[ok] exact rational fit order 0 zero: err=6.059e-17
+[ok] exact rational fit order 1 residual: rms=3.169e-15
+[ok] exact rational fit order 1 zero: err=9.160e-17
+[ok] Weyl hidden-pole reconstruction: max abs=1.211e-05
+[ok] circle-law weak-field accuracy: max abs=7.505e-03
+[ok] circle-law correction decreases toward zero field: small=7.505e-03, large=3.195e-02
+[ok] complex tomography at SNR 120: median=1.262e-03
+[ok] omitted-pole residual diagnoses model order, weight 0.02: near=1.066e-03, far=6.010e-06
+[ok] omitted-pole residual diagnoses model order, weight 0.05: near=2.516e-03, far=1.503e-05
+[ok] omitted-pole residual diagnoses model order, weight 0.1: near=4.564e-03, far=3.006e-05
+[ok] omitted-pole residual diagnoses model order, weight 0.2: near=7.539e-03, far=6.014e-05
+[ok] exact-crossover classifier at span 8, 1% noise: finite: accuracy=1.000
+[ok] exact-crossover classifier at span 8, 1% noise: vanishing: accuracy=1.000
+[ok] symmetry-broken O(B) finite intercept still classified finite: label=finite, dBIC=inf
+[ok] general p divergent class recovered: label=divergent, p=1.0005555555555556, dBIC=-45632.172
+[ok] exact crossover fit recovers q_inf: qinf=0.0657600004
+[ok] exact crossover fit recovers B_c: Bc=0.00999999991
+[ok] exact crossover selected over finite intercept: label=vanishing, dBIC=-32052.375
+[ok] node-exchange q shift exponent: p=2.000000000100
+[ok] broken-covariance q shift exponent: p=1.007734
+[ok] mixing-order gap exponents: p1=1.000000000000, p2=2.000000000000
+[ok] legacy solver source data included: data/eta_convergence.csv
+[ok] pole-zero figure source data included: CSV present
+[ok] new generator and validator import cleanly: module import succeeded

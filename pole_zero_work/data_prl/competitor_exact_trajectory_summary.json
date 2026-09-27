@@ -1,0 +1,10 @@
+{
+  "definition_x": "abs(v_Omega)*q_TF/(sqrt(epsilon_inf)*omega_p)",
+  "definition_q_scale": "q_TF/(sqrt(epsilon_inf-1)*abs(cos(theta)))",
+  "normalized_exact_crossing": "sqrt(1+x^2)/x",
+  "exact_genealogy_exponent": "1/(1+x^2)",
+  "low_field_zeta_at_x_1e-3": 0.9999990000010001,
+  "zeta_at_x_1": 0.5,
+  "high_x_zeta_at_x_10": 0.009900990099009901,
+  "interpretation": "The 1/|B| law is the x->0 asymptote. Within the reported acoustic velocity formula the local exponent crosses from one to zero as x grows; therefore genealogy must be inferred from the controlled weak-field trend, not from a single finite-field point."
+}

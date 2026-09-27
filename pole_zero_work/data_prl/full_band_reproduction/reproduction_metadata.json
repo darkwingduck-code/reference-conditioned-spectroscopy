@@ -1,0 +1,236 @@
+{
+  "status": "PASS",
+  "elapsed_seconds": 234.39937567710876,
+  "python": "3.11.0rc2 (main, Sep 11 2022, 20:22:52) [MSC v.1933 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.3.2",
+  "scipy": "1.16.1",
+  "pandas": "2.3.1",
+  "reference": "H:\\Research\\weyl-collective-modes\\pole_zero_work\\data_prl\\full_bz_completion",
+  "isolated_output_root": "H:\\Research\\.paper-runtime\\full-band\\run-20260910-c",
+  "unchanged_generator_commands": [
+    [
+      "C:\\Users\\sadva\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "H:\\Research\\.paper-runtime\\full-band\\run-20260910-c\\code\\full_bz_completion\\generate_slab_data.py"
+    ],
+    [
+      "C:\\Users\\sadva\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "H:\\Research\\.paper-runtime\\full-band\\run-20260910-c\\code\\full_bz_completion\\generate_torus_data.py"
+    ],
+    [
+      "C:\\Users\\sadva\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "H:\\Research\\.paper-runtime\\full-band\\run-20260910-c\\code\\full_bz_completion\\generate_landau_data.py"
+    ]
+  ],
+  "convergence_reconstruction": {
+    "archived_aggregator_present": false,
+    "fields": [
+      0.0008,
+      0.0012,
+      0.0016,
+      0.002
+    ],
+    "fit": "quadratic in B^2; intercept retained",
+    "note": "A documented reconstruction, not recovery of the missing historical aggregator.",
+    "ky_grids": [
+      12,
+      16,
+      24,
+      32,
+      48,
+      64,
+      96
+    ],
+    "size_grids": [
+      [
+        16,
+        96,
+        36
+      ],
+      [
+        22,
+        96,
+        36
+      ],
+      [
+        28,
+        96,
+        36
+      ]
+    ]
+  },
+  "source_sha256": {
+    "code/full_bz_completion/__init__.py": "8e8ba4758ef49a71b26639511f0abadb396d9c01098e4271457147fe0817c3a6",
+    "code/full_bz_completion/ensemble.py": "b22f592d7350231e7f9079716930a21f4c397df448fc98ebd8959b65bfb963df",
+    "code/full_bz_completion/generate_landau_data.py": "352c596b59b94645981c0ad23d030fd4c964f1887e614a91559f3d4a8ceba2c7",
+    "code/full_bz_completion/generate_slab_data.py": "a50edc626037664124dc9e42be63410c5690e0cbbc99c1f830cf98c119642850",
+    "code/full_bz_completion/generate_torus_data.py": "ffd0cc0c6e12eb25203016fc38f08cbb6c908e74200f76c7c73c2226ca7e0035",
+    "code/full_bz_completion/landau_projection.py": "ba1a332872685949119be09f6599736ef8beb1220f5bee03602d1a64baab5fec",
+    "code/full_bz_completion/lattice_kubo.py": "cb24110da3c172584c720658f313a21720553c85c0099a1ed1518820e4973434",
+    "code/full_bz_completion/make_completion_figures.py": "b004582bc3a8cb15ee769926dff3082179c3a01fc2d3c1f11dc77e60d819e20b",
+    "code/full_bz_completion/project_material_gamma_omega.py": "c76f1a0f30522d40ee4c115da0c2036d8c0c862f623c92037cfdff7adfabc054",
+    "code/full_bz_completion/reproduce_production.py": "bffa524625bae4b719fe8bd4b192000781b5bc86bddb6d9ce92f1273f1075282",
+    "code/full_bz_completion/run_convergence_point.py": "928636c3c7c4845e431fea4d4e262cc0b61dfb5808627792c95254cd7fe5f0c9",
+    "code/full_bz_completion/validate_completion.py": "1bcaf02c40ed1a8fa7c802140a2d0429947d41b3d42c476e570e83fb8d041952"
+  },
+  "reference_sha256": {
+    "exact_landau_projection_summary.json": "d61a8da538bddd5b6ae0a7be52698cd805e7a3f2e07a62c0ba2e303e6ef3948d",
+    "exact_landau_spectrum.csv": "c5184404d5593d355e73f281b21da2b6211b5de1a23af87568aeb268bc314afa",
+    "magnetic_torus_even_coefficients.csv": "e60a43367544f539264798ec58df15deecee3e3a60269ff754d66587cfeca3b6",
+    "magnetic_torus_full_band.csv": "16ffe9da2307492160a1aee0af268b4b0ae8b81d65c43bc1f697632178e4b821",
+    "magnetic_torus_summary.json": "c72d506763e22c6e7a4d46eea36547acceb325e6d5da66ece4570c9fb4135905",
+    "magnetic_torus_ward_rpa.csv": "be79f3aa02a5163e6f850b9aa5534cd9429da90c1698ed421ac4949bf75a588c",
+    "slab_chain_rule_summary.json": "3b4562688f58507e46b634b355e56abb0a381a70c0af8c8ab39265a274ed61a6",
+    "slab_full_band_fits.csv": "51480f7b9f75ca0a9417b836bd8e5bc29f9ccd2c34c0e03691f8a5324b08c144",
+    "slab_full_band_raw.csv": "3aabe5375dcdaacfb4b91cc0071c090b4892595031fc4e3ca9ba60f255d9e530",
+    "slab_ky_convergence.csv": "227dd81c0d8903641df0d969fffcf5280c31eb90322d55e2669a7777affc0f2f",
+    "slab_size_convergence.csv": "972fb7706aefa23c43687fc516ff997e7f50e50f6de968d6ba6b070fc3414e7e",
+    "slab_ward_rpa.csv": "0302b78c444f5ae06346b210b4d08cbff60c6b24259dc0f62771cb9c2dc2e344"
+  },
+  "sources_unchanged": true,
+  "references_unchanged": true,
+  "comparison_criteria": "Per-cell abs+rel bounds are recorded in comparison_cells.csv and numeric_comparison; roundoff residuals use existing physics-validator absolute thresholds.",
+  "degenerate_eigenspaces": "All eigenvalues and raw overlaps are compared and recorded. Only summed projector weights are required within clusters of eigenvalues separated by <=1e-12*max(1,spectral_radius). Individual eigenvectors within a degenerate subspace have no unique physical labels.",
+  "generated_sha256": {
+    "data_prl/full_bz_completion/exact_landau_projection_summary.json": "d61a8da538bddd5b6ae0a7be52698cd805e7a3f2e07a62c0ba2e303e6ef3948d",
+    "data_prl/full_bz_completion/exact_landau_spectrum.csv": "c5184404d5593d355e73f281b21da2b6211b5de1a23af87568aeb268bc314afa",
+    "data_prl/full_bz_completion/magnetic_torus_even_coefficients.csv": "e60a43367544f539264798ec58df15deecee3e3a60269ff754d66587cfeca3b6",
+    "data_prl/full_bz_completion/magnetic_torus_full_band.csv": "16ffe9da2307492160a1aee0af268b4b0ae8b81d65c43bc1f697632178e4b821",
+    "data_prl/full_bz_completion/magnetic_torus_summary.json": "c72d506763e22c6e7a4d46eea36547acceb325e6d5da66ece4570c9fb4135905",
+    "data_prl/full_bz_completion/magnetic_torus_ward_rpa.csv": "be79f3aa02a5163e6f850b9aa5534cd9429da90c1698ed421ac4949bf75a588c",
+    "data_prl/full_bz_completion/slab_chain_rule_summary.json": "3b4562688f58507e46b634b355e56abb0a381a70c0af8c8ab39265a274ed61a6",
+    "data_prl/full_bz_completion/slab_full_band_fits.csv": "51480f7b9f75ca0a9417b836bd8e5bc29f9ccd2c34c0e03691f8a5324b08c144",
+    "data_prl/full_bz_completion/slab_full_band_raw.csv": "3aabe5375dcdaacfb4b91cc0071c090b4892595031fc4e3ca9ba60f255d9e530",
+    "data_prl/full_bz_completion/slab_ky_convergence.csv": "227dd81c0d8903641df0d969fffcf5280c31eb90322d55e2669a7777affc0f2f",
+    "data_prl/full_bz_completion/slab_size_convergence.csv": "972fb7706aefa23c43687fc516ff997e7f50e50f6de968d6ba6b070fc3414e7e",
+    "data_prl/full_bz_completion/slab_ward_rpa.csv": "0302b78c444f5ae06346b210b4d08cbff60c6b24259dc0f62771cb9c2dc2e344"
+  },
+  "comparisons": [
+    {
+      "file": "exact_landau_projection_summary.json",
+      "status": "PASS",
+      "rows": 35,
+      "max_abs": 0.0,
+      "max_rel": 0.0,
+      "detail": "all_leaves_compared",
+      "failed_numeric_cells": 0
+    },
+    {
+      "file": "exact_landau_spectrum.csv",
+      "status": "PASS",
+      "rows": 48,
+      "max_abs": 0.0,
+      "max_rel": 0.0,
+      "detail": "all_cells_compared",
+      "failed_numeric_cells": 0,
+      "raw_numeric_cells_outside_tolerance": 0,
+      "basis_dependent_overlap_cells": 80
+    },
+    {
+      "file": "magnetic_torus_even_coefficients.csv",
+      "status": "PASS",
+      "rows": 16,
+      "max_abs": 0.0,
+      "max_rel": 0.0,
+      "detail": "all_cells_compared",
+      "failed_numeric_cells": 0,
+      "raw_numeric_cells_outside_tolerance": 0,
+      "basis_dependent_overlap_cells": 0
+    },
+    {
+      "file": "magnetic_torus_full_band.csv",
+      "status": "PASS",
+      "rows": 12,
+      "max_abs": 0.0,
+      "max_rel": 0.0,
+      "detail": "all_cells_compared",
+      "failed_numeric_cells": 0,
+      "raw_numeric_cells_outside_tolerance": 0,
+      "basis_dependent_overlap_cells": 0
+    },
+    {
+      "file": "magnetic_torus_summary.json",
+      "status": "PASS",
+      "rows": 3,
+      "max_abs": 0.0,
+      "max_rel": 0.0,
+      "detail": "all_leaves_compared",
+      "failed_numeric_cells": 0
+    },
+    {
+      "file": "magnetic_torus_ward_rpa.csv",
+      "status": "PASS",
+      "rows": 8,
+      "max_abs": 0.0,
+      "max_rel": 0.0,
+      "detail": "all_cells_compared",
+      "failed_numeric_cells": 0,
+      "raw_numeric_cells_outside_tolerance": 0,
+      "basis_dependent_overlap_cells": 0
+    },
+    {
+      "file": "slab_chain_rule_summary.json",
+      "status": "PASS",
+      "rows": 23,
+      "max_abs": 0.0,
+      "max_rel": 0.0,
+      "detail": "all_leaves_compared",
+      "failed_numeric_cells": 0
+    },
+    {
+      "file": "slab_full_band_fits.csv",
+      "status": "PASS",
+      "rows": 8,
+      "max_abs": 0.0,
+      "max_rel": 0.0,
+      "detail": "all_cells_compared",
+      "failed_numeric_cells": 0,
+      "raw_numeric_cells_outside_tolerance": 0,
+      "basis_dependent_overlap_cells": 0
+    },
+    {
+      "file": "slab_full_band_raw.csv",
+      "status": "PASS",
+      "rows": 36,
+      "max_abs": 0.0,
+      "max_rel": 0.0,
+      "detail": "all_cells_compared",
+      "failed_numeric_cells": 0,
+      "raw_numeric_cells_outside_tolerance": 0,
+      "basis_dependent_overlap_cells": 0
+    },
+    {
+      "file": "slab_ky_convergence.csv",
+      "status": "PASS",
+      "rows": 7,
+      "max_abs": 0.0,
+      "max_rel": 0.0,
+      "detail": "all_cells_compared",
+      "failed_numeric_cells": 0,
+      "raw_numeric_cells_outside_tolerance": 0,
+      "basis_dependent_overlap_cells": 0
+    },
+    {
+      "file": "slab_size_convergence.csv",
+      "status": "PASS",
+      "rows": 3,
+      "max_abs": 0.0,
+      "max_rel": 0.0,
+      "detail": "all_cells_compared",
+      "failed_numeric_cells": 0,
+      "raw_numeric_cells_outside_tolerance": 0,
+      "basis_dependent_overlap_cells": 0
+    },
+    {
+      "file": "slab_ward_rpa.csv",
+      "status": "PASS",
+      "rows": 12,
+      "max_abs": 0.0,
+      "max_rel": 0.0,
+      "detail": "all_cells_compared",
+      "failed_numeric_cells": 0,
+      "raw_numeric_cells_outside_tolerance": 0,
+      "basis_dependent_overlap_cells": 0
+    }
+  ]
+}

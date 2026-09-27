@@ -1,0 +1,46 @@
+PASS 01: general fixed-density mu1 [max_abs_err=0.000e+00, tol=1.000e-15]
+PASS 02: general fixed-density mu2 [max_abs_err=0.000e+00, tol=1.000e-15]
+PASS 03: matrix fixed-density K1 [max_abs_err=0.000e+00, tol=1.000e-14]
+PASS 04: matrix fixed-density K2 [max_abs_err=0.000e+00, tol=1.000e-14]
+PASS 05: Hall-compensated mu2 [max_abs_err=0.000e+00, tol=1.000e-15]
+PASS 06: Hall-compensated K2 [max_abs_err=0.000e+00, tol=1.000e-14]
+PASS 07: production mu chain rule [relerr=4.110e-09]
+PASS 08: production K chain rule [relerr=7.485e-09]
+PASS 09: ensemble sign reversal is data-driven
+PASS 10: full-band component sum (fixed_mu) [max_abs_err=1.805e-11, tol=1.000e-09]
+PASS 11: full-band component sum (fixed_n) [max_abs_err=1.665e-11, tol=1.000e-09]
+PASS 12: fresh lattice one-body WTI [res=2.665e-14]
+PASS 13: fresh bare left Ward identity [res=6.993e-18]
+PASS 14: fresh bare right Ward identity [res=9.697e-18]
+PASS 15: fresh RPA left Ward V=0.2
+PASS 16: fresh RPA right Ward V=0.2
+PASS 17: fresh RPA left Ward V=0.9
+PASS 18: fresh RPA right Ward V=0.9
+PASS 19: fresh RPA left Ward V=-0.3
+PASS 20: fresh RPA right Ward V=-0.3
+PASS 21: fresh full-band Kubo finite
+PASS 22: fresh Kubo decomposition [max_abs_err=5.709e-19, tol=5.000e-13]
+PASS 23: fresh lattice density physical
+PASS 24: production slab vertex WTI
+PASS 25: production slab response WTI
+PASS 26: production torus vertex WTI
+PASS 27: production torus response WTI
+PASS 28: Landau operator Hermiticity [max_abs_err=2.185e-19, tol=2.000e-12]
+PASS 29: U(1) band-gauge invariance [max_abs_err=2.371e-16, tol=2.000e-11]
+PASS 30: U(1) Landau spectrum invariance [max_abs_err=2.602e-18, tol=2.000e-11]
+PASS 31: two-mode leakage bounded
+PASS 32: fresh U(2) projected-tensor covariance [max_abs_err=1.614e-15, tol=2.000e-11]
+PASS 33: fresh U(2) Landau-energy invariance [max_abs_err=3.953e-15, tol=2.000e-11]
+PASS 34: production U(1) projection covariance
+PASS 35: production U(1) spectrum covariance
+PASS 36: production U(2) tensor covariance
+PASS 37: production U(2) energy covariance
+PASS 38: production scalar-reduction leakage quantified [eps=0.0556]
+PASS 39: leading charge eigenmode identified
+PASS 40: leading axial eigenmode identified
+PASS 41: dense transverse grids present
+PASS 42: Nky=64 to 96 fixed-n convergence [rel=3.686e-03]
+PASS 43: coarse-grid artifact exposed
+PASS 44: three slab widths recorded
+PASS 45: convergence tables finite
+ALL 45 TESTS PASSED

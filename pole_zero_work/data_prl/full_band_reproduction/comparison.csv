@@ -1,0 +1,13 @@
+file,status,rows,max_abs,max_rel,detail,failed_numeric_cells,raw_numeric_cells_outside_tolerance,basis_dependent_overlap_cells
+exact_landau_projection_summary.json,PASS,35,0.0,0.0,all_leaves_compared,0,,
+exact_landau_spectrum.csv,PASS,48,0.0,0.0,all_cells_compared,0,0.0,80.0
+magnetic_torus_even_coefficients.csv,PASS,16,0.0,0.0,all_cells_compared,0,0.0,0.0
+magnetic_torus_full_band.csv,PASS,12,0.0,0.0,all_cells_compared,0,0.0,0.0
+magnetic_torus_summary.json,PASS,3,0.0,0.0,all_leaves_compared,0,,
+magnetic_torus_ward_rpa.csv,PASS,8,0.0,0.0,all_cells_compared,0,0.0,0.0
+slab_chain_rule_summary.json,PASS,23,0.0,0.0,all_leaves_compared,0,,
+slab_full_band_fits.csv,PASS,8,0.0,0.0,all_cells_compared,0,0.0,0.0
+slab_full_band_raw.csv,PASS,36,0.0,0.0,all_cells_compared,0,0.0,0.0
+slab_ky_convergence.csv,PASS,7,0.0,0.0,all_cells_compared,0,0.0,0.0
+slab_size_convergence.csv,PASS,3,0.0,0.0,all_cells_compared,0,0.0,0.0
+slab_ward_rpa.csv,PASS,12,0.0,0.0,all_cells_compared,0,0.0,0.0

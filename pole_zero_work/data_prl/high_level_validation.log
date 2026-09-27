@@ -1,0 +1,92 @@
+High-level reinforcement validation passed.
+
+{
+  "base_suite_returncode": 0,
+  "symbolic_suite_returncode": 0,
+  "alternative_qstar": 0.0997206217247655,
+  "alternative_sstar": 1.3566546007457108,
+  "alternative_omega_star": 0.1352864402521258,
+  "alternative_gap_coefficient": 0.21279585501021483,
+  "alternative_max_gap_relative_error_b_le_0p01": 7.451618419651584e-05,
+  "residue_sum_error_power": 2.0345883455208407,
+  "residue_sum_smallest_field_error": 9.994066971108497e-06,
+  "controlled_phase_map_points_F0x_nonnegative": 4198,
+  "physical_scale_rows": 3,
+  "all_high_level_checks_passed": true
+}
+
+Base suite tail:
+[ok] q_min-q0 is quadratic in field
+[ok] vanishing-velocity branch follows exact crossover exponent
+[ok] vanishing-velocity branch approaches zeta=1 at weak field
+[ok] brightening has finite field intercept
+[ok] frequency collapse converges as B->0
+[ok] residue collapse converges as B->0
+[ok] weak-field pole collapse accuracy
+[ok] weak-field residue collapse accuracy
+[ok] original reduced-model regression suite
+[ok] 18-test gauge-completion regression suite
+{
+  "max_Dprime_absolute_error": 1.3988454838909092e-09,
+  "max_small_b_l0_gap_relative_error": 0.000335027632395013,
+  "max_charge_continuity_residual": 1.4210854715202004e-14,
+  "brightening_q_shift_power": 1.9990570124777087,
+  "mean_brightening_zeta": 0.0005067871665203097,
+  "mean_anomaly_zeta": 0.9518912795624129,
+  "max_exact_crossover_zeta_error": 1.1102230246251565e-16,
+  "weakest_field_anomaly_zeta": 0.9987056774420352,
+  "frequency_collapse_errors": {
+    "0.0025": 0.0026164401970358853,
+    "0.005": 0.005270821766521827,
+    "0.01": 0.010704974714001114,
+    "0.02": 0.022156896051460873
+  },
+  "residue_collapse_errors": {
+    "0.0025": 0.003194068232306946,
+    "0.005": 0.006398486161351191,
+    "0.01": 0.0128377472573602,
+    "0.02": 0.02583844005634628
+  },
+  "original_validator_returncode": 0,
+  "gauge_validator_returncode": 0,
+  "all_checks_passed": true
+}
+
+Symbolic check:
+SYMBOLIC NORMAL-FORM CHECK
+==========================
+
+Squared half splitting:
+ 4    2    4           4   2    2               2              2               ↪
+B ⋅a_c    B ⋅a_c⋅aₙ   B ⋅aₙ    B ⋅a_c⋅dq⋅v_c   B ⋅a_c⋅dq⋅vₙ   B ⋅aₙ⋅dq⋅v_c   B ↪
+─────── - ───────── + ────── + ───────────── - ──────────── - ──────────── + ─ ↪
+   4          2         4            2              2              2           ↪
+
+↪ 2                      2    2     2            2   2
+↪  ⋅aₙ⋅dq⋅vₙ    2  2   dq ⋅v_c    dq ⋅v_c⋅vₙ   dq ⋅vₙ 
+↪ ────────── + B ⋅g  + ──────── - ────────── + ───────
+↪     2                   4           2           4   
+
+Stationary crossing shift:
+dq_min = B**2*(-a_c + a_n)/(v_c - v_n)
+Expected = -(a_c-a_n) B^2/(v_c-v_n)
+Residual = 0
+
+Minimum squared half splitting:
+B**2*g**2
+Expected = g^2 B^2
+Residual = 0
+
+Therefore Delta omega_min = 2 |g B| and q_min-q0 is even and O(B^2).
+
+Canonical eigenvalues of [[X,1],[1,-X]]:
+{-sqrt(X**2 + 1): 1, sqrt(X**2 + 1): 1}
+
+Charge-residue fractions:
+r_lower = -X/(2*sqrt(X**2 + 1)) + 1/2
+r_upper = X/(2*sqrt(X**2 + 1)) + 1/2
+sum residual = 0
+large-positive-X dark fraction leading coefficient:
+lim X^2 r_lower = 1/4
+
+All symbolic residuals vanish exactly.

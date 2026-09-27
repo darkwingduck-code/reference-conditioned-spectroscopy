@@ -1,0 +1,106 @@
+{
+  "all_checks_passed": true,
+  "number_of_checks": 19,
+  "max_schur_relative_error": 2.7939987265907024e-15,
+  "max_covariance_absolute_error": 0.0,
+  "max_basis_relative_error": 3.199806500182806e-15,
+  "illustrative_qmax": 0.2,
+  "analytic_b_window": 0.00463353278795997,
+  "checks": [
+    {
+      "name": "complex Schur determinant identity",
+      "passed": true,
+      "detail": "max rel=2.794e-15"
+    },
+    {
+      "name": "Schur complement inherits node-exchange covariance",
+      "passed": true,
+      "detail": "max abs=0.000e+00"
+    },
+    {
+      "name": "basis-change determinant invariance",
+      "passed": true,
+      "detail": "max rel=3.200e-15"
+    },
+    {
+      "name": "brightened crossing stays in illustrative q window",
+      "passed": true,
+      "detail": "max q=0.092670, qmax=0.2"
+    },
+    {
+      "name": "field-created trajectory exits and re-enters finite q window",
+      "passed": true,
+      "detail": "inside count=7/11"
+    },
+    {
+      "name": "analytic observation-window threshold",
+      "passed": true,
+      "detail": "b_win=0.00463353"
+    },
+    {
+      "name": "high-level suite passed",
+      "passed": true,
+      "detail": "validator flag"
+    },
+    {
+      "name": "nonnegative-F0x controlled region exists",
+      "passed": true,
+      "detail": "4198"
+    },
+    {
+      "name": "alternative perturbative gap check",
+      "passed": true,
+      "detail": "err=7.452e-05"
+    },
+    {
+      "name": "residue-sum correction is quadratic",
+      "passed": true,
+      "detail": "power=2.034588"
+    },
+    {
+      "name": "Subrahmanyam public record is present",
+      "passed": true,
+      "detail": "bibliography entry"
+    },
+    {
+      "name": "Subrahmanyam entry uses arXiv 2605.27031",
+      "passed": true,
+      "detail": "\n  author = {{Subrahmanyam D} and Gangadharaiah, Suhas and Mishchenko, E. G.},\n  title = {Anomaly-Induced Hybrid Bulk El"
+    },
+    {
+      "name": "no unverified DOI in Subrahmanyam entry",
+      "passed": true,
+      "detail": "no doi field"
+    },
+    {
+      "name": "no unverified journal in Subrahmanyam entry",
+      "passed": true,
+      "detail": "no journal field"
+    },
+    {
+      "name": "main defines field-intercept index",
+      "passed": true,
+      "detail": "main normal form"
+    },
+    {
+      "name": "main states finite observation-window distinction",
+      "passed": true,
+      "detail": "main comparison paragraph"
+    },
+    {
+      "name": "supplement contains full-Maxwell Schur proof",
+      "passed": true,
+      "detail": "supplement section"
+    },
+    {
+      "name": "supplement states additional-pole limitation",
+      "passed": true,
+      "detail": "scope boundary"
+    },
+    {
+      "name": "material-specific limitation is explicit",
+      "passed": true,
+      "detail": "main scope"
+    }
+  ]
+}

@@ -1,0 +1,588 @@
+{
+  "status": "NUMERICALLY_VERIFIED_VISUAL_REVIEW_PENDING",
+  "source_sha256": {
+    "pole_zero_work\\data_prl\\alternative_parameter_gap_check.csv": "b5a722b1877a1b65ff5720aaefbc4d6a69aa7c486aea1d1be96bb6c11e33e662",
+    "pole_zero_work\\data_prl\\competitor_crossover_validation.json": "e7e974eefa21b2a3adc69203921bce56de108e075bc4e83b6883eab5e87af45a",
+    "pole_zero_work\\data_prl\\competitor_crossover_validation.log": "16157bb3afcd86195c227185a7ed7a43c4e198d139b3858d906af14921db0849",
+    "pole_zero_work\\data_prl\\competitor_exact_trajectory_summary.json": "0849bfc7fcc8bc46eec6c819a8847bcf64365fc76f043d2caae424be519c29b4",
+    "pole_zero_work\\data_prl\\editorial_claim_validation.json": "c7651f3277644a0485e648f1d808d62ca06603c8c72ee33cca9aeec2543d4c38",
+    "pole_zero_work\\data_prl\\editorial_claim_validation.log": "084e32d7a340e7608941ebc589efffe6cf5597f63bd740d3e0929624010a801d",
+    "pole_zero_work\\data_prl\\fig1_dispersion.csv": "7c3b15a296b1efa12c60b621e2bfa9fba34a54d9804e50c5c93e76e78da15f3b",
+    "pole_zero_work\\data_prl\\fig1_field_intercept.csv": "03a84d630f704f295b938a1c932e61e1061c4d44bd60d7db9052e82cfef2ac36",
+    "pole_zero_work\\data_prl\\fig2_frequency_residue_circle.csv": "6c7255bb401369948be924eb0016c9c251698d9a1828e53fb86e188514a9dd13",
+    "pole_zero_work\\data_prl\\fig2_pole_zero_tomography.csv": "f6afe6925eb62a73129345a5b7740b1072fddbd7a3353517af3c303b167b8bf5",
+    "pole_zero_work\\data_prl\\fig2_universal_collapse.csv": "76e3e8b923a9ce61c319d55b361f2528cef6ff1c1a41eee35af50bc84af7c204",
+    "pole_zero_work\\data_prl\\fig3_conserving_dispersion.csv": "282f8fe5f6c3af08463427ddbd1bd21ee021dd80818e66053e472067d2e59ba3",
+    "pole_zero_work\\data_prl\\fig3_conserving_gap.csv": "e9e3c6b1208d78bc0dd7c4fdddc19e2aba4a47c4d6aa403bc7a3a74c443841ad",
+    "pole_zero_work\\data_prl\\fig3_ward_residuals.csv": "bee98763f86dd0a0f13481a6cd6e2577a892c8f8fc832ac7b691c3f897f3ced0",
+    "pole_zero_work\\data_prl\\figS1_alternative_dispersion.csv": "317d94c61b9f32843e680bc0499378d43b5de739f861a1326ae25d23baf3d05d",
+    "pole_zero_work\\data_prl\\figS1_interaction_crossing_map.csv": "0f6292020bab7e66e00dc65b989431ea0db06d8b40846bb7083026ae2298e80a",
+    "pole_zero_work\\data_prl\\figS4_complex_tomography_noise.csv": "63524d863fb0d130b1eeb3e6bf195882e96b6f779a66bd6ee8d2153bccd86ba4",
+    "pole_zero_work\\data_prl\\figS4_three_mode_diagnostic.csv": "255036c40d3e46aebf7848ab7c61dd3047477f50b7bb7fa33ddad076e56d1b0c",
+    "pole_zero_work\\data_prl\\figS5_genealogy_model_selection.csv": "57f7dce9ade53f8549423ad27869f9e284f30fa168151bb9c1550ba075250a98",
+    "pole_zero_work\\data_prl\\figS5_genealogy_representative_fits.csv": "6edced74b837ecaaac565be0b5c80c2babf8a6fb23ac73c26f5b3f8bb3ef731e",
+    "pole_zero_work\\data_prl\\figS5_genealogy_summary.json": "60cb80024a98831d49b27f969068484c7b236586cb35a8a9b865afb2924e21da",
+    "pole_zero_work\\data_prl\\figS6_symmetry_selection_rules.csv": "b97738a3a20bd23be73307f9e49ec15977f4ac776c971440953998e4c881cb58",
+    "pole_zero_work\\data_prl\\figS7_background_dependent_total_zeros.csv": "dcfed27d731f244c321d521b18710bf30ee36795b07892cff6e0fdfd6554293c",
+    "pole_zero_work\\data_prl\\figS7_cofactor_jacobi_residuals.csv": "27111b4ad84a627108f80c40f791d7769d64983bba1a17d8a738b3461a92bfd9",
+    "pole_zero_work\\data_prl\\figS7_loss_only_ambiguity.csv": "06ccd5e4fd5e0ea819f700750dc262c126706e0c37169dbdacab23c5f5efef6d",
+    "pole_zero_work\\data_prl\\figS7_multimode_poles_zeros.csv": "0a19ae468fd8a1af8dbd20ebf763e71e99da38a7e67bffb1c654dc247cbb9f29",
+    "pole_zero_work\\data_prl\\figS8_tomography_observability_map.csv": "ee57b7d5a377293d5ac8fc53b1052106998f07d3982eed3d31ac11d41ae99d71",
+    "pole_zero_work\\data_prl\\figS9_competitor_exact_trajectory.csv": "52229b8013a89b5036d040add8aa363d25e178af1cba515a5e14a7b37c04b86d",
+    "pole_zero_work\\data_prl\\high_level_reinforcement_summary.json": "ee1bd8a813d16785a1588433b8d170fa3988b1de9e346d9529dd2740a03ac244",
+    "pole_zero_work\\data_prl\\high_level_validation.json": "559746c389c1b74d8e41e6f80c6405d6fa6fc6284e3d40078438afe4d1c54368",
+    "pole_zero_work\\data_prl\\high_level_validation.log": "d6998455dc9163c79ecfeb0f67199149c1c770410c99ff589067ce68f069d037",
+    "pole_zero_work\\data_prl\\inverse_problem_stress.json": "4434598a62c64468b3471388aaf384975a80d7cff4ad04fb66338fee0e63ab7e",
+    "pole_zero_work\\data_prl\\inverse_problem_stress_summary.csv": "af55493dc1d9f371e792deb9d026074878de92fe37dfd8caac6309e2624fab56",
+    "pole_zero_work\\data_prl\\inverse_problem_stress_trials.csv": "64f1b47d150945235adf993f5845bea6d14582de2b92864b09fce6360a936460",
+    "pole_zero_work\\data_prl\\multimode_tomography_summary.json": "fab812c8eb62355d64ac2d92db5a05532ca3cc45cd89c98f68a790cd8105d514",
+    "pole_zero_work\\data_prl\\multimode_validation.json": "c55df91af8e966ff0ae3a08827a7149fe54ea325eedbdf5ef1abbd7fbc3df3a0",
+    "pole_zero_work\\data_prl\\multimode_validation.log": "32ca60870b464112b945e026588748596412294bb96fbdcd04139d3b4362903c",
+    "pole_zero_work\\data_prl\\observability_validation.json": "b4c6eb1a73d44ba5200cc0c51dad4e6b5f30237738e2bcacd85c49f49256b618",
+    "pole_zero_work\\data_prl\\observability_validation.log": "f786b8a9065f504fdbeba8e4ef75f27e9a6312a1505a8cb157e5a48e28ae94f7",
+    "pole_zero_work\\data_prl\\physical_scale_table.csv": "234247c0ee39d69b0b06b63f23ab7df25681bc09874d463b88ed443524fcdd52",
+    "pole_zero_work\\data_prl\\pole_zero_reinforcement_summary.json": "405053e7cc5055fabd2e6c3534be5aad50c586307123f41790b4202f939e3efc",
+    "pole_zero_work\\data_prl\\pole_zero_validation.json": "769787e08bd8020f83692ba602a08fe98d834f6ad4271007ebbe74c32d61f74b",
+    "pole_zero_work\\data_prl\\pole_zero_validation.log": "2d32dbc2a2b147ab626826517c90c50fc22368d3446a82a2fd30e90ff2ed08fa",
+    "pole_zero_work\\data_prl\\prl_reinforcement_summary.json": "655d2c0c04d22e29928fa054e0fc773f6532a5fa2e239b5f5420bde90799dcb9",
+    "pole_zero_work\\data_prl\\prl_reinforcement_validation.json": "b378dc5793f7deecf7fa499fdb0bad61a88f7e92484d5fa2fb7a5b93015fb409",
+    "pole_zero_work\\data_prl\\prl_reinforcement_validation.log": "e3668242bc56f9e3e758429e78ce15d5f68e498ea45caf2fa623ebc59559a176",
+    "pole_zero_work\\data_prl\\spectral_weight_sum_rule.csv": "b12d9d7731c848587b5a4bb90e982e80c2e0ac3d58d478b4a80f65b670903cb2",
+    "pole_zero_work\\data_prl\\spectral_weight_sum_rule_summary.csv": "d9655a4904ba58f8ae2e746a95e2e6df34eb58e80ff71bda3b0436abdde457ee",
+    "pole_zero_work\\data_prl\\symbolic_normal_form_check.txt": "d2f9be1c5e67ac1a3c86e833c0c8ef0e85887df6e55f151d63ff8f6c3e47ba1f",
+    "pole_zero_work\\data_prl\\symbolic_pole_zero_proofs.json": "4e47669181ae129a0b2a4c54dc764ce05062803423aca8aec5272fdb4a539a74",
+    "pole_zero_work\\data_prl\\symbolic_pole_zero_proofs.txt": "cfd2d61160ed6b5561e0b64705acdb0535cfd837bcaff996a6ee1538c84a0ddf",
+    "pole_zero_work\\data_prl\\tomography_observability_summary.json": "d9c48cc555b8569849af0c20ee9264b5c8d5c178092204898ba26551a50d9877",
+    "pole_zero_work\\data_prl\\v13_hybrid_priority_validation.json": "b6a4a9e8cfae8a135e077deb6e5f416a8760185b3fc554dea0d885ddf69c9db0",
+    "pole_zero_work\\data_prl\\weyl_continuum_stress.csv": "cb62d4404341387859b2dd733d02e042a04901e893de67fd0e003fd33e3be653",
+    "pole_zero_work\\data_prl\\weyl_continuum_stress.json": "9a741aca66a5817612aa931e3e0dda7e390565f853e7a32d44374a511d73c9ce",
+    "pole_zero_work\\data_prl\\weyl_continuum_stress_roots.csv": "037329b92b2f6178b352d23f1ad9ea421f5f9f916b3a4b4987222cf1691c69bf",
+    "pole_zero_work\\data_prl\\weyl_full_zero_revision.csv": "72a15b7d5c10f13a5a038223fa2dd2f236a2874c26c200d34e31f7837c3b35ba",
+    "pole_zero_work\\data_prl\\weyl_full_zero_revision.json": "5786ff741dd9ce5765527cd46b74bd746da657de23af16e5a76c2a5c068012cd",
+    "pole_zero_work\\data_prl\\weyl_full_zero_revision_field.csv": "9b4f6f18cf96e19713c6abe07628c22b66830312d91ba5d322bb313babd1e64e",
+    "pole_zero_work\\data_prl\\zero_assignment_revision.json": "b8f1edb2cc12a4b3b9785ffd224e3735cfa2b7c1d2e317b8713f6ab2e022d494",
+    "pole_zero_work\\data_prl\\zero_assignment_revision_samples.csv": "a808fb5be1e0c8c0d4de5e1949b4b79a59a0412ee166fbb7a9dd24e767a70503",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\comparison.csv": "e974191db154e2121aa635cc85ed223567996735cd350f9ce462a683cf1acb9e",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\comparison_cells.csv": "c951bb4dd09e8d3558aeaf544bdaee9dfbf26bbf45518e6e71c6072a5f00db79",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\convergence_raw.csv": "77aadcd0e7bb1f8419fb294b7cf60f0a3834176ca333eaa00639e0b4d532a47d",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\fresh_validation.json": "b2bbba7bbf428f58f8f166e207edbed19ceb286568935792d170a2061fd24325",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\fresh_validation.log": "17c4c533cf8091c762d201373031b585e4b626d5813c38811b1ffa44d957e290",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\README.md": "8ab3ebdf4652b1f97c9baa87148ba857cba867836a09452f7882458a2f3c523d",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\reproduction.log": "bfe0be691dde07821464fff5598559cb1d8fc881a86c4e4ab7e74c5f52e559f0",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\reproduction_metadata.json": "e2d8a7dd267c38fcde6b21b5e4d40d3803f5f8b58683741516cfcb824cc67071",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\archived_reference\\exact_landau_projection_summary.json": "b9ca0fc62e9d8c0a540beafc1a81983a0930865c0eacaf7069b47942c230cf9f",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\archived_reference\\exact_landau_spectrum.csv": "280648ec611269037e08f2a58e572ad0784e0a483b07813c990d8bd760dfb243",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\archived_reference\\magnetic_torus_even_coefficients.csv": "c0e39a3f0e856d2cf416a87074f0c4800fb607c99920c0b7305722fa8238b9dc",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\archived_reference\\magnetic_torus_full_band.csv": "90e85974a241c7b2faa2e6f5aba8dcc3b56ae1bb225e787f7d7db166d8307e36",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\archived_reference\\magnetic_torus_summary.json": "2ea866e7fa808763fe4212390296d72678a6afc3424db4f96d59dbc9673e3eec",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\archived_reference\\magnetic_torus_ward_rpa.csv": "bc38f584ff617b10adecfa8754eed5255c92b0b3bbc52cff2619d4a84522d9ca",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\archived_reference\\slab_chain_rule_summary.json": "abe86229f6eb8ab4bdf1a9cb750853f5c69606f0ae1938e8cf60acfec63a5653",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\archived_reference\\slab_full_band_fits.csv": "715c8d4a1f8e69dc0e5f3c4d911be8a3085706ebae714890241549488b5d2abb",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\archived_reference\\slab_full_band_raw.csv": "c408b7a5dacf5ac9d5d1b275b9fad28fb491ed304162ee5257ac23a5f2bafd9d",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\archived_reference\\slab_ky_convergence.csv": "c400842807de7b7b104c752939c3127a92d442f1d1bdb4351aede6183a1b82ad",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\archived_reference\\slab_size_convergence.csv": "f48915421a2064d5a8f5a44e8140bdde84d223ab8eb27d3e82a98877b1ce2b15",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\archived_reference\\slab_ward_rpa.csv": "fbacb66d3cc3877ad466263f018ab828fbc9d31b2878068cda9a3bae91165234",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\data_prl\\full_bz_completion\\exact_landau_projection_summary.json": "d61a8da538bddd5b6ae0a7be52698cd805e7a3f2e07a62c0ba2e303e6ef3948d",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\data_prl\\full_bz_completion\\exact_landau_spectrum.csv": "c5184404d5593d355e73f281b21da2b6211b5de1a23af87568aeb268bc314afa",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\data_prl\\full_bz_completion\\magnetic_torus_even_coefficients.csv": "e60a43367544f539264798ec58df15deecee3e3a60269ff754d66587cfeca3b6",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\data_prl\\full_bz_completion\\magnetic_torus_full_band.csv": "16ffe9da2307492160a1aee0af268b4b0ae8b81d65c43bc1f697632178e4b821",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\data_prl\\full_bz_completion\\magnetic_torus_summary.json": "c72d506763e22c6e7a4d46eea36547acceb325e6d5da66ece4570c9fb4135905",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\data_prl\\full_bz_completion\\magnetic_torus_ward_rpa.csv": "be79f3aa02a5163e6f850b9aa5534cd9429da90c1698ed421ac4949bf75a588c",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\data_prl\\full_bz_completion\\slab_chain_rule_summary.json": "3b4562688f58507e46b634b355e56abb0a381a70c0af8c8ab39265a274ed61a6",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\data_prl\\full_bz_completion\\slab_full_band_fits.csv": "51480f7b9f75ca0a9417b836bd8e5bc29f9ccd2c34c0e03691f8a5324b08c144",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\data_prl\\full_bz_completion\\slab_full_band_raw.csv": "3aabe5375dcdaacfb4b91cc0071c090b4892595031fc4e3ca9ba60f255d9e530",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\data_prl\\full_bz_completion\\slab_ky_convergence.csv": "227dd81c0d8903641df0d969fffcf5280c31eb90322d55e2669a7777affc0f2f",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\data_prl\\full_bz_completion\\slab_size_convergence.csv": "972fb7706aefa23c43687fc516ff997e7f50e50f6de968d6ba6b070fc3414e7e",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\data_prl\\full_bz_completion\\slab_ward_rpa.csv": "0302b78c444f5ae06346b210b4d08cbff60c6b24259dc0f62771cb9c2dc2e344",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\historical_comparison\\comparison.csv": "9b7b81c70ea9638cc46b7965cb24ad4c7a7cc26d3c66f0fa0c7dd2a28964e7f2",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\historical_comparison\\comparison_cells.csv": "7f473d2c1a6d078f6543af28bcef76fe67bed83e618f189fb175af613cfe37de",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\historical_comparison\\convergence_raw.csv": "77aadcd0e7bb1f8419fb294b7cf60f0a3834176ca333eaa00639e0b4d532a47d",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\historical_comparison\\reproduction.log": "bfe0be691dde07821464fff5598559cb1d8fc881a86c4e4ab7e74c5f52e559f0",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\historical_comparison\\reproduction_metadata.json": "543dcc8dcb6acf310c0027afea1d087d311f80e7cd577aaca8134d1856343479",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\historical_comparison\\data_prl\\full_bz_completion\\exact_landau_projection_summary.json": "d61a8da538bddd5b6ae0a7be52698cd805e7a3f2e07a62c0ba2e303e6ef3948d",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\historical_comparison\\data_prl\\full_bz_completion\\exact_landau_spectrum.csv": "c5184404d5593d355e73f281b21da2b6211b5de1a23af87568aeb268bc314afa",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\historical_comparison\\data_prl\\full_bz_completion\\magnetic_torus_even_coefficients.csv": "e60a43367544f539264798ec58df15deecee3e3a60269ff754d66587cfeca3b6",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\historical_comparison\\data_prl\\full_bz_completion\\magnetic_torus_full_band.csv": "16ffe9da2307492160a1aee0af268b4b0ae8b81d65c43bc1f697632178e4b821",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\historical_comparison\\data_prl\\full_bz_completion\\magnetic_torus_summary.json": "c72d506763e22c6e7a4d46eea36547acceb325e6d5da66ece4570c9fb4135905",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\historical_comparison\\data_prl\\full_bz_completion\\magnetic_torus_ward_rpa.csv": "be79f3aa02a5163e6f850b9aa5534cd9429da90c1698ed421ac4949bf75a588c",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\historical_comparison\\data_prl\\full_bz_completion\\slab_chain_rule_summary.json": "3b4562688f58507e46b634b355e56abb0a381a70c0af8c8ab39265a274ed61a6",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\historical_comparison\\data_prl\\full_bz_completion\\slab_full_band_fits.csv": "51480f7b9f75ca0a9417b836bd8e5bc29f9ccd2c34c0e03691f8a5324b08c144",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\historical_comparison\\data_prl\\full_bz_completion\\slab_full_band_raw.csv": "3aabe5375dcdaacfb4b91cc0071c090b4892595031fc4e3ca9ba60f255d9e530",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\historical_comparison\\data_prl\\full_bz_completion\\slab_ky_convergence.csv": "227dd81c0d8903641df0d969fffcf5280c31eb90322d55e2669a7777affc0f2f",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\historical_comparison\\data_prl\\full_bz_completion\\slab_size_convergence.csv": "972fb7706aefa23c43687fc516ff997e7f50e50f6de968d6ba6b070fc3414e7e",
+    "pole_zero_work\\data_prl\\full_band_reproduction\\historical_comparison\\data_prl\\full_bz_completion\\slab_ward_rpa.csv": "0302b78c444f5ae06346b210b4d08cbff60c6b24259dc0f62771cb9c2dc2e344",
+    "pole_zero_work\\data_prl\\full_bz_completion\\exact_landau_projection_summary.json": "d61a8da538bddd5b6ae0a7be52698cd805e7a3f2e07a62c0ba2e303e6ef3948d",
+    "pole_zero_work\\data_prl\\full_bz_completion\\exact_landau_spectrum.csv": "c5184404d5593d355e73f281b21da2b6211b5de1a23af87568aeb268bc314afa",
+    "pole_zero_work\\data_prl\\full_bz_completion\\full_bz_completion_validation.log": "17c4c533cf8091c762d201373031b585e4b626d5813c38811b1ffa44d957e290",
+    "pole_zero_work\\data_prl\\full_bz_completion\\magnetic_torus_even_coefficients.csv": "e60a43367544f539264798ec58df15deecee3e3a60269ff754d66587cfeca3b6",
+    "pole_zero_work\\data_prl\\full_bz_completion\\magnetic_torus_full_band.csv": "16ffe9da2307492160a1aee0af268b4b0ae8b81d65c43bc1f697632178e4b821",
+    "pole_zero_work\\data_prl\\full_bz_completion\\magnetic_torus_summary.json": "c72d506763e22c6e7a4d46eea36547acceb325e6d5da66ece4570c9fb4135905",
+    "pole_zero_work\\data_prl\\full_bz_completion\\magnetic_torus_ward_rpa.csv": "be79f3aa02a5163e6f850b9aa5534cd9429da90c1698ed421ac4949bf75a588c",
+    "pole_zero_work\\data_prl\\full_bz_completion\\slab_chain_rule_summary.json": "3b4562688f58507e46b634b355e56abb0a381a70c0af8c8ab39265a274ed61a6",
+    "pole_zero_work\\data_prl\\full_bz_completion\\slab_full_band_fits.csv": "51480f7b9f75ca0a9417b836bd8e5bc29f9ccd2c34c0e03691f8a5324b08c144",
+    "pole_zero_work\\data_prl\\full_bz_completion\\slab_full_band_raw.csv": "3aabe5375dcdaacfb4b91cc0071c090b4892595031fc4e3ca9ba60f255d9e530",
+    "pole_zero_work\\data_prl\\full_bz_completion\\slab_ky_convergence.csv": "227dd81c0d8903641df0d969fffcf5280c31eb90322d55e2669a7777affc0f2f",
+    "pole_zero_work\\data_prl\\full_bz_completion\\slab_size_convergence.csv": "972fb7706aefa23c43687fc516ff997e7f50e50f6de968d6ba6b070fc3414e7e",
+    "pole_zero_work\\data_prl\\full_bz_completion\\slab_ward_rpa.csv": "0302b78c444f5ae06346b210b4d08cbff60c6b24259dc0f62771cb9c2dc2e344",
+    "pole_zero_work\\code\\generate_competitor_asymptotic.py": "03ae88b5d4f089ac16c92e721d9b655d26000281caef700b532ec890d866f6e7",
+    "pole_zero_work\\code\\generate_high_level_reinforcement.py": "68544fc411cf5137f652c4227a79467bab96f2417d4077e4c711421ec787c11b",
+    "pole_zero_work\\code\\generate_multimode_tomography.py": "c5ee663388bc8dd1b60914e6fc05af280f3151cfb439f2a8956e60dd59c4c673",
+    "pole_zero_work\\code\\generate_observability_map.py": "babf8c966d73da09621daa958fdc29887a8b1e0bfab70294133db17993659a6e",
+    "pole_zero_work\\code\\generate_pole_zero_reinforcement.py": "0257c34c50a020d91a181ba07f9e748350b80deea7146b288a9a836efcc7f2c0",
+    "pole_zero_work\\code\\generate_prl_figures.py": "7320e8ebafbaf6407ea7b680e4c3a0bc7b866bd9b5b14a0299edc5d6d51751c3",
+    "pole_zero_work\\code\\generate_prl_main_figures_premium.py": "859c5a5f420394b3f700c785c80f0a2e579743d294e7a8348795fc9e4bdbe18e",
+    "pole_zero_work\\code\\generate_prl_supplement_figures_premium.py": "b791bcc422e050f08339282786d3d0284b15a30eb26c6907ef43ebbef34c8487",
+    "pole_zero_work\\code\\generate_weyl_full_zero_revision.py": "0c475337a9317fddea27c891e1dff30e1cf5ae3ec746e2826747cbf8f826a404",
+    "pole_zero_work\\code\\generate_zero_assignment_revision.py": "f9dd46dd21de9a440ad01e6d3f51bdf75f1346f7ff78042ad32f0fb12c2459ed",
+    "pole_zero_work\\code\\inverse_problem_stress.py": "eec3e1241afce6c8df36859fcea45cc205db220b1b58ae37e19499a5a57e7815",
+    "pole_zero_work\\code\\pole_zero_tomography.py": "31ff7b434b3054ec5fe702ded55b12b3b60715990f136319ad5a798f9e4998e9",
+    "pole_zero_work\\code\\symbolic_normal_form_check.py": "752611b368eed225fed4f8901c66876efe7eac1b98e0cdbbb1cd561926961118",
+    "pole_zero_work\\code\\symbolic_pole_zero_proofs.py": "e6602d0712f13b640079e5778ad6fb0a17dd114c23924a61d659a0b19b20d5f1",
+    "pole_zero_work\\code\\test_inverse_problem_stress.py": "96a8478ef43fce46c63db0efbe7e6f7ed084f0864a022d1528ee656cd4aaeea2",
+    "pole_zero_work\\code\\test_manuscript_boundaries.py": "a0c286ee4facaa2e6bf3ebd26a9ad6e5025a368e88845d66c25d3e8987c4cac0",
+    "pole_zero_work\\code\\test_weyl_continuum_stress.py": "55240b062967a170b05c0d33c529a1ad410cf7a8ec8bd7c8685d6a81977f77c4",
+    "pole_zero_work\\code\\test_zero_assignment_revision.py": "ddcfa4db3a141ca77bca2a9045cf0a1b8b9ba6f2a0df96c0e64cf98fb0668f45",
+    "pole_zero_work\\code\\validate_competitor_crossover.py": "2dc142767fe47745d5a7a411867dde5840c11f601a07ef098d2dea9f22306071",
+    "pole_zero_work\\code\\validate_high_level_reinforcement.py": "eac3f8c80d3bef65379edfc01aa60f8cea712d909f2e8b535d7a2f59d969ae95",
+    "pole_zero_work\\code\\validate_main_figure_hybrid_priority_v13.py": "3f5927e3bf0a30c543935f4d7bd507cf93e2e8fc9bbe68efcd1f285009fbe21f",
+    "pole_zero_work\\code\\validate_multimode_tomography.py": "b2e334ff83d1732aed4fceb5f060ac096465517d21199c0e8a06f0b2cf8d35bf",
+    "pole_zero_work\\code\\validate_observability_map.py": "d36b37f7f168c013821c3c66e81307b896f1edca82afa338638f0a2021f78711",
+    "pole_zero_work\\code\\validate_pole_zero_reinforcement.py": "a885ae91dc351644e9a34e4a33c02db45be479c6855bf454e54f15b77f0fd557",
+    "pole_zero_work\\code\\validate_prl_editorial_claims.py": "05962f0db2a9f018f876b7f6a95d24545a02c1b7cf97cd202868483e20188279",
+    "pole_zero_work\\code\\validate_prl_reinforcement.py": "ee38d1a24ca6fc3bdbd993064b097a5eceaf3141127025665c53e49e09d148a6",
+    "pole_zero_work\\code\\validate_public_archive.py": "81a10f942f6a7cc929dbdbfa7271cbf013253b49779c7c176e550c6e2ce89d97",
+    "pole_zero_work\\code\\validate_solver.py": "4360b2e10b9bf910099231b19bd30736b7595a18aac1e3b02f1b6da2522448ba",
+    "pole_zero_work\\code\\weyl_continuum_stress.py": "867b2127dbd507763cc3c9eb632efa49b14c26e3e47e22f5041d19dfd728992c",
+    "pole_zero_work\\code\\weyl_fl_prb_solver.py": "25d3c5cf490d84eceec58ae476819f264a8387d27170417072f868fc9f6b60a6",
+    "pole_zero_work\\code\\weyl_prl_theory.py": "919199b75d59e53e2456bdcf909aa7b0f95e0b31777f944bfcae45f11dd35580",
+    "pole_zero_work\\code\\full_bz_completion\\ensemble.py": "b22f592d7350231e7f9079716930a21f4c397df448fc98ebd8959b65bfb963df",
+    "pole_zero_work\\code\\full_bz_completion\\generate_landau_data.py": "352c596b59b94645981c0ad23d030fd4c964f1887e614a91559f3d4a8ceba2c7",
+    "pole_zero_work\\code\\full_bz_completion\\generate_slab_data.py": "a50edc626037664124dc9e42be63410c5690e0cbbc99c1f830cf98c119642850",
+    "pole_zero_work\\code\\full_bz_completion\\generate_torus_data.py": "ffd0cc0c6e12eb25203016fc38f08cbb6c908e74200f76c7c73c2226ca7e0035",
+    "pole_zero_work\\code\\full_bz_completion\\landau_projection.py": "ba1a332872685949119be09f6599736ef8beb1220f5bee03602d1a64baab5fec",
+    "pole_zero_work\\code\\full_bz_completion\\lattice_kubo.py": "cb24110da3c172584c720658f313a21720553c85c0099a1ed1518820e4973434",
+    "pole_zero_work\\code\\full_bz_completion\\make_completion_figures.py": "b004582bc3a8cb15ee769926dff3082179c3a01fc2d3c1f11dc77e60d819e20b",
+    "pole_zero_work\\code\\full_bz_completion\\material_gamma_omega_schema.md": "faf8ebc11b87057634813bb5718475cdc3a7b934a7fdfa500566c08f6fde97be",
+    "pole_zero_work\\code\\full_bz_completion\\project_material_gamma_omega.py": "c76f1a0f30522d40ee4c115da0c2036d8c0c862f623c92037cfdff7adfabc054",
+    "pole_zero_work\\code\\full_bz_completion\\reproduce_production.py": "bffa524625bae4b719fe8bd4b192000781b5bc86bddb6d9ce92f1273f1075282",
+    "pole_zero_work\\code\\full_bz_completion\\run_convergence_point.py": "928636c3c7c4845e431fea4d4e262cc0b61dfb5808627792c95254cd7fe5f0c9",
+    "pole_zero_work\\code\\full_bz_completion\\validate_completion.py": "1bcaf02c40ed1a8fa7c802140a2d0429947d41b3d42c476e570e83fb8d041952",
+    "pole_zero_work\\code\\full_bz_completion\\__init__.py": "8e8ba4758ef49a71b26639511f0abadb396d9c01098e4271457147fe0817c3a6",
+    "pole_zero_work\\code\\full_bz_completion\\examples\\material_gamma_omega_example.npz": "90e1db08ea434920a88eed0b208737ae78c546471ca9fad8f30fa0dcaa346e9a",
+    "pole_zero_work\\code\\tests\\run_gauge_completion_checks.py": "596322e53c1d5c69b7770f2714143476517fe1fae8eafb9af053140e569df477",
+    "pole_zero_work\\code\\weyl_gauge_completion\\kernels.py": "736a6975253e04f58ff287d14f96783e626c7e6cc21e5a6d79d4a9e4cad93e3e",
+    "pole_zero_work\\code\\weyl_gauge_completion\\vertices.py": "00e707eb7ab4a18ff66508842d5abf8a79bcd3a14521bdf72bc2e020882338e5",
+    "pole_zero_work\\code\\weyl_gauge_completion\\__init__.py": "24932ef311750ae703f4eec3b722b9961e9eb107f6f9a59d26fa66b6e9175c37"
+  },
+  "figures": {
+    "figS1_interaction_robustness": {
+      "panels": 2,
+      "science_sha256": "e9b39a807a055af0492e843f4cd7a4f1d0f0e5752720456d1ecc0c6743e83df3",
+      "pdf_sha256": "ddd48be346b29114251eb26c12b5c8a041ad7b4a4a48bf387aceecec4a2cf768",
+      "descriptions_for_caption": [
+        {
+          "axis_index": 0,
+          "panel": "a",
+          "titles": [
+            {
+              "location": "left",
+              "original": "$\\bf{(a)}$  Finite crossing across interaction space",
+              "descriptor": "Finite crossing across interaction space"
+            }
+          ]
+        },
+        {
+          "axis_index": 1,
+          "panel": "b",
+          "titles": [
+            {
+              "location": "left",
+              "original": "$\\bf{(b)}$  Avoided crossing at the alternative point",
+              "descriptor": "Avoided crossing at the alternative point"
+            }
+          ]
+        }
+      ]
+    },
+    "figS4_complex_tomography": {
+      "panels": 2,
+      "science_sha256": "a9b08a1062236deb644005c1e8dcf452a911bde248e984e5567afef0b38fa5f3",
+      "pdf_sha256": "edcf1c6af6da16d6ab0b1e0f4c4218dc938f5beb369be3d2b825a63913f05633",
+      "descriptions_for_caption": [
+        {
+          "axis_index": 0,
+          "panel": "a",
+          "titles": [
+            {
+              "location": "left",
+              "original": "$\\bf{(a)}$  Noise robustness of complex tomography",
+              "descriptor": "Noise robustness of complex tomography"
+            }
+          ]
+        },
+        {
+          "axis_index": 1,
+          "panel": "b",
+          "titles": [
+            {
+              "location": "left",
+              "original": "$\\bf{(b)}$  Breakdown against hidden third-mode contamination",
+              "descriptor": "Breakdown against hidden third-mode contamination"
+            }
+          ]
+        }
+      ]
+    },
+    "figS5_genealogy_inference": {
+      "panels": 2,
+      "science_sha256": "04c79562d232eea635c4037c11c32d3ee09c5fff83c2ccbd3f704c9cfb6655d1",
+      "pdf_sha256": "b57b2e2320d8848c77db71ca399108517029a5faf38a323933f5e2ba02b47811",
+      "descriptions_for_caption": [
+        {
+          "axis_index": 0,
+          "panel": "a",
+          "titles": [
+            {
+              "location": "left",
+              "original": "$\\bf{(a)}$  Finite-window genealogy inference",
+              "descriptor": "Finite-window genealogy inference"
+            }
+          ]
+        },
+        {
+          "axis_index": 1,
+          "panel": "b",
+          "titles": [
+            {
+              "location": "left",
+              "original": "$\\bf{(b)}$  Representative finite-window fits",
+              "descriptor": "Representative finite-window fits"
+            }
+          ]
+        }
+      ]
+    },
+    "figS6_symmetry_selection_rules": {
+      "panels": 2,
+      "science_sha256": "2a9adf06427a585c504af7bd5551a7615e428c1e617572e25b290a6c652c9345",
+      "pdf_sha256": "e8e6d4e55a30b671279fa2d2f995adccf2b679cc4009a2e96ca5a29155c75cf4",
+      "descriptions_for_caption": [
+        {
+          "axis_index": 0,
+          "panel": "a",
+          "titles": [
+            {
+              "location": "left",
+              "original": "$\\bf{(a)}$  Intercept drift with and without symmetry",
+              "descriptor": "Intercept drift with and without symmetry"
+            }
+          ]
+        },
+        {
+          "axis_index": 1,
+          "panel": "b",
+          "titles": [
+            {
+              "location": "left",
+              "original": "$\\bf{(b)}$  Selection-rule control of gap scaling",
+              "descriptor": "Selection-rule control of gap scaling"
+            }
+          ]
+        }
+      ]
+    },
+    "figS8_tomography_observability_map": {
+      "panels": 2,
+      "science_sha256": "206c0bed03d89f3be7c0a6a61cdb508296a0eb6851402630e33b620be7e131b0",
+      "pdf_sha256": "54764c8742425396114fd476965e4597b4660504a471f47df5afc9d61ae9bd98",
+      "descriptions_for_caption": [
+        {
+          "axis_index": 0,
+          "panel": "a",
+          "titles": [
+            {
+              "location": "left",
+              "original": "$\\bf{(a)}$  Probability of sub-$0.2\\gamma$ zero reconstruction",
+              "descriptor": "Probability of sub-$0.2\\gamma$ zero reconstruction"
+            }
+          ]
+        },
+        {
+          "axis_index": 1,
+          "panel": "b",
+          "titles": [
+            {
+              "location": "left",
+              "original": "$\\bf{(b)}$  Median zero error in units of linewidth",
+              "descriptor": "Median zero error in units of linewidth"
+            }
+          ]
+        }
+      ]
+    },
+    "figS9_competitor_exact_trajectory": {
+      "panels": 2,
+      "science_sha256": "b798f05efec717262ad32fddc36d90d42ed721b1e10f207d0b4941585ac86d6b",
+      "pdf_sha256": "16dcfc05154a0ca9b8987c0fb794f3aa8bbfd53bc883087aaa608b17c2ce9954",
+      "descriptions_for_caption": [
+        {
+          "axis_index": 0,
+          "panel": "a",
+          "titles": [
+            {
+              "location": "left",
+              "original": "$\\bf{(a)}$  Exact crossover of the competitor mechanism",
+              "descriptor": "Exact crossover of the competitor mechanism"
+            }
+          ]
+        },
+        {
+          "axis_index": 1,
+          "panel": "b",
+          "titles": [
+            {
+              "location": "left",
+              "original": "$\\bf{(b)}$  Local genealogy exponent",
+              "descriptor": "Local genealogy exponent"
+            }
+          ]
+        }
+      ]
+    },
+    "figS2_full_band_ensemble": {
+      "panels": 4,
+      "science_sha256": "65c1654406c5ae6d3e928504b55c3e578c55c1f18d24c300ba5b518c870f6845",
+      "pdf_sha256": "856567d81b4968460922e0c1c851b9504eb40bb83ce14b2f3cf9c6890fe59d68",
+      "descriptions_for_caption": [
+        {
+          "axis_index": 0,
+          "panel": "a",
+          "titles": [
+            {
+              "location": "left",
+              "original": "$\\bf{(a)}$  Fixed-density ensemble correction",
+              "descriptor": "Fixed-density ensemble correction"
+            }
+          ]
+        },
+        {
+          "axis_index": 1,
+          "panel": "b",
+          "titles": [
+            {
+              "location": "left",
+              "original": "$\\bf{(b)}$  Full-band even response",
+              "descriptor": "Full-band even response"
+            }
+          ]
+        },
+        {
+          "axis_index": 2,
+          "panel": "c",
+          "titles": [
+            {
+              "location": "left",
+              "original": "$\\bf{(c)}$  Filled-band and interband completion",
+              "descriptor": "Filled-band and interband completion"
+            }
+          ]
+        },
+        {
+          "axis_index": 3,
+          "panel": "d",
+          "titles": [
+            {
+              "location": "left",
+              "original": "$\\bf{(d)}$  Transverse-grid convergence",
+              "descriptor": "Transverse-grid convergence"
+            }
+          ]
+        }
+      ]
+    },
+    "figS3_ward_landau_completion": {
+      "panels": 4,
+      "science_sha256": "4fa6f2fa5c8a5cfe2e8b19f8ee17030cc92764cabf41bb1820c8aaa2924416e9",
+      "pdf_sha256": "e112a2bdc5021a1f0284b1437af97084d1bfa9a1a8addc2f3211e1cd5e763249",
+      "descriptions_for_caption": [
+        {
+          "axis_index": 0,
+          "panel": "a",
+          "titles": [
+            {
+              "location": "left",
+              "original": "$\\bf{(a)}$  Bare and interacting transversality",
+              "descriptor": "Bare and interacting transversality"
+            }
+          ]
+        },
+        {
+          "axis_index": 1,
+          "panel": "b",
+          "titles": [
+            {
+              "location": "left",
+              "original": "$\\bf{(b)}$  No-surface magnetic torus",
+              "descriptor": "No-surface magnetic torus"
+            }
+          ]
+        },
+        {
+          "axis_index": 2,
+          "panel": "c",
+          "titles": [
+            {
+              "location": "left",
+              "original": "$\\bf{(c)}$  $Z_i Z_j \\Gamma^\\omega$ patch operator",
+              "descriptor": "$Z_i Z_j \\Gamma^\\omega$ patch operator"
+            }
+          ]
+        },
+        {
+          "axis_index": 3,
+          "panel": "d",
+          "titles": [
+            {
+              "location": "left",
+              "original": "$\\bf{(d)}$  Band-gauge covariance",
+              "descriptor": "Band-gauge covariance"
+            }
+          ]
+        }
+      ]
+    },
+    "figS12_inverse_problem_stress": {
+      "panels": 4,
+      "science_sha256": "ad2be14bbaefec9879e024552d206024d6875a6a08a81c37088a8f7008d0618a",
+      "pdf_sha256": "442fd20aaedbc6db85419369f646fe2944ef27658ea713d3ad4654aa25de8837",
+      "descriptions_for_caption": [
+        {
+          "axis_index": 0,
+          "panel": "a",
+          "titles": [
+            {
+              "location": "center",
+              "original": "Calibration remainder",
+              "descriptor": "Calibration remainder"
+            }
+          ]
+        },
+        {
+          "axis_index": 1,
+          "panel": "b",
+          "titles": [
+            {
+              "location": "center",
+              "original": "Window and model order",
+              "descriptor": "Window and model order"
+            }
+          ]
+        },
+        {
+          "axis_index": 2,
+          "panel": "c",
+          "titles": [
+            {
+              "location": "center",
+              "original": "Weak-field observability",
+              "descriptor": "Weak-field observability"
+            }
+          ]
+        },
+        {
+          "axis_index": 3,
+          "panel": "d",
+          "titles": [
+            {
+              "location": "center",
+              "original": "Loss-only nonidentifiability",
+              "descriptor": "Loss-only nonidentifiability"
+            }
+          ]
+        }
+      ]
+    },
+    "figS13_weyl_continuum_stress": {
+      "panels": 4,
+      "science_sha256": "7ed5b06db73e4575638ff712b485737966899a8aa544ec475ba7752b7bbc3202",
+      "pdf_sha256": "bb5a527f242ca79515347cdd9a7777c2f86bc2208fbd22d936e968afd3ceb3d0",
+      "descriptions_for_caption": [
+        {
+          "axis_index": 0,
+          "panel": "a",
+          "titles": [
+            {
+              "location": "center",
+              "original": "(a) Exact zero distance to the cut",
+              "descriptor": "Exact zero distance to the cut"
+            }
+          ]
+        },
+        {
+          "axis_index": 1,
+          "panel": "b",
+          "titles": [
+            {
+              "location": "center",
+              "original": "(b) Weyl extraction, $F_0^a=0.2$",
+              "descriptor": "Weyl extraction, $F_0^a=0.2$"
+            }
+          ]
+        },
+        {
+          "axis_index": 2,
+          "panel": "c",
+          "titles": [
+            {
+              "location": "center",
+              "original": "(c) Small residual is insufficient",
+              "descriptor": "Small residual is insufficient"
+            }
+          ]
+        },
+        {
+          "axis_index": 3,
+          "panel": "d",
+          "titles": [
+            {
+              "location": "center",
+              "original": "(d) All affine Weyl fits accounted for",
+              "descriptor": "All affine Weyl fits accounted for"
+            }
+          ]
+        }
+      ]
+    },
+    "figS10_zero_assignment_revision": {
+      "panels": 2,
+      "science_sha256": "f4b260b5b75ee29fadf387eae03820e5d26baa24126a3cf7a918630c2a7e90c0",
+      "pdf_sha256": "3d80024df601507c567097a0a3c96959c29c2004eac22cc230c90927abe2d53f",
+      "descriptions_for_caption": [
+        {
+          "axis_index": 0,
+          "panel": "a",
+          "titles": [
+            {
+              "location": "center",
+              "original": "Analytic-prefactor counterexample",
+              "descriptor": "Analytic-prefactor counterexample"
+            }
+          ]
+        },
+        {
+          "axis_index": 1,
+          "panel": "b",
+          "titles": [
+            {
+              "location": "center",
+              "original": "Synthetic calibration stress test",
+              "descriptor": "Synthetic calibration stress test"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "source_files_unchanged": true,
+  "no_parameter_fits_run": true
+}

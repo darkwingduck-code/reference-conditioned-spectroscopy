@@ -1,0 +1,28 @@
+{
+  "main_tomography": {
+    "q0": 0.0926706557591995,
+    "b_show": 0.006,
+    "max_abs_hidden_zero_error": 1.2114939062612962e-05,
+    "max_abs_circle_residual_b_0p0025": 0.007505467046632797,
+    "max_abs_circle_residual_b_0p01": 0.03194574125987382
+  },
+  "complex_robustness": {
+    "exact_complex_zero": [
+      0.306,
+      -0.021
+    ],
+    "median_zero_error_snr_100_approx": 0.001262070591543976,
+    "two_pole_fit_residual_nearest_third_mode": 0.0010660374355165492
+  },
+  "genealogy_inference": {
+    "minimum_accuracy": 0.775,
+    "maximum_accuracy": 1.0,
+    "accuracy_span8_noise1pct_finite": 1.0,
+    "accuracy_span8_noise1pct_vanishing": 1.0,
+    "exact_competitor_Bc": 0.01,
+    "exact_competitor_qinf": 0.06576093065034891
+  },
+  "symmetry_adversarial": {
+    "q0": 0.1
+  }
+}

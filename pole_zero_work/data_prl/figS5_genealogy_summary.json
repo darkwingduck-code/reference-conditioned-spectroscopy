@@ -1,0 +1,8 @@
+{
+  "minimum_accuracy": 0.775,
+  "maximum_accuracy": 1.0,
+  "accuracy_span8_noise1pct_finite": 1.0,
+  "accuracy_span8_noise1pct_vanishing": 1.0,
+  "exact_competitor_Bc": 0.01,
+  "exact_competitor_qinf": 0.06576093065034891
+}

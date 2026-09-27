@@ -1,0 +1,14 @@
+{
+  "base_suite_returncode": 0,
+  "symbolic_suite_returncode": 0,
+  "alternative_qstar": 0.0997206217247655,
+  "alternative_sstar": 1.3566546007457108,
+  "alternative_omega_star": 0.1352864402521258,
+  "alternative_gap_coefficient": 0.21279585501021483,
+  "alternative_max_gap_relative_error_b_le_0p01": 7.451618419651584e-05,
+  "residue_sum_error_power": 2.0345883455208407,
+  "residue_sum_smallest_field_error": 9.994066971108497e-06,
+  "controlled_phase_map_points_F0x_nonnegative": 4198,
+  "physical_scale_rows": 3,
+  "all_high_level_checks_passed": true
+}

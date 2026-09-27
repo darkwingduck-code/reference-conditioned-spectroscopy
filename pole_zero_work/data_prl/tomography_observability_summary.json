@@ -1,0 +1,7 @@
+{
+  "trials_per_grid_point": 45,
+  "best_median_zero_error_over_gamma": 0.00047787235453747534,
+  "worst_median_zero_error_over_gamma": 1.2373943913546412,
+  "success_at_ratio_1_snr_100_nearest_grid": 1.0,
+  "note": "Protocol benchmark for a specified rational model, not a universal experimental threshold."
+}

@@ -1,0 +1,93 @@
+{
+  "all_checks_passed": true,
+  "number_of_checks": 17,
+  "best_median_zero_error_over_gamma": 0.0004778723545374,
+  "worst_median_zero_error_over_gamma": 1.2373943913546412,
+  "checks": [
+    {
+      "name": "observability table has complete schema",
+      "passed": true,
+      "detail": "columns=['gap_to_sum_halfwidth_ratio', 'complex_response_snr', 'trials', 'fit_failures', 'median_zero_error_over_gamma', 'p90_zero_error_over_gamma', 'median_pole_error_over_gamma', 'probability_zero_error_below_0p2gamma', 'median_design_condition_number']"
+    },
+    {
+      "name": "observability grid contains 9x9 points",
+      "passed": true,
+      "detail": "shape=(81, 9)"
+    },
+    {
+      "name": "all Monte Carlo fits completed",
+      "passed": true,
+      "detail": "max failures=0"
+    },
+    {
+      "name": "all reported errors and condition numbers are finite",
+      "passed": true,
+      "detail": "finite numeric table"
+    },
+    {
+      "name": "probabilities lie in [0,1]",
+      "passed": true,
+      "detail": "range=0,1"
+    },
+    {
+      "name": "higher SNR improves zero inference at gap ratio 0.2",
+      "passed": true,
+      "detail": "low/high=1.206/0.3362"
+    },
+    {
+      "name": "higher SNR improves zero inference at gap ratio 0.306",
+      "passed": true,
+      "detail": "low/high=1.187/0.0853"
+    },
+    {
+      "name": "higher SNR improves zero inference at gap ratio 0.468",
+      "passed": true,
+      "detail": "low/high=1.071/0.01945"
+    },
+    {
+      "name": "higher SNR improves zero inference at gap ratio 0.716",
+      "passed": true,
+      "detail": "low/high=0.6879/0.006542"
+    },
+    {
+      "name": "higher SNR improves zero inference at gap ratio 1.1",
+      "passed": true,
+      "detail": "low/high=0.1325/0.003264"
+    },
+    {
+      "name": "resolved interior splitting outperforms unresolved poles at high SNR",
+      "passed": true,
+      "detail": "best/low-gap=4.779e-04/3.362e-01"
+    },
+    {
+      "name": "well-resolved high-SNR points achieve high success probability",
+      "passed": true,
+      "detail": "minimum success=1.000"
+    },
+    {
+      "name": "unresolved low-SNR point fails the stringent zero criterion",
+      "passed": true,
+      "detail": "success=0.000"
+    },
+    {
+      "name": "summary trial count matches table",
+      "passed": true,
+      "detail": "summary/table=45/45"
+    },
+    {
+      "name": "summary best error matches table",
+      "passed": true,
+      "detail": "delta=7.535e-17"
+    },
+    {
+      "name": "observability figure artifact exists: figS8_tomography_observability_map.pdf",
+      "passed": true,
+      "detail": "figS8_tomography_observability_map.pdf"
+    },
+    {
+      "name": "observability figure artifact exists: figS8_tomography_observability_map.png",
+      "passed": true,
+      "detail": "figS8_tomography_observability_map.png"
+    }
+  ]
+}

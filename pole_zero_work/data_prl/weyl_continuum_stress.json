@@ -1,0 +1,144 @@
+{
+  "scope": "Reduced Weyl F1c=F1a=F0c=0 crossing; F0a=.2,.4,.8,1.5; b=.006. Retarded physical logarithm, deterministic noiseless real-frequency samples. Uniform s+i gamma_s broadening only; gamma_omega=q gamma_s. No collision Ward identity, second-sheet resonance, or contour certificate claimed.",
+  "selection": "Closest eligible lower-half-plane numerator zero to prescribed zero-field window center; no use of finite-field truth in fit or selection.",
+  "noise": "None: this isolates local rational-model mismatch from statistical error.",
+  "interpretation": "The exact poles, zero, and cut all translate by -i gamma_s. Broadening changes extraction difficulty, not the exact zero genealogy. A window crossing the real projection of the cut is not by itself a mathematical failure criterion; the cut is below the real axis.",
+  "all_checks_passed": true,
+  "attempts": 240,
+  "physical_attempts": 120,
+  "exact_control_attempts": 120,
+  "complex_matrix_identity_samples": 12,
+  "max_relative_matrix_identity_error": 8.543825424380268e-15,
+  "max_scaled_root_residual": 4.107647555429139e-11,
+  "control_max_zero_error_over_edge": 1.0943389084422808e-09,
+  "affine_physical_selected": 50,
+  "affine_physical_screen_passed": 10,
+  "affine_physical_screen_accepts_error_gt_10pct_edge": 2,
+  "summary": [
+    {
+      "model": "canonical_control",
+      "background_order": 0,
+      "gamma_over_edge": 0.05,
+      "attempts": 20,
+      "selected": 20,
+      "numerical_screen_passed": 20,
+      "screen_accepts_error_gt_10pct_edge": 0,
+      "max_selected_error_over_edge": 1.9702726034924253e-14
+    },
+    {
+      "model": "canonical_control",
+      "background_order": 0,
+      "gamma_over_edge": 0.2,
+      "attempts": 20,
+      "selected": 20,
+      "numerical_screen_passed": 20,
+      "screen_accepts_error_gt_10pct_edge": 0,
+      "max_selected_error_over_edge": 3.457329643097226e-14
+    },
+    {
+      "model": "canonical_control",
+      "background_order": 0,
+      "gamma_over_edge": 1.0,
+      "attempts": 20,
+      "selected": 20,
+      "numerical_screen_passed": 20,
+      "screen_accepts_error_gt_10pct_edge": 0,
+      "max_selected_error_over_edge": 1.2996736889659818e-10
+    },
+    {
+      "model": "canonical_control",
+      "background_order": 1,
+      "gamma_over_edge": 0.05,
+      "attempts": 20,
+      "selected": 20,
+      "numerical_screen_passed": 20,
+      "screen_accepts_error_gt_10pct_edge": 0,
+      "max_selected_error_over_edge": 1.773031389451473e-14
+    },
+    {
+      "model": "canonical_control",
+      "background_order": 1,
+      "gamma_over_edge": 0.2,
+      "attempts": 20,
+      "selected": 20,
+      "numerical_screen_passed": 20,
+      "screen_accepts_error_gt_10pct_edge": 0,
+      "max_selected_error_over_edge": 5.138768762779582e-14
+    },
+    {
+      "model": "canonical_control",
+      "background_order": 1,
+      "gamma_over_edge": 1.0,
+      "attempts": 20,
+      "selected": 20,
+      "numerical_screen_passed": 20,
+      "screen_accepts_error_gt_10pct_edge": 0,
+      "max_selected_error_over_edge": 1.0943389084422808e-09
+    },
+    {
+      "model": "weyl",
+      "background_order": 0,
+      "gamma_over_edge": 0.05,
+      "attempts": 20,
+      "selected": 20,
+      "numerical_screen_passed": 0,
+      "screen_accepts_error_gt_10pct_edge": 0,
+      "max_selected_error_over_edge": 1.899894429743643
+    },
+    {
+      "model": "weyl",
+      "background_order": 0,
+      "gamma_over_edge": 0.2,
+      "attempts": 20,
+      "selected": 20,
+      "numerical_screen_passed": 4,
+      "screen_accepts_error_gt_10pct_edge": 0,
+      "max_selected_error_over_edge": 2.0789838649861325
+    },
+    {
+      "model": "weyl",
+      "background_order": 0,
+      "gamma_over_edge": 1.0,
+      "attempts": 20,
+      "selected": 8,
+      "numerical_screen_passed": 0,
+      "screen_accepts_error_gt_10pct_edge": 0,
+      "max_selected_error_over_edge": 2.9490665967185348
+    },
+    {
+      "model": "weyl",
+      "background_order": 1,
+      "gamma_over_edge": 0.05,
+      "attempts": 20,
+      "selected": 20,
+      "numerical_screen_passed": 4,
+      "screen_accepts_error_gt_10pct_edge": 0,
+      "max_selected_error_over_edge": 2.986311701240885
+    },
+    {
+      "model": "weyl",
+      "background_order": 1,
+      "gamma_over_edge": 0.2,
+      "attempts": 20,
+      "selected": 20,
+      "numerical_screen_passed": 4,
+      "screen_accepts_error_gt_10pct_edge": 0,
+      "max_selected_error_over_edge": 1.5550595477692486
+    },
+    {
+      "model": "weyl",
+      "background_order": 1,
+      "gamma_over_edge": 1.0,
+      "attempts": 20,
+      "selected": 10,
+      "numerical_screen_passed": 2,
+      "screen_accepts_error_gt_10pct_edge": 2,
+      "max_selected_error_over_edge": 1.8887813101935462
+    }
+  ],
+  "source_sha256": {
+    "code/weyl_continuum_stress.py": "867b2127dbd507763cc3c9eb632efa49b14c26e3e47e22f5041d19dfd728992c",
+    "code/weyl_fl_prb_solver.py": "25d3c5cf490d84eceec58ae476819f264a8387d27170417072f868fc9f6b60a6",
+    "code/pole_zero_tomography.py": "31ff7b434b3054ec5fe702ded55b12b3b60715990f136319ad5a798f9e4998e9"
+  }
+}

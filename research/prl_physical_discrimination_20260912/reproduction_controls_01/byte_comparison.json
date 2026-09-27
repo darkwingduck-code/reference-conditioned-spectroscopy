@@ -1,0 +1,6 @@
+{
+  "structural_controls.csv": true,
+  "background_decomposition.csv": true,
+  "finite_intercept_control.csv": true,
+  "weyl_transfer_trials.csv": true
+}

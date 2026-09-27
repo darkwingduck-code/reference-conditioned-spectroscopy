@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETED",
+  "structural_rows": 18,
+  "decomposition_rows": 20,
+  "intercept_rows": 20,
+  "valid_star_box_failures": 0,
+  "weyl_rows": 594,
+  "weyl_noiseless_rows": 54,
+  "weyl_scope": "Actual reduced Weyl logarithmic response, uniform broadening, local rational fit, no oscillator certificate and no collision theory",
+  "upstream_source_sha256": {
+    "weyl_continuum_stress.py": "867b2127dbd507763cc3c9eb632efa49b14c26e3e47e22f5041d19dfd728992c",
+    "weyl_fl_prb_solver.py": "25d3c5cf490d84eceec58ae476819f264a8387d27170417072f868fc9f6b60a6",
+    "pole_zero_tomography.py": "31ff7b434b3054ec5fe702ded55b12b3b60715990f136319ad5a798f9e4998e9"
+  },
+  "upstream_unchanged": true,
+  "source_sha256": "d7280b188aba59fe9260baac365e01accaf2a7c679c465938845d5f5b9401375"
+}

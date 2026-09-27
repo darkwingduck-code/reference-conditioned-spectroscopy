@@ -1,0 +1,25 @@
+{
+  "max_Dprime_absolute_error": 1.3988454838909092e-09,
+  "max_small_b_l0_gap_relative_error": 0.000335027632395013,
+  "max_charge_continuity_residual": 1.4210854715202004e-14,
+  "brightening_q_shift_power": 1.9990570124777087,
+  "mean_brightening_zeta": 0.0005067871665203097,
+  "mean_anomaly_zeta": 0.9518912795624129,
+  "max_exact_crossover_zeta_error": 1.1102230246251565e-16,
+  "weakest_field_anomaly_zeta": 0.9987056774420352,
+  "frequency_collapse_errors": {
+    "0.0025": 0.0026164401970358853,
+    "0.005": 0.005270821766521827,
+    "0.01": 0.010704974714001114,
+    "0.02": 0.022156896051460873
+  },
+  "residue_collapse_errors": {
+    "0.0025": 0.003194068232306946,
+    "0.005": 0.006398486161351191,
+    "0.01": 0.0128377472573602,
+    "0.02": 0.02583844005634628
+  },
+  "original_validator_returncode": 0,
+  "gauge_validator_returncode": 0,
+  "all_checks_passed": true
+}

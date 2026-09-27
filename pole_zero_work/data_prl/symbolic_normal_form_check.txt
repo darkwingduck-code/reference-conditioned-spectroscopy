@@ -1,0 +1,37 @@
+SYMBOLIC NORMAL-FORM CHECK
+==========================
+
+Squared half splitting:
+ 4    2    4           4   2    2               2              2               ↪
+B ⋅a_c    B ⋅a_c⋅aₙ   B ⋅aₙ    B ⋅a_c⋅dq⋅v_c   B ⋅a_c⋅dq⋅vₙ   B ⋅aₙ⋅dq⋅v_c   B ↪
+─────── - ───────── + ────── + ───────────── - ──────────── - ──────────── + ─ ↪
+   4          2         4            2              2              2           ↪
+
+↪ 2                      2    2     2            2   2
+↪  ⋅aₙ⋅dq⋅vₙ    2  2   dq ⋅v_c    dq ⋅v_c⋅vₙ   dq ⋅vₙ 
+↪ ────────── + B ⋅g  + ──────── - ────────── + ───────
+↪     2                   4           2           4   
+
+Stationary crossing shift:
+dq_min = B**2*(-a_c + a_n)/(v_c - v_n)
+Expected = -(a_c-a_n) B^2/(v_c-v_n)
+Residual = 0
+
+Minimum squared half splitting:
+B**2*g**2
+Expected = g^2 B^2
+Residual = 0
+
+Therefore Delta omega_min = 2 |g B| and q_min-q0 is even and O(B^2).
+
+Canonical eigenvalues of [[X,1],[1,-X]]:
+{-sqrt(X**2 + 1): 1, sqrt(X**2 + 1): 1}
+
+Charge-residue fractions:
+r_lower = -X/(2*sqrt(X**2 + 1)) + 1/2
+r_upper = X/(2*sqrt(X**2 + 1)) + 1/2
+sum residual = 0
+large-positive-X dark fraction leading coefficient:
+lim X^2 r_lower = 1/4
+
+All symbolic residuals vanish exactly.

@@ -1,0 +1,14 @@
+[ok] generic 3x3 scalar cofactor identity: 0
+[ok] cross response equals bordered adjugate numerator: 0
+[ok] two-mode response has dark numerator: 0
+[ok] companion bright pole reconstruction: 0
+[ok] nonreciprocal coupling-product reconstruction: 0
+[ok] summed residue reconstructs prefactor: 0
+[ok] two residues reconstruct response zero: 0
+[ok] decoupled dark factors cancel: 0
+[ok] frequency-residue circle law: 0
+[ok] analytic counterexample exact background division: 0
+[ok] principal numerator vanishes at residue zero: 0
+[ok] restored full numerator vanishes at compressed root: 0
+[ok] principal/full coincidence requires zero background: 0
+[ok] analytic inverse kernel gives full cofactor response: 0

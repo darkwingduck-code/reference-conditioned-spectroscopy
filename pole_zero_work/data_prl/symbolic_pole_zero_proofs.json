@@ -1,0 +1,76 @@
+{
+  "all_checks_passed": true,
+  "number_of_checks": 14,
+  "checks": [
+    {
+      "name": "generic 3x3 scalar cofactor identity",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "cross response equals bordered adjugate numerator",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "two-mode response has dark numerator",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "companion bright pole reconstruction",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "nonreciprocal coupling-product reconstruction",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "summed residue reconstructs prefactor",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "two residues reconstruct response zero",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "decoupled dark factors cancel",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "frequency-residue circle law",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "analytic counterexample exact background division",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "principal numerator vanishes at residue zero",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "restored full numerator vanishes at compressed root",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "principal/full coincidence requires zero background",
+      "passed": true,
+      "residual": "0"
+    },
+    {
+      "name": "analytic inverse kernel gives full cofactor response",
+      "passed": true,
+      "residual": "0"
+    }
+  ]
+}

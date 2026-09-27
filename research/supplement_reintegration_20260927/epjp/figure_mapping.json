@@ -1,0 +1,57 @@
+[
+  {
+    "source": "research\\supplement_reintegration_20260927\\figure_run_05\\figS9_competitor_exact_trajectory.pdf",
+    "target": "paper\\epjp_strengthened\\ESMLegacyFig9.pdf",
+    "sha256": "16dcfc05154a0ca9b8987c0fb794f3aa8bbfd53bc883087aaa608b17c2ce9954"
+  },
+  {
+    "source": "research\\supplement_reintegration_20260927\\figure_run_05\\figS10_zero_assignment_revision.pdf",
+    "target": "paper\\epjp_strengthened\\ESMLegacyFig10.pdf",
+    "sha256": "3d80024df601507c567097a0a3c96959c29c2004eac22cc230c90927abe2d53f"
+  },
+  {
+    "source": "research\\supplement_reintegration_20260927\\figure_run_05\\figS12_inverse_problem_stress.pdf",
+    "target": "paper\\epjp_strengthened\\ESMLegacyFig12.pdf",
+    "sha256": "442fd20aaedbc6db85419369f646fe2944ef27658ea713d3ad4654aa25de8837"
+  },
+  {
+    "source": "research\\supplement_reintegration_20260927\\figure_run_05\\figS13_weyl_continuum_stress.pdf",
+    "target": "paper\\epjp_strengthened\\ESMLegacyFig13.pdf",
+    "sha256": "bb5a527f242ca79515347cdd9a7777c2f86bc2208fbd22d936e968afd3ceb3d0"
+  },
+  {
+    "source": "research\\supplement_reintegration_20260927\\figure_run_05\\figS4_complex_tomography.pdf",
+    "target": "paper\\epjp_strengthened\\ESMLegacyFig4.pdf",
+    "sha256": "edcf1c6af6da16d6ab0b1e0f4c4218dc938f5beb369be3d2b825a63913f05633"
+  },
+  {
+    "source": "research\\supplement_reintegration_20260927\\figure_run_05\\figS8_tomography_observability_map.pdf",
+    "target": "paper\\epjp_strengthened\\ESMLegacyFig8.pdf",
+    "sha256": "54764c8742425396114fd476965e4597b4660504a471f47df5afc9d61ae9bd98"
+  },
+  {
+    "source": "research\\supplement_reintegration_20260927\\figure_run_05\\figS5_genealogy_inference.pdf",
+    "target": "paper\\epjp_strengthened\\ESMLegacyFig5.pdf",
+    "sha256": "b57b2e2320d8848c77db71ca399108517029a5faf38a323933f5e2ba02b47811"
+  },
+  {
+    "source": "research\\supplement_reintegration_20260927\\figure_run_05\\figS6_symmetry_selection_rules.pdf",
+    "target": "paper\\epjp_strengthened\\ESMLegacyFig6.pdf",
+    "sha256": "e8e6d4e55a30b671279fa2d2f995adccf2b679cc4009a2e96ca5a29155c75cf4"
+  },
+  {
+    "source": "research\\supplement_reintegration_20260927\\figure_run_05\\figS1_interaction_robustness.pdf",
+    "target": "paper\\epjp_strengthened\\ESMLegacyFig1.pdf",
+    "sha256": "ddd48be346b29114251eb26c12b5c8a041ad7b4a4a48bf387aceecec4a2cf768"
+  },
+  {
+    "source": "research\\supplement_reintegration_20260927\\figure_run_05\\figS2_full_band_ensemble.pdf",
+    "target": "paper\\epjp_strengthened\\ESMLegacyFig2.pdf",
+    "sha256": "856567d81b4968460922e0c1c851b9504eb40bb83ce14b2f3cf9c6890fe59d68"
+  },
+  {
+    "source": "research\\supplement_reintegration_20260927\\figure_run_05\\figS3_ward_landau_completion.pdf",
+    "target": "paper\\epjp_strengthened\\ESMLegacyFig3.pdf",
+    "sha256": "e112a2bdc5021a1f0284b1437af97084d1bfa9a1a8addc2f3211e1cd5e763249"
+  }
+]

@@ -1,0 +1,267 @@
+{
+  "all_checks_passed": true,
+  "number_of_checks": 37,
+  "source_equation": "Eq. (9) and q_h=omega_p/u of arXiv:2605.27031v1",
+  "scope": "Tests the exact algebra and asymptotics of the reported long-wavelength velocity formula. It does not assert that the acoustic approximation remains valid at arbitrary x or q.",
+  "checks": [
+    {
+      "name": "physical formula reduces to sqrt(1+x^2)/x",
+      "passed": true,
+      "value": 5.405631803283739e-16,
+      "tolerance": 3e-14,
+      "note": ""
+    },
+    {
+      "name": "crossing is even under B sign",
+      "passed": true,
+      "value": 0.0,
+      "tolerance": 1e-15,
+      "note": ""
+    },
+    {
+      "name": "angle scaling is 1/abs(cos theta)",
+      "passed": true,
+      "value": 1.7763568394002505e-15,
+      "tolerance": 3e-13,
+      "note": ""
+    },
+    {
+      "name": "analytic genealogy exponent matches log finite difference",
+      "passed": true,
+      "value": 4.4734715931582514e-10,
+      "tolerance": 2e-09,
+      "note": ""
+    },
+    {
+      "name": "weak-field q*x tends to one",
+      "passed": true,
+      "value": 1.0000000000000049,
+      "tolerance": 1e-13,
+      "note": ""
+    },
+    {
+      "name": "weak-field first correction is x^2/2",
+      "passed": true,
+      "value": 0.49999998323585415,
+      "tolerance": 2e-05,
+      "note": ""
+    },
+    {
+      "name": "zeta tends to one at weak field",
+      "passed": true,
+      "value": 0.9999999999989999,
+      "tolerance": 2e-12,
+      "note": ""
+    },
+    {
+      "name": "zeta equals one half at x=1",
+      "passed": true,
+      "value": 0.5,
+      "tolerance": 1e-15,
+      "note": ""
+    },
+    {
+      "name": "normalized q tends to one at large x",
+      "passed": true,
+      "value": 1.00000000005,
+      "tolerance": 1e-10,
+      "note": ""
+    },
+    {
+      "name": "large-x correction is 1/(2x^2)",
+      "passed": true,
+      "value": 0.9999969862454372,
+      "tolerance": 0.0002,
+      "note": ""
+    },
+    {
+      "name": "zeta tends to zero at large x",
+      "passed": true,
+      "value": 9.999999999e-11,
+      "tolerance": 1.1e-10,
+      "note": ""
+    },
+    {
+      "name": "q(x) is strictly decreasing",
+      "passed": true,
+      "value": null,
+      "tolerance": null,
+      "note": ""
+    },
+    {
+      "name": "q(x) stays above its large-x scale",
+      "passed": true,
+      "value": null,
+      "tolerance": null,
+      "note": ""
+    },
+    {
+      "name": "zeta(x) is strictly decreasing",
+      "passed": true,
+      "value": null,
+      "tolerance": null,
+      "note": ""
+    },
+    {
+      "name": "zeta lies between zero and one",
+      "passed": true,
+      "value": null,
+      "tolerance": null,
+      "note": ""
+    },
+    {
+      "name": "exact finite-window threshold",
+      "passed": true,
+      "value": 3.552713678800501e-15,
+      "tolerance": 4e-14,
+      "note": ""
+    },
+    {
+      "name": "no normalized crossing window exists for qmax<=1",
+      "passed": true,
+      "value": null,
+      "tolerance": null,
+      "note": ""
+    },
+    {
+      "name": "weak-window threshold approaches exact threshold",
+      "passed": true,
+      "value": 0.0206207261596576,
+      "tolerance": 0.021,
+      "note": ""
+    },
+    {
+      "name": "finite-intercept example tends to q0",
+      "passed": true,
+      "value": 1.0,
+      "tolerance": 1e-15,
+      "note": ""
+    },
+    {
+      "name": "finite-intercept zeta tends to zero",
+      "passed": true,
+      "value": -1.5999999999966716e-13,
+      "tolerance": 2e-13,
+      "note": ""
+    },
+    {
+      "name": "finite-intercept analytic exponent matches finite difference",
+      "passed": true,
+      "value": 5.4420245264056935e-11,
+      "tolerance": 3e-09,
+      "note": ""
+    },
+    {
+      "name": "finite-intercept example remains bounded",
+      "passed": true,
+      "value": 1.07999200079992,
+      "tolerance": 1.081,
+      "note": ""
+    },
+    {
+      "name": "crossing diverges as cos(theta)->0",
+      "passed": true,
+      "value": 1000000.0,
+      "tolerance": 999000.0,
+      "note": ""
+    },
+    {
+      "name": "velocity is linear in abs(v_Omega) at weak field",
+      "passed": true,
+      "value": 0.0,
+      "tolerance": 1e-12,
+      "note": ""
+    },
+    {
+      "name": "trajectory CSV exists",
+      "passed": true,
+      "value": 70606,
+      "tolerance": null,
+      "note": ""
+    },
+    {
+      "name": "trajectory summary exists",
+      "passed": true,
+      "value": 625,
+      "tolerance": null,
+      "note": ""
+    },
+    {
+      "name": "trajectory PDF exists",
+      "passed": true,
+      "value": 29797,
+      "tolerance": null,
+      "note": ""
+    },
+    {
+      "name": "trajectory PNG exists",
+      "passed": true,
+      "value": 144833,
+      "tolerance": null,
+      "note": ""
+    },
+    {
+      "name": "CSV q column matches independent formula",
+      "passed": true,
+      "value": 8.986901794384185e-14,
+      "tolerance": 3e-13,
+      "note": ""
+    },
+    {
+      "name": "CSV zeta column matches independent formula",
+      "passed": true,
+      "value": 3.3306690738754696e-16,
+      "tolerance": 3e-12,
+      "note": ""
+    },
+    {
+      "name": "summary values match independent formula",
+      "passed": true,
+      "value": null,
+      "tolerance": null,
+      "note": ""
+    },
+    {
+      "name": "main field-intercept CSV exists",
+      "passed": true,
+      "value": null,
+      "tolerance": null,
+      "note": ""
+    },
+    {
+      "name": "main trajectory contains exact-crossover columns",
+      "passed": true,
+      "value": [],
+      "tolerance": null,
+      "note": ""
+    },
+    {
+      "name": "main exact crossing matches sqrt(1+x^2)/x",
+      "passed": true,
+      "value": 6.217248937900877e-15,
+      "tolerance": 3e-13,
+      "note": ""
+    },
+    {
+      "name": "main exact local exponent matches 1/(1+x^2)",
+      "passed": true,
+      "value": 1.1102230246251565e-16,
+      "tolerance": 3e-13,
+      "note": ""
+    },
+    {
+      "name": "main weak asymptote is separately stored",
+      "passed": true,
+      "value": 4.6629367034256575e-14,
+      "tolerance": 3e-13,
+      "note": ""
+    },
+    {
+      "name": "main curve shows finite-x correction",
+      "passed": true,
+      "value": 0.10435618762670718,
+      "tolerance": 0.01,
+      "note": ""
+    }
+  ]
+}

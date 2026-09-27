@@ -1,0 +1,60 @@
+{
+  "interaction_robustness": {
+    "alternative_parameters": {
+      "F0c": 1.0,
+      "F0a": 0.8,
+      "F1c": 0.0,
+      "F1a": 1.0,
+      "F0x": 0.09999999999999998,
+      "F1x": -0.5,
+      "alpha": 0.02
+    },
+    "qstar": 0.0997206217247655,
+    "s_axial": 1.3566546007457108,
+    "omega_star": 0.1352864402521258,
+    "gap_linear_coefficient": 0.21279585501021483,
+    "phase_velocity_gap_coefficient": 2.1339202597186295,
+    "valid_map_points": 6844,
+    "valid_points_with_F0x_nonnegative": 4468
+  },
+  "spectral_weight_sum_rule": {
+    "error_power_vs_b": 2.034588345520968,
+    "max_error_at_smallest_b": 9.994066971108495e-06,
+    "max_error_at_largest_b": 0.0006891611073138737
+  },
+  "physical_scales": {
+    "gap_coefficient": 0.26065659018125664,
+    "rows": [
+      {
+        "mu_meV": 30.0,
+        "hbar_vF_eV_A": 1.0,
+        "vF_m_per_s": 151926.74479961273,
+        "kF_Ainv": 0.03,
+        "B_T_for_b_0p01": 1.1847815217856936,
+        "gap_meV_at_b_0p01": 0.07819697705437699,
+        "gap_slope_meV_per_T": 0.0660011787966773,
+        "nF_estimate_at_b_0p01": 25.0
+      },
+      {
+        "mu_meV": 50.0,
+        "hbar_vF_eV_A": 1.0,
+        "vF_m_per_s": 151926.74479961273,
+        "kF_Ainv": 0.05,
+        "B_T_for_b_0p01": 3.291059782738038,
+        "gap_meV_at_b_0p01": 0.13032829509062832,
+        "gap_slope_meV_per_T": 0.03960070727800638,
+        "nF_estimate_at_b_0p01": 25.0
+      },
+      {
+        "mu_meV": 80.0,
+        "hbar_vF_eV_A": 1.0,
+        "vF_m_per_s": 151926.74479961273,
+        "kF_Ainv": 0.08,
+        "B_T_for_b_0p01": 8.425113043809375,
+        "gap_meV_at_b_0p01": 0.20852527214500532,
+        "gap_slope_meV_per_T": 0.024750442048753995,
+        "nF_estimate_at_b_0p01": 25.0
+      }
+    ]
+  }
+}

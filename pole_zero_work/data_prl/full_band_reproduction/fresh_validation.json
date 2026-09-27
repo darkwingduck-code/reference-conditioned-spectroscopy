@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "all_tests_pass": true,
+  "test_count": 45,
+  "command": [
+    "C:\\Users\\sadva\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "H:\\Research\\.paper-runtime\\full-band\\run-20260910-c\\code\\full_bz_completion\\validate_completion.py"
+  ],
+  "elapsed_seconds": 6.543233899999905,
+  "returncode": 0,
+  "source_sha256": {
+    "code/full_bz_completion/validate_completion.py": "1bcaf02c40ed1a8fa7c802140a2d0429947d41b3d42c476e570e83fb8d041952"
+  },
+  "log": "fresh_validation.log",
+  "log_sha256": "17c4c533cf8091c762d201373031b585e4b626d5813c38811b1ffa44d957e290",
+  "checked_tables_sha256": {
+    "data_prl/full_bz_completion/exact_landau_projection_summary.json": "d61a8da538bddd5b6ae0a7be52698cd805e7a3f2e07a62c0ba2e303e6ef3948d",
+    "data_prl/full_bz_completion/exact_landau_spectrum.csv": "c5184404d5593d355e73f281b21da2b6211b5de1a23af87568aeb268bc314afa",
+    "data_prl/full_bz_completion/magnetic_torus_even_coefficients.csv": "e60a43367544f539264798ec58df15deecee3e3a60269ff754d66587cfeca3b6",
+    "data_prl/full_bz_completion/magnetic_torus_full_band.csv": "16ffe9da2307492160a1aee0af268b4b0ae8b81d65c43bc1f697632178e4b821",
+    "data_prl/full_bz_completion/magnetic_torus_summary.json": "c72d506763e22c6e7a4d46eea36547acceb325e6d5da66ece4570c9fb4135905",
+    "data_prl/full_bz_completion/magnetic_torus_ward_rpa.csv": "be79f3aa02a5163e6f850b9aa5534cd9429da90c1698ed421ac4949bf75a588c",
+    "data_prl/full_bz_completion/slab_chain_rule_summary.json": "3b4562688f58507e46b634b355e56abb0a381a70c0af8c8ab39265a274ed61a6",
+    "data_prl/full_bz_completion/slab_full_band_fits.csv": "51480f7b9f75ca0a9417b836bd8e5bc29f9ccd2c34c0e03691f8a5324b08c144",
+    "data_prl/full_bz_completion/slab_full_band_raw.csv": "3aabe5375dcdaacfb4b91cc0071c090b4892595031fc4e3ca9ba60f255d9e530",
+    "data_prl/full_bz_completion/slab_ky_convergence.csv": "227dd81c0d8903641df0d969fffcf5280c31eb90322d55e2669a7777affc0f2f",
+    "data_prl/full_bz_completion/slab_size_convergence.csv": "972fb7706aefa23c43687fc516ff997e7f50e50f6de968d6ba6b070fc3414e7e",
+    "data_prl/full_bz_completion/slab_ward_rpa.csv": "0302b78c444f5ae06346b210b4d08cbff60c6b24259dc0f62771cb9c2dc2e344"
+  }
+}
