@@ -1,0 +1,74 @@
+[
+  {
+    "document": "manuscript",
+    "source_tex": "paper\\jpc_strengthened\\main_cofactor_context.tex",
+    "include": "jpc_cofactor_multimode.pdf",
+    "asset": "paper\\jpc_strengthened\\figures\\jpc_cofactor_multimode.pdf",
+    "sha256": "d505e1bc80fd80c3dee1c441d79985bbdb3a57bc726677244224d5d6f95f6d48",
+    "replacement": "research\\figure_style_epjp_20260927\\epjp\\render_03\\jpc_cofactor_multimode.pdf",
+    "replacement_sha256": "bf7b067043ad115642f248fc59c1408e577070a364d5e3ee5025271b9101d581"
+  },
+  {
+    "document": "manuscript",
+    "source_tex": "paper\\jpc_strengthened\\manuscript.tex",
+    "include": "reference_validation_20260927.pdf",
+    "asset": "paper\\jpc_strengthened\\figures\\reference_validation_20260927.pdf",
+    "sha256": "1f1cee37a363ffa9a87364df1b292c67fc54d65286ae33ef02d8c1489dd99f1b",
+    "replacement": "research\\figure_style_epjp_20260927\\epjp\\render_03\\reference_validation_20260927.pdf",
+    "replacement_sha256": "c03eef350ae1ac3f658fdfae0e968691722552d14f097fbbf19566573fdb11dc"
+  },
+  {
+    "document": "manuscript",
+    "source_tex": "paper\\jpc_strengthened\\control_drift.tex",
+    "include": "remote_window_comparison.pdf",
+    "asset": "paper\\jpc_strengthened\\figures\\remote_window_comparison.pdf",
+    "sha256": "1e61329445add38d497b9202375d39b7ab29793a02918821b4138318700ce3c6",
+    "replacement": "research\\figure_style_epjp_20260927\\epjp\\render_03\\remote_window_comparison.pdf",
+    "replacement_sha256": "b44aac392e4a3702dff7a4d472e6ffdc6545f4677532439e491fb93fb55e1c25"
+  },
+  {
+    "document": "manuscript",
+    "source_tex": "paper\\jpc_strengthened\\manuscript.tex",
+    "include": "structured_sector.pdf",
+    "asset": "paper\\jpc_strengthened\\figures\\structured_sector.pdf",
+    "sha256": "4aece4438e4c13f8d1e2649fe54c8218d1547b8a3e2aad5895f9c5d9f7f6e8bc",
+    "replacement": "research\\figure_style_epjp_20260927\\epjp\\render_03\\structured_sector.pdf",
+    "replacement_sha256": "af8637038cc43b427708a0f7fc1ba0c3b52e2892acdb683e3723bb38ce107206"
+  },
+  {
+    "document": "manuscript",
+    "source_tex": "paper\\jpc_strengthened\\main_field_context.tex",
+    "include": "jpc_field_intercept.pdf",
+    "asset": "paper\\jpc_strengthened\\figures\\jpc_field_intercept.pdf",
+    "sha256": "606b15317651b20baa31549de300fbd3594febfb89a0c430506e8aec25d45c01",
+    "replacement": "research\\figure_style_epjp_20260927\\epjp\\render_03\\jpc_field_intercept.pdf",
+    "replacement_sha256": "0a5a29b3cb423c67910d9c742061b966c88b09828b1be48d1b07af01a714dbb8"
+  },
+  {
+    "document": "supplement",
+    "source_tex": "paper\\jpc_strengthened\\control_methods.tex",
+    "include": "figures/reference_control.pdf",
+    "asset": "paper\\jpc_strengthened\\figures\\reference_control.pdf",
+    "sha256": "d943733e9a9cb6935c12751e72ff56a3621741e5f27a71837f3d5a6cdc0350c3",
+    "replacement": "research\\figure_style_epjp_20260927\\epjp\\render_03\\reference_control.pdf",
+    "replacement_sha256": "c94a39e27034984ae8d68c98ce018aa08052e5bdbb5bf785b5d14964f4e469b4"
+  },
+  {
+    "document": "supplement",
+    "source_tex": "paper\\jpc_strengthened\\supplement_pole_zero_pair.tex",
+    "include": "jpc_pole_zero.pdf",
+    "asset": "paper\\jpc_strengthened\\figures\\jpc_pole_zero.pdf",
+    "sha256": "421a7e5305012be541b345720f1c5a712f5d402d68ae32e1a087746364bd62c4",
+    "replacement": "research\\figure_style_epjp_20260927\\epjp\\render_03\\jpc_pole_zero.pdf",
+    "replacement_sha256": "651e5b953c28b9ba2582ba62075a8aae1455427bb63fa81429816631330c720c"
+  },
+  {
+    "document": "supplement",
+    "source_tex": "paper\\jpc_strengthened\\supplement_pole_zero_pair.tex",
+    "include": "jpc_full_zero_audit.pdf",
+    "asset": "paper\\jpc_strengthened\\figures\\jpc_full_zero_audit.pdf",
+    "sha256": "7fb25ea0bf92487167084b4efd4c8329d559bc0579b6a5951598df3d45504021",
+    "replacement": "research\\figure_style_epjp_20260927\\epjp\\render_03\\jpc_full_zero_audit.pdf",
+    "replacement_sha256": "926ce29c3dd0e547254347cf88cb7f6bdb736acc56a35b77ed0b0b6b1a997694"
+  }
+]

@@ -1,7 +1,7 @@
 {
-  "paper": "jpc",
+  "paper": "epjp",
   "repository": "reference-conditioned-spectroscopy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "source_repository": "https://github.com/darkwingduck-code/weyl-collective-modes",
   "source_base_commit": "1414cdb6aac3f6db87c781de1ad484a69399bcaf",
   "provenance": "Selected working-tree bytes; per-file hashes identify changes after the base commit.",
@@ -780,8 +780,8 @@
       "origin": "research/structured_dark_sector_20260927/run_study.py"
     },
     "README.md": {
-      "sha256": "070d034caf978384108484ba73d420e79d77240e69fd23c2515a740dc2313ed8",
-      "bytes": 4270,
+      "sha256": "b03e86e9e3f6e2e023486d1b1413a281a9fce272ba8bf6e9c76389ac34220e5a",
+      "bytes": 5507,
       "origin": "research/publication_release_20260927/jpc_README.md"
     },
     "verify_release.py": {
@@ -805,9 +805,189 @@
       "origin": "generated release metadata"
     },
     "CITATION.cff": {
-      "sha256": "4740fee6b782d419aab635d287d957449404cedb11321dd26af92e46703afbc9",
+      "sha256": "b7e9b8726baea822a08fa6ea4c6146c5c8aeb5b7305557ad918e06c1a78cce9d",
       "bytes": 390,
       "origin": "generated release metadata"
+    },
+    "paper/jpc_strengthened/figures/jpc_cofactor_multimode.pdf": {
+      "sha256": "d505e1bc80fd80c3dee1c441d79985bbdb3a57bc726677244224d5d6f95f6d48",
+      "bytes": 32101,
+      "origin": "paper/jpc_strengthened/figures/jpc_cofactor_multimode.pdf"
+    },
+    "paper/jpc_strengthened/figures/jpc_field_intercept.pdf": {
+      "sha256": "606b15317651b20baa31549de300fbd3594febfb89a0c430506e8aec25d45c01",
+      "bytes": 50728,
+      "origin": "paper/jpc_strengthened/figures/jpc_field_intercept.pdf"
+    },
+    "paper/jpc_strengthened/figures/jpc_full_zero_audit.pdf": {
+      "sha256": "7fb25ea0bf92487167084b4efd4c8329d559bc0579b6a5951598df3d45504021",
+      "bytes": 29808,
+      "origin": "paper/jpc_strengthened/figures/jpc_full_zero_audit.pdf"
+    },
+    "paper/jpc_strengthened/figures/jpc_pole_zero.pdf": {
+      "sha256": "421a7e5305012be541b345720f1c5a712f5d402d68ae32e1a087746364bd62c4",
+      "bytes": 62036,
+      "origin": "paper/jpc_strengthened/figures/jpc_pole_zero.pdf"
+    },
+    "paper/jpc_strengthened/figures/reference_control.pdf": {
+      "sha256": "d943733e9a9cb6935c12751e72ff56a3621741e5f27a71837f3d5a6cdc0350c3",
+      "bytes": 55814,
+      "origin": "paper/jpc_strengthened/figures/reference_control.pdf"
+    },
+    "paper/jpc_strengthened/figures/reference_validation_20260927.pdf": {
+      "sha256": "1f1cee37a363ffa9a87364df1b292c67fc54d65286ae33ef02d8c1489dd99f1b",
+      "bytes": 22910,
+      "origin": "paper/jpc_strengthened/figures/reference_validation_20260927.pdf"
+    },
+    "paper/jpc_strengthened/figures/remote_window_comparison.pdf": {
+      "sha256": "1e61329445add38d497b9202375d39b7ab29793a02918821b4138318700ce3c6",
+      "bytes": 36214,
+      "origin": "paper/jpc_strengthened/figures/remote_window_comparison.pdf"
+    },
+    "paper/jpc_strengthened/figures/structured_sector.pdf": {
+      "sha256": "4aece4438e4c13f8d1e2649fe54c8218d1547b8a3e2aad5895f9c5d9f7f6e8bc",
+      "bytes": 25754,
+      "origin": "paper/jpc_strengthened/figures/structured_sector.pdf"
+    },
+    "research/figure_style_epjp_20260927/epjp/README.md": {
+      "sha256": "c9396a30a69028d8a08195907352ffca028a5227354036c1b918e821c9a40ba7",
+      "bytes": 3208,
+      "origin": "research/figure_style_epjp_20260927/epjp/README.md"
+    },
+    "research/figure_style_epjp_20260927/epjp/render.py": {
+      "sha256": "40efa82f87c1277c18c72eae342095802cd5baad9b4cf8f69a563b1a6622bced",
+      "bytes": 16218,
+      "origin": "research/figure_style_epjp_20260927/epjp/render.py"
+    },
+    "research/figure_style_epjp_20260927/epjp/render_03/jpc_cofactor_multimode.pdf": {
+      "sha256": "bf7b067043ad115642f248fc59c1408e577070a364d5e3ee5025271b9101d581",
+      "bytes": 27398,
+      "origin": "research/figure_style_epjp_20260927/epjp/render_03/jpc_cofactor_multimode.pdf"
+    },
+    "research/figure_style_epjp_20260927/epjp/render_03/jpc_cofactor_multimode.png": {
+      "sha256": "4405a4b1d4605adfb38cabe140c591cc2df1177e2a69dceeecf590e146c9ba65",
+      "bytes": 99810,
+      "origin": "research/figure_style_epjp_20260927/epjp/render_03/jpc_cofactor_multimode.png"
+    },
+    "research/figure_style_epjp_20260927/epjp/render_03/jpc_field_intercept.pdf": {
+      "sha256": "0a5a29b3cb423c67910d9c742061b966c88b09828b1be48d1b07af01a714dbb8",
+      "bytes": 29007,
+      "origin": "research/figure_style_epjp_20260927/epjp/render_03/jpc_field_intercept.pdf"
+    },
+    "research/figure_style_epjp_20260927/epjp/render_03/jpc_field_intercept.png": {
+      "sha256": "f8d4d7dbf88d313df475dd8d623ac98477144a937ddb3d17858c33193800a786",
+      "bytes": 67050,
+      "origin": "research/figure_style_epjp_20260927/epjp/render_03/jpc_field_intercept.png"
+    },
+    "research/figure_style_epjp_20260927/epjp/render_03/jpc_full_zero_audit.pdf": {
+      "sha256": "926ce29c3dd0e547254347cf88cb7f6bdb736acc56a35b77ed0b0b6b1a997694",
+      "bytes": 25791,
+      "origin": "research/figure_style_epjp_20260927/epjp/render_03/jpc_full_zero_audit.pdf"
+    },
+    "research/figure_style_epjp_20260927/epjp/render_03/jpc_full_zero_audit.png": {
+      "sha256": "11bbc0c51873ec44166e60fc4c7f0711d2b023d60604af80c7ead9e006201718",
+      "bytes": 43462,
+      "origin": "research/figure_style_epjp_20260927/epjp/render_03/jpc_full_zero_audit.png"
+    },
+    "research/figure_style_epjp_20260927/epjp/render_03/jpc_pole_zero.pdf": {
+      "sha256": "651e5b953c28b9ba2582ba62075a8aae1455427bb63fa81429816631330c720c",
+      "bytes": 44747,
+      "origin": "research/figure_style_epjp_20260927/epjp/render_03/jpc_pole_zero.pdf"
+    },
+    "research/figure_style_epjp_20260927/epjp/render_03/jpc_pole_zero.png": {
+      "sha256": "0c3dff7e7d96992727a5c6c2681e2b9c5f2c6ca060c509377e1c50cdbdf3d756",
+      "bytes": 73001,
+      "origin": "research/figure_style_epjp_20260927/epjp/render_03/jpc_pole_zero.png"
+    },
+    "research/figure_style_epjp_20260927/epjp/render_03/manifest.json": {
+      "sha256": "b0e902df0d995ef5f3795432f0a8aa9815336d84259949e5a1a67df8d929776c",
+      "bytes": 374092,
+      "origin": "research/figure_style_epjp_20260927/epjp/render_03/manifest.json"
+    },
+    "research/figure_style_epjp_20260927/epjp/render_03/mapping.json": {
+      "sha256": "1df58fd206ec5dc6b3d31f30594360d27d8243e5550e7a38842c00554dd7d144",
+      "bytes": 4100,
+      "origin": "research/figure_style_epjp_20260927/epjp/render_03/mapping.json"
+    },
+    "research/figure_style_epjp_20260927/epjp/render_03/reference_control.pdf": {
+      "sha256": "c94a39e27034984ae8d68c98ce018aa08052e5bdbb5bf785b5d14964f4e469b4",
+      "bytes": 59132,
+      "origin": "research/figure_style_epjp_20260927/epjp/render_03/reference_control.pdf"
+    },
+    "research/figure_style_epjp_20260927/epjp/render_03/reference_control.png": {
+      "sha256": "668e0315ae5cb8002aadd34112840077893ad9d99c526785f4bc6558f1f0fbc6",
+      "bytes": 156972,
+      "origin": "research/figure_style_epjp_20260927/epjp/render_03/reference_control.png"
+    },
+    "research/figure_style_epjp_20260927/epjp/render_03/reference_validation_20260927.pdf": {
+      "sha256": "c03eef350ae1ac3f658fdfae0e968691722552d14f097fbbf19566573fdb11dc",
+      "bytes": 27069,
+      "origin": "research/figure_style_epjp_20260927/epjp/render_03/reference_validation_20260927.pdf"
+    },
+    "research/figure_style_epjp_20260927/epjp/render_03/reference_validation_20260927.png": {
+      "sha256": "10a151cc2a084188aab7f0230c7daf8748d4b34eed01ad90be9686825d2a6b8e",
+      "bytes": 66656,
+      "origin": "research/figure_style_epjp_20260927/epjp/render_03/reference_validation_20260927.png"
+    },
+    "research/figure_style_epjp_20260927/epjp/render_03/remote_window_comparison.pdf": {
+      "sha256": "b44aac392e4a3702dff7a4d472e6ffdc6545f4677532439e491fb93fb55e1c25",
+      "bytes": 37984,
+      "origin": "research/figure_style_epjp_20260927/epjp/render_03/remote_window_comparison.pdf"
+    },
+    "research/figure_style_epjp_20260927/epjp/render_03/remote_window_comparison.png": {
+      "sha256": "b28d9896d258feb2f21b7bd64e7f95515e8267fe7bb4a71953ab64f8ba8c1099",
+      "bytes": 98966,
+      "origin": "research/figure_style_epjp_20260927/epjp/render_03/remote_window_comparison.png"
+    },
+    "research/figure_style_epjp_20260927/epjp/render_03/structured_sector.pdf": {
+      "sha256": "af8637038cc43b427708a0f7fc1ba0c3b52e2892acdb683e3723bb38ce107206",
+      "bytes": 26851,
+      "origin": "research/figure_style_epjp_20260927/epjp/render_03/structured_sector.pdf"
+    },
+    "research/figure_style_epjp_20260927/epjp/render_03/structured_sector.png": {
+      "sha256": "f1961359ba9ae73075aa24bd01ce4a6c30655052c1d42ec75eea6430f665c742",
+      "bytes": 96096,
+      "origin": "research/figure_style_epjp_20260927/epjp/render_03/structured_sector.png"
+    },
+    "research/figure_style_epjp_20260927/epjp/render_03/verification.json": {
+      "sha256": "ee0ca4d9c9554fe289aac8df71ff7194e215003a5172d6f1f0a26277432c3feb",
+      "bytes": 1928,
+      "origin": "research/figure_style_epjp_20260927/epjp/render_03/verification.json"
+    },
+    "research/figure_style_epjp_20260927/epjp/render_portable.py": {
+      "sha256": "0ad21e068ccd9bc17f93efcca80a38f0f0ed4e5005304b85d9614707df390cab",
+      "bytes": 830,
+      "origin": "research/figure_style_epjp_20260927/epjp/render_portable.py"
+    },
+    "research/figure_style_epjp_20260927/epjp/reproduction_check.json": {
+      "sha256": "21b4a7c8bb48e2b4df4bad97b1c141a5c3805cd72eab2148a7dd3e600dcc00e0",
+      "bytes": 3483,
+      "origin": "research/figure_style_epjp_20260927/epjp/reproduction_check.json"
+    },
+    "research/figure_style_epjp_20260927/epjp/verify.py": {
+      "sha256": "ff738eac45f4b90edcbfa557e40515c55b0e0e5dbad3e589f0015bc1e2097b94",
+      "bytes": 3226,
+      "origin": "research/figure_style_epjp_20260927/epjp/verify.py"
+    },
+    "research/figure_style_epjp_20260927/figure_style.py": {
+      "sha256": "e5a8916edbe5c780b7e093880e859bb9ba4cceea43f27acac58114f9be6f9366",
+      "bytes": 6666,
+      "origin": "research/figure_style_epjp_20260927/figure_style.py"
     }
+  },
+  "previous_release": {
+    "version": "1.0.0",
+    "commit": "1b9e9be99163d77fb32082b7e76a5fee89c4e3cc",
+    "tag_object": "a8f0f30c56af8f919cc81cbca196e4942ee82f3f"
+  },
+  "figure_update": {
+    "scope": "Publication typography and portable figure reproduction; numerical calculations unchanged.",
+    "directory": "research/figure_style_epjp_20260927/epjp",
+    "reproduction_check": "research/figure_style_epjp_20260927/epjp/reproduction_check.json",
+    "preserved_original_payload_files": 154,
+    "modified_original_metadata": [
+      "README.md",
+      "CITATION.cff"
+    ]
   }
 }

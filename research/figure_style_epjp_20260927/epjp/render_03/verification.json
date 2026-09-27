@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "sources_unchanged": true,
+  "figure_count": 8,
+  "total_panels": 27,
+  "negative_controls_detected": [
+    "line_data",
+    "scatter_color",
+    "axis_limit"
+  ],
+  "figures": {
+    "jpc_field_intercept": {
+      "panels": 2,
+      "bold_sans_11pt": true,
+      "out_of_page_text": [],
+      "tick_pt_at_174mm": 8.846080987177421,
+      "panel_pt_at_174mm": 10.811876762105738
+    },
+    "jpc_pole_zero": {
+      "panels": 2,
+      "bold_sans_11pt": true,
+      "out_of_page_text": [],
+      "tick_pt_at_174mm": 8.78430199749406,
+      "panel_pt_at_174mm": 10.736369108048295
+    },
+    "jpc_cofactor_multimode": {
+      "panels": 4,
+      "bold_sans_11pt": true,
+      "out_of_page_text": [],
+      "tick_pt_at_174mm": 8.867987610226427,
+      "panel_pt_at_174mm": 10.838651523610077
+    },
+    "jpc_full_zero_audit": {
+      "panels": 2,
+      "bold_sans_11pt": true,
+      "out_of_page_text": [],
+      "tick_pt_at_174mm": 8.507247419046417,
+      "panel_pt_at_174mm": 10.397746845501176
+    },
+    "reference_validation_20260927": {
+      "panels": 3,
+      "bold_sans_11pt": true,
+      "out_of_page_text": [],
+      "tick_pt_at_174mm": 8.657448858443937,
+      "panel_pt_at_174mm": 10.58132638254259
+    },
+    "reference_control": {
+      "panels": 6,
+      "bold_sans_11pt": true,
+      "out_of_page_text": [],
+      "tick_pt_at_174mm": 8.684431097043644,
+      "panel_pt_at_174mm": 10.614304674164453
+    },
+    "remote_window_comparison": {
+      "panels": 4,
+      "bold_sans_11pt": true,
+      "out_of_page_text": [],
+      "tick_pt_at_174mm": 8.81484820549568,
+      "panel_pt_at_174mm": 10.773703362272498
+    },
+    "structured_sector": {
+      "panels": 4,
+      "bold_sans_11pt": true,
+      "out_of_page_text": [],
+      "tick_pt_at_174mm": 8.943809900328391,
+      "panel_pt_at_174mm": 10.931323211512478
+    }
+  }
+}

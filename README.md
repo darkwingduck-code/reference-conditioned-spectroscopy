@@ -1,8 +1,8 @@
 # Reference-conditioned spectroscopy: data and code
 
 Research artifacts for **Reference-conditioned spectroscopy with control drift
-and structured hidden sectors**, Gyeongtae Im. Version 1.0.0, 27 September 2026.
-Journal target: *Journal of Physics Communications* (IOP Publishing).
+and structured hidden sectors**, Gyeongtae Im. Version 1.1.0, 27 September 2026.
+Journal target: *The European Physical Journal Plus* (Springer Nature).
 This is a research-data release, not a claim of journal acceptance.
 
 The repository contains this paper's numerical data, generators, frozen designs,
@@ -68,6 +68,29 @@ needs neither the manuscript nor private handoff notes.
 The passive oscillator calculations are conditional model tests, not a
 material-specific conserving Weyl self-energy calculation. Necessary linear
 constraints and compatible fits do not establish a unique microscopic model.
+
+## Figure styling in version 1.1.0
+
+Version 1.1.0 preserves the scientific calculations and version 1.0.0 history.
+It adds the final publication figure typography: standalone bold lowercase
+panel labels, consistent axis/tick/legend sizes, and verified text layout.
+The shared Matplotlib style checks numerical arrays, axis limits, colors,
+line styles and markers before and after each display-only revision.
+No model fitting, eigensolver calculation or Monte Carlo study is repeated.
+
+The eight final styled figures and their numerical-artist manifests are under
+`research/figure_style_epjp_20260927/epjp/render_03`. Original figure-only PDFs
+under `paper/jpc_strengthened/figures` preserve the frozen inventory hashes;
+no manuscript is included. The portable wrapper reads that inventory from the
+released JSON, so rendering does not require the manuscript's TeX files.
+
+```sh
+python -B research/figure_style_epjp_20260927/epjp/render_portable.py --output reproduction/styled_figures
+python -B research/figure_style_epjp_20260927/epjp/verify.py --output reproduction/styled_figures
+```
+
+Use a new output directory for each render. The release verification also
+checks every final asset and the preserved original source/data hashes.
 
 ## Provenance, citation and licensing
 
