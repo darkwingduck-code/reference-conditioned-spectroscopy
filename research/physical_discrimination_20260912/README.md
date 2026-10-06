@@ -1,8 +1,8 @@
-﻿# PRL physical discrimination 추가 연구
+﻿# Physical discrimination study
 
 읽는 순서: [한국어 연구 과정](research_journal_ko.md) → [영문 상세 PDF](physical_discrimination_note.pdf) → [대표 수치](analysis/representative_summary.csv) → [전체 실험](production_v2/trials.csv).
 
-본문 통합용은 [main_insert.tex](main_insert.tex), 보충 통합용은 [supplement_insert.tex](supplement_insert.tex)이다. 작은 본문 그림은 [main_frequency_bias.pdf](figures/main_frequency_bias.pdf), 자세한 두 그림은 [linewidth_discrimination.pdf](figures/linewidth_discrimination.pdf)와 [scope_controls.pdf](figures/scope_controls.pdf)이다. 현재 폴더의 추가분을 기존 PRL 원고에 자동 반영하지 않았다.
+본문 통합용은 [main_insert.tex](main_insert.tex), 보충 통합용은 [supplement_insert.tex](supplement_insert.tex)이다. 작은 본문 그림은 [main_frequency_bias.pdf](figures/main_frequency_bias.pdf), 자세한 두 그림은 [linewidth_discrimination.pdf](figures/linewidth_discrimination.pdf)와 [scope_controls.pdf](figures/scope_controls.pdf)이다. 이 폴더는 독립적인 초기 benchmark의 재현 자료이며 현재 저널 타깃을 표시하지 않는다.
 
 11,280개 고정 합성 표본에서 물리 모형·독립 기준·오차 반경을 전제로 하는 주파수 box를 계산했다. 대표 B=.2에서 pp 주파수 편향은 단일 극 HWHM의 약 1.18배, 최대 조건부 box 반경은 0.248배다. 단일 극의 FWHM은 2η이고 전체 손실피크의 폭과 혼동하지 않는다. 정확한 교정의 약 98.8%는 음의 주파수 국소 극에서 온다. 새 원격 모드 효과나 일반적인 해석함수 복원의 증명으로 쓰지 않는다.
 
@@ -17,9 +17,9 @@ cwd: H:/Research/weyl-collective-modes. 기존 Python의 NumPy, SciPy, Pandas, M
 $env:OPENBLAS_NUM_THREADS='1'
 $env:OMP_NUM_THREADS='1'
 $env:MKL_NUM_THREADS='1'
-python -m unittest discover -s research\prl_physical_discrimination_20260912 -p test_discrimination.py -v
-python research\prl_physical_discrimination_20260912\run_production.py --output reproduction_run_01
-python research\prl_physical_discrimination_20260912\run_controls_reproducible.py --output reproduction_controls_02
+python -m unittest discover -s research\physical_discrimination_20260912 -p test_discrimination.py -v
+python research\physical_discrimination_20260912\run_production.py --output reproduction_run_01
+python research\physical_discrimination_20260912\run_controls_reproducible.py --output reproduction_controls_02
 ~~~
 
 각 생성기는 output 폴더가 이미 있으면 중단한다. 저장된 production, production_v2, controls, reproduction_controls_01을 지우거나 덮어쓸 필요가 없다. reproduction_controls_01은 전달 전에 실행해 네 CSV의 모든 바이트가 원본 controls와 동일함을 확인했다.
@@ -35,5 +35,5 @@ runtime 보조 scripts/paper_environment.ps1이 없는 별도 압축해제 환�
 - [최종 전달 검증](delivery_validation.json): 현재 PDF·그림·본문·근거 해시와 조판 검사.
 - [전체 manifest](delivery_manifest.json): 자기 자신을 제외한 파일의 SHA-256.
 
-첫 pilot의 산술 오기, 첫 생산 후 rank safeguard 추가, 인코딩이 깨진 동결 계획 단락, 그림 주석 범위 수정과 조판 이전판은 모두 별도 기록·파일로 보존했다. 기존 논문·제출 패키지·과학 데이터는 변경하지 않았다. 높은 PRL 중요성 또는 제출 승인을 이 추가 연구만으로 확정하지 않는다.
+첫 pilot의 산술 오기, 첫 생산 후 rank safeguard 추가, 인코딩이 깨진 동결 계획 단락, 그림 주석 범위 수정과 조판 이전판은 모두 별도 기록·파일로 보존했다. 기존 논문·제출 패키지·과학 데이터는 변경하지 않았다. 이 자료만으로 새 원고의 독창성, 저널 우선순위 또는 투고 승인을 확정하지 않는다.
 

@@ -1,7 +1,7 @@
 # Reference-conditioned spectroscopy: data and code
 
 Research artifacts for **Reference-conditioned spectroscopy with control drift
-and structured hidden sectors**, Gyeongtae Im. Version 1.2.0, 27 September 2026.
+and structured hidden sectors**, Gyeongtae Im. Version 1.2.1, 7 October 2026.
 Journal target: *The European Physical Journal Plus* (Springer Nature).
 This is a research-data release, not a claim of journal acceptance.
 
@@ -27,15 +27,18 @@ network identity checks. It does not rerun all nonlinear fits.
 
 | Directory under `research/` | Role |
 |---|---|
-| `prl_reference_validation_20260927/run_02` | 792-case reference test, exact stored-LP separation witnesses and matched baselines |
+| `reference_validation_20260927/run_02` | 792-case reference test, exact stored-LP separation witnesses and matched baselines |
 | `structured_dark_sector_20260927/run_02` | 165 cases, 32 false bare-frequency assignments and 66 conditional remainder-bound checks |
 | `structured_dark_sector_20260927/figures_v2` | Final structured-sector figure |
 | `reference_control_study_20260927/run_01` | 48 cases / 144 joint signal-reference fits; failed profiles retained |
 | `reference_control_study_20260927/run_03_wide` | Fixed-count remote-frequency extension, including the three failed fits |
 
-Names containing `prl` are preserved provenance paths from the earlier target;
-they do not identify the target of the current article. Earlier output editions
-are retained as historical records, not silently substituted for final runs.
+Version 1.2.1 gives the two active oscillator-study folders journal-neutral
+names. The immutable version 1.2.0 commit retains the original folder names,
+and every frozen run remains byte-for-byte intact. Remaining `data_prl` and
+`fig_prl` names identify older calculation lineage, not this article's journal
+target. Earlier output editions are retained as historical records, not
+silently substituted for final runs.
 
 Each study's README or `plan.md` gives its noise convention, inputs, scope and
 reproduction commands. Use new output directories: the drivers refuse to
@@ -110,10 +113,18 @@ unchanged. The expanded archive includes:
   differences and per-cell decisions remain available.
 - The earlier 11280 conditional oscillator boxes, separate 594 reduced-Weyl
   transfer controls, pilot and first-production records under
-  `research/prl_physical_discrimination_20260912`. They are not pooled with the
+  `research/physical_discrimination_20260912`. They are not pooled with the
   later 792-case reference study. Historical `certified` fields mean a
   model-conditioned numerical test, not model validation or outward-rounded
   interval arithmetic.
+
+## Path normalization in version 1.2.1
+
+The active directories `research/physical_discrimination_20260912` and
+`research/reference_validation_20260927` replace the target-specific folder
+names from version 1.2.0. This is a path and documentation update only; frozen
+numerical outputs and source snapshots are unchanged. The version 1.2.0 commit
+remains available for exact reproduction of older citations.
 
 `release_support/verify_supporting_records.py` checks these distinct input
 lineages, retained failures and source hashes without repeating the studies.

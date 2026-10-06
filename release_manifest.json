@@ -1,15 +1,15 @@
 {
   "paper": "epjp",
   "repository": "reference-conditioned-spectroscopy",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "source_repository": "https://github.com/darkwingduck-code/weyl-collective-modes",
   "source_base_commit": "1414cdb6aac3f6db87c781de1ad484a69399bcaf",
-  "provenance": "Selected working-tree bytes; per-file hashes identify changes after the base commit.",
+  "provenance": "Version 1.2.1 normalizes active study paths and documentation; frozen numerical outputs and source snapshots are unchanged. Selected working-tree bytes; per-file hashes identify changes after the base commit.",
   "selection_sha256": "38d63fd6a8607ea51e399ea9628d0dc820526d1f3adc45b5db5cc3a352aa5180",
   "python": "3.11.0rc2 (main, Sep 11 2022, 20:22:52) [MSC v.1933 64 bit (AMD64)]",
   "tests": [
     [
-      "research/prl_reference_validation_20260927",
+      "research/reference_validation_20260927",
       "test_experiment.py"
     ],
     [
@@ -17,7 +17,7 @@
       "test_study.py"
     ],
     [
-      "research/prl_physical_discrimination_20260912",
+      "research/physical_discrimination_20260912",
       "test_discrimination.py"
     ],
     [
@@ -213,150 +213,150 @@
       "bytes": 2896,
       "origin": "research/figure_revision_20260927/jpc/selected_v2/render_manifest.json"
     },
-    "research/prl_physical_discrimination_20260912/discrimination_core.py": {
+    "research/physical_discrimination_20260912/discrimination_core.py": {
       "sha256": "9f64e4ed699ca29c0b22d5c566ed1f6e37bb733be965feb1f63c1ed27850f933",
       "bytes": 7207,
-      "origin": "research/prl_physical_discrimination_20260912/discrimination_core.py"
+      "origin": "research/physical_discrimination_20260912/discrimination_core.py"
     },
-    "research/prl_physical_discrimination_20260912/oscillator_pilot.py": {
+    "research/physical_discrimination_20260912/oscillator_pilot.py": {
       "sha256": "f3f6986bbf06c68b13323d8de9a192c4b06912acd9f3951ee5845aadab92e2a2",
       "bytes": 4433,
-      "origin": "research/prl_physical_discrimination_20260912/oscillator_pilot.py"
+      "origin": "research/physical_discrimination_20260912/oscillator_pilot.py"
     },
-    "research/prl_physical_discrimination_20260912/test_discrimination.py": {
+    "research/physical_discrimination_20260912/test_discrimination.py": {
       "sha256": "75e10f740b556229573dbbac746370788518034f27f1c69c5ae402a1b0a6d9de",
       "bytes": 4672,
-      "origin": "research/prl_physical_discrimination_20260912/test_discrimination.py"
+      "origin": "research/physical_discrimination_20260912/test_discrimination.py"
     },
-    "research/prl_reference_validation_20260927/experiment.py": {
-      "sha256": "f0ef6ff2da31aac9241e67d58e47ba75be43e71686595f7fb296c3f2c8217f56",
-      "bytes": 26088,
-      "origin": "research/prl_reference_validation_20260927/experiment.py"
+    "research/reference_validation_20260927/experiment.py": {
+      "sha256": "9a1d4dce0438fc25d031f86b7329bcdf44f798155f96c4291c282c7406041a4b",
+      "bytes": 26084,
+      "origin": "research/reference_validation_20260927/experiment.py"
     },
-    "research/prl_reference_validation_20260927/figures/damping_interval_envelopes.csv": {
+    "research/reference_validation_20260927/figures/damping_interval_envelopes.csv": {
       "sha256": "7c9ab8f77b9196e276046cb4cea1514c184bf195c4e44ebc29059443ba53121e",
       "bytes": 216,
-      "origin": "research/prl_reference_validation_20260927/figures/damping_interval_envelopes.csv"
+      "origin": "research/reference_validation_20260927/figures/damping_interval_envelopes.csv"
     },
-    "research/prl_reference_validation_20260927/figures/invalid_control_status_counts.csv": {
+    "research/reference_validation_20260927/figures/invalid_control_status_counts.csv": {
       "sha256": "8ba2407ba151e7718de30fa540325781bd16f1f375f9a856084d16777f482c22",
       "bytes": 95,
-      "origin": "research/prl_reference_validation_20260927/figures/invalid_control_status_counts.csv"
+      "origin": "research/reference_validation_20260927/figures/invalid_control_status_counts.csv"
     },
-    "research/prl_reference_validation_20260927/figures/matched_baseline_medians.csv": {
+    "research/reference_validation_20260927/figures/matched_baseline_medians.csv": {
       "sha256": "8730ff9579c7737bb0379e4c0d5215e1e24a05113e37021c5e9ad399436f6a64",
       "bytes": 424,
-      "origin": "research/prl_reference_validation_20260927/figures/matched_baseline_medians.csv"
+      "origin": "research/reference_validation_20260927/figures/matched_baseline_medians.csv"
     },
-    "research/prl_reference_validation_20260927/figures/reference_validation_20260927.pdf": {
+    "research/reference_validation_20260927/figures/reference_validation_20260927.pdf": {
       "sha256": "1f1cee37a363ffa9a87364df1b292c67fc54d65286ae33ef02d8c1489dd99f1b",
       "bytes": 22910,
-      "origin": "research/prl_reference_validation_20260927/figures/reference_validation_20260927.pdf"
+      "origin": "research/reference_validation_20260927/figures/reference_validation_20260927.pdf"
     },
-    "research/prl_reference_validation_20260927/figures/reference_validation_20260927.png": {
+    "research/reference_validation_20260927/figures/reference_validation_20260927.png": {
       "sha256": "98556ca131cdd4ffb0942cefd06af9ece390712b6fcaf28566fd77b0b4e1b449",
       "bytes": 105825,
-      "origin": "research/prl_reference_validation_20260927/figures/reference_validation_20260927.png"
+      "origin": "research/reference_validation_20260927/figures/reference_validation_20260927.png"
     },
-    "research/prl_reference_validation_20260927/figures/verification.json": {
+    "research/reference_validation_20260927/figures/verification.json": {
       "sha256": "ccd832a2fb3f3004bc22424399babf2a3a64b111380af79b2c55a8df6dec06e4",
       "bytes": 1182,
-      "origin": "research/prl_reference_validation_20260927/figures/verification.json"
+      "origin": "research/reference_validation_20260927/figures/verification.json"
     },
-    "research/prl_reference_validation_20260927/plan.md": {
+    "research/reference_validation_20260927/plan.md": {
       "sha256": "61f40ad6909efa3f9d55033daa7bd6c868deca838839b6c8b4e5a75a60fdd6dd",
       "bytes": 4968,
-      "origin": "research/prl_reference_validation_20260927/plan.md"
+      "origin": "research/reference_validation_20260927/plan.md"
     },
-    "research/prl_reference_validation_20260927/README.md": {
-      "sha256": "fb24a2fe969eb2fbe79e8f14862a4b3d37e1409a9bf2b3cd0d91760582f0021d",
-      "bytes": 2339,
-      "origin": "research/prl_reference_validation_20260927/README.md"
+    "research/reference_validation_20260927/README.md": {
+      "sha256": "698d0f5cfe32ad90a3afd8233909a6cb1ec59f9b856abfbf7117489bdb689bef",
+      "bytes": 2315,
+      "origin": "research/reference_validation_20260927/README.md"
     },
-    "research/prl_reference_validation_20260927/render_results.py": {
-      "sha256": "9b95e8c308a2e2a8028e17a6925a5ebda8bb4f70ebf14f97736b45699dad10ef",
-      "bytes": 8198,
-      "origin": "research/prl_reference_validation_20260927/render_results.py"
+    "research/reference_validation_20260927/render_results.py": {
+      "sha256": "ba28767e1c3817c226fc715f77fe1ec454d7d43c01d58f00a060bbb5e53cb093",
+      "bytes": 8190,
+      "origin": "research/reference_validation_20260927/render_results.py"
     },
-    "research/prl_reference_validation_20260927/run_01/illustration_inputs.npz": {
+    "research/reference_validation_20260927/run_01/illustration_inputs.npz": {
       "sha256": "0bce46208e46a37782c601af7a6bba632799d23d62b59c1af2d68e27eaaaa21a",
       "bytes": 19689,
-      "origin": "research/prl_reference_validation_20260927/run_01/illustration_inputs.npz"
+      "origin": "research/reference_validation_20260927/run_01/illustration_inputs.npz"
     },
-    "research/prl_reference_validation_20260927/run_01/infeasibility_witnesses.json": {
+    "research/reference_validation_20260927/run_01/infeasibility_witnesses.json": {
       "sha256": "6855f018abfd0f1f91beabf7abad7a4640be6b9c6be69e694cfaa624d1587204",
       "bytes": 675294,
-      "origin": "research/prl_reference_validation_20260927/run_01/infeasibility_witnesses.json"
+      "origin": "research/reference_validation_20260927/run_01/infeasibility_witnesses.json"
     },
-    "research/prl_reference_validation_20260927/run_01/summary.csv": {
+    "research/reference_validation_20260927/run_01/summary.csv": {
       "sha256": "e34498ecc07b6456e18e90cb990f2bc857433ab5224c5af1c6df163dee9361af",
       "bytes": 3357,
-      "origin": "research/prl_reference_validation_20260927/run_01/summary.csv"
+      "origin": "research/reference_validation_20260927/run_01/summary.csv"
     },
-    "research/prl_reference_validation_20260927/run_01/trials.csv": {
+    "research/reference_validation_20260927/run_01/trials.csv": {
       "sha256": "e80c27b2f6a7c479997ffc9ff0e584cac1d5f7e392d2c835bdd8ac7242d399cb",
       "bytes": 772737,
-      "origin": "research/prl_reference_validation_20260927/run_01/trials.csv"
+      "origin": "research/reference_validation_20260927/run_01/trials.csv"
     },
-    "research/prl_reference_validation_20260927/run_01/validation.json": {
+    "research/reference_validation_20260927/run_01/validation.json": {
       "sha256": "53d078dbc3df3faddb3f1fc28db9d12d4a7abaa021ddb3a5fe426e8c00ef983e",
       "bytes": 1491,
-      "origin": "research/prl_reference_validation_20260927/run_01/validation.json"
+      "origin": "research/reference_validation_20260927/run_01/validation.json"
     },
-    "research/prl_reference_validation_20260927/run_02/illustration_inputs.npz": {
+    "research/reference_validation_20260927/run_02/illustration_inputs.npz": {
       "sha256": "0bce46208e46a37782c601af7a6bba632799d23d62b59c1af2d68e27eaaaa21a",
       "bytes": 19689,
-      "origin": "research/prl_reference_validation_20260927/run_02/illustration_inputs.npz"
+      "origin": "research/reference_validation_20260927/run_02/illustration_inputs.npz"
     },
-    "research/prl_reference_validation_20260927/run_02/infeasibility_witnesses.json": {
+    "research/reference_validation_20260927/run_02/infeasibility_witnesses.json": {
       "sha256": "6855f018abfd0f1f91beabf7abad7a4640be6b9c6be69e694cfaa624d1587204",
       "bytes": 675294,
-      "origin": "research/prl_reference_validation_20260927/run_02/infeasibility_witnesses.json"
+      "origin": "research/reference_validation_20260927/run_02/infeasibility_witnesses.json"
     },
-    "research/prl_reference_validation_20260927/run_02/source_snapshot/discrimination_core.py": {
+    "research/reference_validation_20260927/run_02/source_snapshot/discrimination_core.py": {
       "sha256": "9f64e4ed699ca29c0b22d5c566ed1f6e37bb733be965feb1f63c1ed27850f933",
       "bytes": 7207,
-      "origin": "research/prl_reference_validation_20260927/run_02/source_snapshot/discrimination_core.py"
+      "origin": "research/reference_validation_20260927/run_02/source_snapshot/discrimination_core.py"
     },
-    "research/prl_reference_validation_20260927/run_02/source_snapshot/experiment.py": {
+    "research/reference_validation_20260927/run_02/source_snapshot/experiment.py": {
       "sha256": "f0ef6ff2da31aac9241e67d58e47ba75be43e71686595f7fb296c3f2c8217f56",
       "bytes": 26088,
-      "origin": "research/prl_reference_validation_20260927/run_02/source_snapshot/experiment.py"
+      "origin": "research/reference_validation_20260927/run_02/source_snapshot/experiment.py"
     },
-    "research/prl_reference_validation_20260927/run_02/source_snapshot/oscillator_pilot.py": {
+    "research/reference_validation_20260927/run_02/source_snapshot/oscillator_pilot.py": {
       "sha256": "f3f6986bbf06c68b13323d8de9a192c4b06912acd9f3951ee5845aadab92e2a2",
       "bytes": 4433,
-      "origin": "research/prl_reference_validation_20260927/run_02/source_snapshot/oscillator_pilot.py"
+      "origin": "research/reference_validation_20260927/run_02/source_snapshot/oscillator_pilot.py"
     },
-    "research/prl_reference_validation_20260927/run_02/source_snapshot/plan.md": {
+    "research/reference_validation_20260927/run_02/source_snapshot/plan.md": {
       "sha256": "61f40ad6909efa3f9d55033daa7bd6c868deca838839b6c8b4e5a75a60fdd6dd",
       "bytes": 4968,
-      "origin": "research/prl_reference_validation_20260927/run_02/source_snapshot/plan.md"
+      "origin": "research/reference_validation_20260927/run_02/source_snapshot/plan.md"
     },
-    "research/prl_reference_validation_20260927/run_02/source_snapshot/test_experiment.py": {
+    "research/reference_validation_20260927/run_02/source_snapshot/test_experiment.py": {
       "sha256": "9b89be6e62b33eb368ac3dbef9efa08b4fc9d23f00d6aed8f89b913bcd487207",
       "bytes": 7408,
-      "origin": "research/prl_reference_validation_20260927/run_02/source_snapshot/test_experiment.py"
+      "origin": "research/reference_validation_20260927/run_02/source_snapshot/test_experiment.py"
     },
-    "research/prl_reference_validation_20260927/run_02/summary.csv": {
+    "research/reference_validation_20260927/run_02/summary.csv": {
       "sha256": "4a6bbc81ff494d6135b956e3b091650ddc9c733f5ffb93da46c4ae5783fb54da",
       "bytes": 3327,
-      "origin": "research/prl_reference_validation_20260927/run_02/summary.csv"
+      "origin": "research/reference_validation_20260927/run_02/summary.csv"
     },
-    "research/prl_reference_validation_20260927/run_02/trials.csv": {
+    "research/reference_validation_20260927/run_02/trials.csv": {
       "sha256": "d69f452417373d5e5b549a86bece87a371999e49b7991ea9f81f51d290633c82",
       "bytes": 795788,
-      "origin": "research/prl_reference_validation_20260927/run_02/trials.csv"
+      "origin": "research/reference_validation_20260927/run_02/trials.csv"
     },
-    "research/prl_reference_validation_20260927/run_02/validation.json": {
+    "research/reference_validation_20260927/run_02/validation.json": {
       "sha256": "83db2030d151a98d334be0488a26168d58768444e88854c2f7a0e7182cb19953",
       "bytes": 1559,
-      "origin": "research/prl_reference_validation_20260927/run_02/validation.json"
+      "origin": "research/reference_validation_20260927/run_02/validation.json"
     },
-    "research/prl_reference_validation_20260927/test_experiment.py": {
+    "research/reference_validation_20260927/test_experiment.py": {
       "sha256": "9b89be6e62b33eb368ac3dbef9efa08b4fc9d23f00d6aed8f89b913bcd487207",
       "bytes": 7408,
-      "origin": "research/prl_reference_validation_20260927/test_experiment.py"
+      "origin": "research/reference_validation_20260927/test_experiment.py"
     },
     "research/reference_control_study_20260927/analyze.py": {
       "sha256": "778ccf7c76c082f8d3930ee42aa30596c6cabd4ef8bc198c004b61180c5ae805",
@@ -649,8 +649,8 @@
       "origin": "research/reference_control_study_20260927/run_03_wide/validation.json"
     },
     "research/reference_control_study_20260927/study.py": {
-      "sha256": "9c223a308331ea60c188607886b9dad35a182d9012b412506bd29401891c29d5",
-      "bytes": 15922,
+      "sha256": "bd978ca457aa9f76f64fccf37229288c62891b244cdd2af14ca8d481277dc9bb",
+      "bytes": 15910,
       "origin": "research/reference_control_study_20260927/study.py"
     },
     "research/reference_control_study_20260927/test_study.py": {
@@ -799,13 +799,13 @@
       "origin": "research/structured_dark_sector_20260927/run_02/witnesses.json"
     },
     "research/structured_dark_sector_20260927/run_study.py": {
-      "sha256": "1caf83c3bcef02478e47dcce0673ebbdba407111d789054d7fd38ad40eac933c",
-      "bytes": 13101,
+      "sha256": "32d501191b7c67c372ee3499ca0ceae8ca3db4db7b2366fb26683042b936387e",
+      "bytes": 13085,
       "origin": "research/structured_dark_sector_20260927/run_study.py"
     },
     "README.md": {
-      "sha256": "0854d3c597b0ad8c0d6b7f635dc9650296b06271fb243b9912ad1fc2dc03b2c0",
-      "bytes": 8017,
+      "sha256": "fcb305d33b3502c776ebc9d10daf2367a08e6c38cd7e90063a80a74508d5ab52",
+      "bytes": 8594,
       "origin": "generated version 1.2.0 release metadata"
     },
     "verify_release.py": {
@@ -829,7 +829,7 @@
       "origin": "generated version 1.2.0 release metadata"
     },
     "CITATION.cff": {
-      "sha256": "8fe59bc2229142f34d3ac17adf393942960eea8a78c00186d38d0b298d2cfdbe",
+      "sha256": "565a2a0d3eb71911d3f437ea67e665d3959b8a16687c8d3907437cf47593d57c",
       "bytes": 390,
       "origin": "generated version 1.2.0 release metadata"
     },
@@ -879,8 +879,8 @@
       "origin": "research/figure_style_epjp_20260927/epjp/README.md"
     },
     "research/figure_style_epjp_20260927/epjp/render.py": {
-      "sha256": "40efa82f87c1277c18c72eae342095802cd5baad9b4cf8f69a563b1a6622bced",
-      "bytes": 16218,
+      "sha256": "85a8b79051000d943664d5baae173b8be6de0bd55704ca305b07d1c80fef156d",
+      "bytes": 16214,
       "origin": "research/figure_style_epjp_20260927/epjp/render.py"
     },
     "research/figure_style_epjp_20260927/epjp/render_03/jpc_cofactor_multimode.pdf": {
@@ -1778,194 +1778,194 @@
       "bytes": 42391,
       "origin": "pole_zero_work/revision_validation/validation.json"
     },
-    "research/prl_physical_discrimination_20260912/analysis/representative_summary.csv": {
+    "research/physical_discrimination_20260912/analysis/representative_summary.csv": {
       "sha256": "971a1450d583940626f8588a544d1fcd9540f0f69c20d2b47415dac1442d9bc1",
       "bytes": 893,
-      "origin": "research/prl_physical_discrimination_20260912/analysis/representative_summary.csv"
+      "origin": "research/physical_discrimination_20260912/analysis/representative_summary.csv"
     },
-    "research/prl_physical_discrimination_20260912/analysis/unit_tests.txt": {
+    "research/physical_discrimination_20260912/analysis/unit_tests.txt": {
       "sha256": "67b718b3096225d130f136fc65deb8cce38a5270dcea1d96e3fc808a2d94d09f",
       "bytes": 1622,
-      "origin": "research/prl_physical_discrimination_20260912/analysis/unit_tests.txt"
+      "origin": "research/physical_discrimination_20260912/analysis/unit_tests.txt"
     },
-    "research/prl_physical_discrimination_20260912/analysis/validation.json": {
+    "research/physical_discrimination_20260912/analysis/validation.json": {
       "sha256": "24357ec160d09c544de0f17a7ba2a1d1021cea8cfbd6cab1d9565d4cc7c8280b",
       "bytes": 796,
-      "origin": "research/prl_physical_discrimination_20260912/analysis/validation.json"
+      "origin": "research/physical_discrimination_20260912/analysis/validation.json"
     },
-    "research/prl_physical_discrimination_20260912/analyze_results.py": {
+    "research/physical_discrimination_20260912/analyze_results.py": {
       "sha256": "cd1724a683f305a015fb88d6509cf848553bbb0833e641d2e53992bacacb0598",
       "bytes": 8138,
-      "origin": "research/prl_physical_discrimination_20260912/analyze_results.py"
+      "origin": "research/physical_discrimination_20260912/analyze_results.py"
     },
-    "research/prl_physical_discrimination_20260912/controls/background_decomposition.csv": {
+    "research/physical_discrimination_20260912/controls/background_decomposition.csv": {
       "sha256": "195bc8dc407064551641953e21b083fd70a847a0b9d7db9e57fd08e8e88df0ba",
       "bytes": 4454,
-      "origin": "research/prl_physical_discrimination_20260912/controls/background_decomposition.csv"
+      "origin": "research/physical_discrimination_20260912/controls/background_decomposition.csv"
     },
-    "research/prl_physical_discrimination_20260912/controls/diagnostic.json": {
+    "research/physical_discrimination_20260912/controls/diagnostic.json": {
       "sha256": "72c9913502110f56e4542acd8103a4f65b66e42fefe2eafcaccab9947b284286",
       "bytes": 799,
-      "origin": "research/prl_physical_discrimination_20260912/controls/diagnostic.json"
+      "origin": "research/physical_discrimination_20260912/controls/diagnostic.json"
     },
-    "research/prl_physical_discrimination_20260912/controls/finite_intercept_control.csv": {
+    "research/physical_discrimination_20260912/controls/finite_intercept_control.csv": {
       "sha256": "c82f8c9e40868ee75918de34c5260badfea4a28e792cd82156ca54d965cf374b",
       "bytes": 1883,
-      "origin": "research/prl_physical_discrimination_20260912/controls/finite_intercept_control.csv"
+      "origin": "research/physical_discrimination_20260912/controls/finite_intercept_control.csv"
     },
-    "research/prl_physical_discrimination_20260912/controls/structural_controls.csv": {
+    "research/physical_discrimination_20260912/controls/structural_controls.csv": {
       "sha256": "1da907b24ec02441356232552097209856ec454552ebdba69357abe0cc4fc99b",
       "bytes": 9394,
-      "origin": "research/prl_physical_discrimination_20260912/controls/structural_controls.csv"
+      "origin": "research/physical_discrimination_20260912/controls/structural_controls.csv"
     },
-    "research/prl_physical_discrimination_20260912/controls/weyl_transfer_trials.csv": {
+    "research/physical_discrimination_20260912/controls/weyl_transfer_trials.csv": {
       "sha256": "f600609ade4def20dd026df2542ab30cc4ff2962bd59d4b96b31b88ce4b04db3",
       "bytes": 157733,
-      "origin": "research/prl_physical_discrimination_20260912/controls/weyl_transfer_trials.csv"
+      "origin": "research/physical_discrimination_20260912/controls/weyl_transfer_trials.csv"
     },
-    "research/prl_physical_discrimination_20260912/final_validation/validation.json": {
+    "research/physical_discrimination_20260912/final_validation/validation.json": {
       "sha256": "439fb6b42528add11986b7ff6d668062d98df138b3a8046c87a6ee8d69e509be",
       "bytes": 3207,
-      "origin": "research/prl_physical_discrimination_20260912/final_validation/validation.json"
+      "origin": "research/physical_discrimination_20260912/final_validation/validation.json"
     },
-    "research/prl_physical_discrimination_20260912/pilot/pilot.csv": {
+    "research/physical_discrimination_20260912/pilot/pilot.csv": {
       "sha256": "fc22a041f86afc7be100620e9ec71fdd88a414b2aa2a6af5a05980ad9e122a43",
       "bytes": 102735,
-      "origin": "research/prl_physical_discrimination_20260912/pilot/pilot.csv"
+      "origin": "research/physical_discrimination_20260912/pilot/pilot.csv"
     },
-    "research/prl_physical_discrimination_20260912/pilot/pilot.json": {
+    "research/physical_discrimination_20260912/pilot/pilot.json": {
       "sha256": "74027bc6f3b89646feee00fdf824cbecb6c569d7014e36ab93f54539aec09104",
       "bytes": 5386,
-      "origin": "research/prl_physical_discrimination_20260912/pilot/pilot.json"
+      "origin": "research/physical_discrimination_20260912/pilot/pilot.json"
     },
-    "research/prl_physical_discrimination_20260912/pilot_plan.md": {
-      "sha256": "bd449e57355d3649572523daff361c5dc881c651e4130911340b53a53f357c15",
-      "bytes": 2281,
-      "origin": "research/prl_physical_discrimination_20260912/pilot_plan.md"
+    "research/physical_discrimination_20260912/pilot_plan.md": {
+      "sha256": "b881f3f8bd1c391de015c5eab5d2824d4e017bf3f0a1194739054d797fd94b3f",
+      "bytes": 2282,
+      "origin": "research/physical_discrimination_20260912/pilot_plan.md"
     },
-    "research/prl_physical_discrimination_20260912/production/diagnostic.json": {
+    "research/physical_discrimination_20260912/production/diagnostic.json": {
       "sha256": "ed4a7d41095d6c8e0327f68c6b6011c35400afcda0d6eb42a50657e5d2c1dc3c",
       "bytes": 1579,
-      "origin": "research/prl_physical_discrimination_20260912/production/diagnostic.json"
+      "origin": "research/physical_discrimination_20260912/production/diagnostic.json"
     },
-    "research/prl_physical_discrimination_20260912/production/illustration_inputs.npz": {
+    "research/physical_discrimination_20260912/production/illustration_inputs.npz": {
       "sha256": "32a4bb4f0533aeb676d7c81522c3889cad803418ee30611a08e6fd263a51c155",
       "bytes": 44187,
-      "origin": "research/prl_physical_discrimination_20260912/production/illustration_inputs.npz"
+      "origin": "research/physical_discrimination_20260912/production/illustration_inputs.npz"
     },
-    "research/prl_physical_discrimination_20260912/production/source_snapshot/discrimination_core.py": {
+    "research/physical_discrimination_20260912/production/source_snapshot/discrimination_core.py": {
       "sha256": "62478764e33c7e9fb3ada883ec56607d835332eb8bec420236e807fbc00a10a4",
       "bytes": 5849,
-      "origin": "research/prl_physical_discrimination_20260912/production/source_snapshot/discrimination_core.py"
+      "origin": "research/physical_discrimination_20260912/production/source_snapshot/discrimination_core.py"
     },
-    "research/prl_physical_discrimination_20260912/production/source_snapshot/oscillator_pilot.py": {
+    "research/physical_discrimination_20260912/production/source_snapshot/oscillator_pilot.py": {
       "sha256": "f3f6986bbf06c68b13323d8de9a192c4b06912acd9f3951ee5845aadab92e2a2",
       "bytes": 4433,
-      "origin": "research/prl_physical_discrimination_20260912/production/source_snapshot/oscillator_pilot.py"
+      "origin": "research/physical_discrimination_20260912/production/source_snapshot/oscillator_pilot.py"
     },
-    "research/prl_physical_discrimination_20260912/production/source_snapshot/run_production.py": {
+    "research/physical_discrimination_20260912/production/source_snapshot/run_production.py": {
       "sha256": "a20acfd3b46bda87dcc1c8aab2bfb2c7ab4a779931260ed077ef1d60f38d1e01",
       "bytes": 7573,
-      "origin": "research/prl_physical_discrimination_20260912/production/source_snapshot/run_production.py"
+      "origin": "research/physical_discrimination_20260912/production/source_snapshot/run_production.py"
     },
-    "research/prl_physical_discrimination_20260912/production/source_snapshot/test_discrimination.py": {
+    "research/physical_discrimination_20260912/production/source_snapshot/test_discrimination.py": {
       "sha256": "087e7c02e95df9d02b260845344d40df9232f608f3032bc95835be960a3da7eb",
       "bytes": 4271,
-      "origin": "research/prl_physical_discrimination_20260912/production/source_snapshot/test_discrimination.py"
+      "origin": "research/physical_discrimination_20260912/production/source_snapshot/test_discrimination.py"
     },
-    "research/prl_physical_discrimination_20260912/production/summary.csv": {
+    "research/physical_discrimination_20260912/production/summary.csv": {
       "sha256": "123f92b4490b79d42ef6c751a64e9eb1ef3eb89cde8a09fd253bc00355cdd4a4",
       "bytes": 16243,
-      "origin": "research/prl_physical_discrimination_20260912/production/summary.csv"
+      "origin": "research/physical_discrimination_20260912/production/summary.csv"
     },
-    "research/prl_physical_discrimination_20260912/production/trials.csv": {
+    "research/physical_discrimination_20260912/production/trials.csv": {
       "sha256": "a09bd09459e4dd84b51f97e75e4b2f1cf77cb3933b92fbe14d8dd6935d9deefe",
       "bytes": 11328451,
-      "origin": "research/prl_physical_discrimination_20260912/production/trials.csv"
+      "origin": "research/physical_discrimination_20260912/production/trials.csv"
     },
-    "research/prl_physical_discrimination_20260912/production_plan.md": {
+    "research/physical_discrimination_20260912/production_plan.md": {
       "sha256": "dcfd0ed8ffd477559c8f9d524632f7582c60e538bf341107faac3a4617c749d1",
       "bytes": 4243,
-      "origin": "research/prl_physical_discrimination_20260912/production_plan.md"
+      "origin": "research/physical_discrimination_20260912/production_plan.md"
     },
-    "research/prl_physical_discrimination_20260912/production_v2/diagnostic.json": {
+    "research/physical_discrimination_20260912/production_v2/diagnostic.json": {
       "sha256": "368254a5581319e2014ac0bcc98c01d7eca761f1fdbbbeae6bd9a389c3682363",
       "bytes": 1579,
-      "origin": "research/prl_physical_discrimination_20260912/production_v2/diagnostic.json"
+      "origin": "research/physical_discrimination_20260912/production_v2/diagnostic.json"
     },
-    "research/prl_physical_discrimination_20260912/production_v2/illustration_inputs.npz": {
+    "research/physical_discrimination_20260912/production_v2/illustration_inputs.npz": {
       "sha256": "32a4bb4f0533aeb676d7c81522c3889cad803418ee30611a08e6fd263a51c155",
       "bytes": 44187,
-      "origin": "research/prl_physical_discrimination_20260912/production_v2/illustration_inputs.npz"
+      "origin": "research/physical_discrimination_20260912/production_v2/illustration_inputs.npz"
     },
-    "research/prl_physical_discrimination_20260912/production_v2/summary.csv": {
+    "research/physical_discrimination_20260912/production_v2/summary.csv": {
       "sha256": "36e8eb63309aac9aaa2406124b73338396b1f2952057cdb28fdeed9cdab49e5f",
       "bytes": 16245,
-      "origin": "research/prl_physical_discrimination_20260912/production_v2/summary.csv"
+      "origin": "research/physical_discrimination_20260912/production_v2/summary.csv"
     },
-    "research/prl_physical_discrimination_20260912/production_v2/trials.csv": {
+    "research/physical_discrimination_20260912/production_v2/trials.csv": {
       "sha256": "f4c4795b6f4fbc1dae90a4e685b3a6a7bb1e132d56ccce903b49b49f8e8d568c",
       "bytes": 12513998,
-      "origin": "research/prl_physical_discrimination_20260912/production_v2/trials.csv"
+      "origin": "research/physical_discrimination_20260912/production_v2/trials.csv"
     },
-    "research/prl_physical_discrimination_20260912/README.md": {
-      "sha256": "d27d73f172ad9d54ec72cbf7e7f5984d47404846ab5450e1da0ef15eb55c4018",
-      "bytes": 4328,
-      "origin": "research/prl_physical_discrimination_20260912/README.md"
+    "research/physical_discrimination_20260912/README.md": {
+      "sha256": "ae55b6680b19a335c78158ebceff5862509b02ea2afb09c037948d31d0f797d8",
+      "bytes": 4353,
+      "origin": "research/physical_discrimination_20260912/README.md"
     },
-    "research/prl_physical_discrimination_20260912/reproduction_controls_01/background_decomposition.csv": {
+    "research/physical_discrimination_20260912/reproduction_controls_01/background_decomposition.csv": {
       "sha256": "195bc8dc407064551641953e21b083fd70a847a0b9d7db9e57fd08e8e88df0ba",
       "bytes": 4454,
-      "origin": "research/prl_physical_discrimination_20260912/reproduction_controls_01/background_decomposition.csv"
+      "origin": "research/physical_discrimination_20260912/reproduction_controls_01/background_decomposition.csv"
     },
-    "research/prl_physical_discrimination_20260912/reproduction_controls_01/byte_comparison.json": {
+    "research/physical_discrimination_20260912/reproduction_controls_01/byte_comparison.json": {
       "sha256": "826ef5a56c53d103a4d04261f615050abc6e8b437f4baf2956be698fb62f1e55",
       "bytes": 158,
-      "origin": "research/prl_physical_discrimination_20260912/reproduction_controls_01/byte_comparison.json"
+      "origin": "research/physical_discrimination_20260912/reproduction_controls_01/byte_comparison.json"
     },
-    "research/prl_physical_discrimination_20260912/reproduction_controls_01/diagnostic.json": {
+    "research/physical_discrimination_20260912/reproduction_controls_01/diagnostic.json": {
       "sha256": "43f9c44baf860bd0a4ee761357cbd5ad0e36751578c71142eba01806a2c9ea00",
       "bytes": 799,
-      "origin": "research/prl_physical_discrimination_20260912/reproduction_controls_01/diagnostic.json"
+      "origin": "research/physical_discrimination_20260912/reproduction_controls_01/diagnostic.json"
     },
-    "research/prl_physical_discrimination_20260912/reproduction_controls_01/finite_intercept_control.csv": {
+    "research/physical_discrimination_20260912/reproduction_controls_01/finite_intercept_control.csv": {
       "sha256": "c82f8c9e40868ee75918de34c5260badfea4a28e792cd82156ca54d965cf374b",
       "bytes": 1883,
-      "origin": "research/prl_physical_discrimination_20260912/reproduction_controls_01/finite_intercept_control.csv"
+      "origin": "research/physical_discrimination_20260912/reproduction_controls_01/finite_intercept_control.csv"
     },
-    "research/prl_physical_discrimination_20260912/reproduction_controls_01/structural_controls.csv": {
+    "research/physical_discrimination_20260912/reproduction_controls_01/structural_controls.csv": {
       "sha256": "1da907b24ec02441356232552097209856ec454552ebdba69357abe0cc4fc99b",
       "bytes": 9394,
-      "origin": "research/prl_physical_discrimination_20260912/reproduction_controls_01/structural_controls.csv"
+      "origin": "research/physical_discrimination_20260912/reproduction_controls_01/structural_controls.csv"
     },
-    "research/prl_physical_discrimination_20260912/reproduction_controls_01/weyl_transfer_trials.csv": {
+    "research/physical_discrimination_20260912/reproduction_controls_01/weyl_transfer_trials.csv": {
       "sha256": "f600609ade4def20dd026df2542ab30cc4ff2962bd59d4b96b31b88ce4b04db3",
       "bytes": 157733,
-      "origin": "research/prl_physical_discrimination_20260912/reproduction_controls_01/weyl_transfer_trials.csv"
+      "origin": "research/physical_discrimination_20260912/reproduction_controls_01/weyl_transfer_trials.csv"
     },
-    "research/prl_physical_discrimination_20260912/run_controls.py": {
+    "research/physical_discrimination_20260912/run_controls.py": {
       "sha256": "c2d1184ed5b7da029cef0b6b83138232c9a9a58e6bdd0ea5dbba75a5c8eab0dc",
       "bytes": 5467,
-      "origin": "research/prl_physical_discrimination_20260912/run_controls.py"
+      "origin": "research/physical_discrimination_20260912/run_controls.py"
     },
-    "research/prl_physical_discrimination_20260912/run_controls_reproducible.py": {
+    "research/physical_discrimination_20260912/run_controls_reproducible.py": {
       "sha256": "d7280b188aba59fe9260baac365e01accaf2a7c679c465938845d5f5b9401375",
       "bytes": 5704,
-      "origin": "research/prl_physical_discrimination_20260912/run_controls_reproducible.py"
+      "origin": "research/physical_discrimination_20260912/run_controls_reproducible.py"
     },
-    "research/prl_physical_discrimination_20260912/run_production.py": {
+    "research/physical_discrimination_20260912/run_production.py": {
       "sha256": "a20acfd3b46bda87dcc1c8aab2bfb2c7ab4a779931260ed077ef1d60f38d1e01",
       "bytes": 7573,
-      "origin": "research/prl_physical_discrimination_20260912/run_production.py"
+      "origin": "research/physical_discrimination_20260912/run_production.py"
     },
     "research/supplement_reintegration_20260927/epjp/supporting_records.json": {
-      "sha256": "38258ca18d4217e4ffb156e9408adce4b61ae779da548e785c93175c1d8ece3e",
-      "bytes": 7875,
+      "sha256": "1aba79d58061c16da76380bd1fc7b1dd4429db88891ea4cbf46daa25d9f8d8ed",
+      "bytes": 7815,
       "origin": "research/supplement_reintegration_20260927/epjp/supporting_records.json"
     },
     "release_support/verify_supporting_records.py": {
-      "sha256": "9ffae79dff7f91060ceb72e45001f4d4ba324491a0be37d0ef7d98e0bd9d8f8e",
-      "bytes": 3849,
+      "sha256": "39919918006b1ab918eda8489d9747b9a9938a14e11e5351135324f1b1102cb5",
+      "bytes": 3845,
       "origin": "research/supplement_reintegration_20260927/release/verify_supporting_records.py"
     },
     "research/supplement_reintegration_20260927/render_restored_figures.py": {
@@ -2124,6 +2124,10 @@
       "version": "1.1.0",
       "commit": "44a12f18be850f52ff22dd7dbb74d22ea778211f",
       "tag_object": "98689e8107485c311aab9b2044ec24b34a5048c5"
+    },
+    {
+      "version": "1.2.0",
+      "commit": "2ccbbdd069ebda9b390f6deeb0ce6622c405a01c"
     }
   ],
   "supplement_update": {

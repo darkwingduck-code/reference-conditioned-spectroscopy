@@ -88,7 +88,7 @@ def main():
     out.mkdir(parents=True)
     code = REPO / "pole_zero_work/code"
     data = REPO / "pole_zero_work/data_prl"
-    reference = REPO / "research/prl_reference_validation_20260927"
+    reference = REPO / "research/reference_validation_20260927"
     control = REPO / "research/reference_control_study_20260927"
     structured = REPO / "research/structured_dark_sector_20260927"
     figures = {}

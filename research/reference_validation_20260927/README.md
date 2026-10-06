@@ -1,4 +1,4 @@
-# PRL reference validation, 27 September 2026
+# Reference validation, 27 September 2026
 
 Read `results.md` for the derivation and outcomes, `plan.md` for the pre-run
 design, and `figures/reference_validation_20260927.pdf` for the single scientific
@@ -14,10 +14,10 @@ free information. Compatible does not mean that the microscopic model is true.
 From the repository root, using the existing Python/NumPy/SciPy environment:
 
 ```powershell
-python -B -m unittest discover -s research/prl_reference_validation_20260927 -p test_experiment.py -v
-python -B -m unittest discover -s research/prl_physical_discrimination_20260912 -p test_discrimination.py -v
-python -B research/prl_reference_validation_20260927/experiment.py --output reproduction_01
-python -B research/prl_reference_validation_20260927/render_results.py
+python -B -m unittest discover -s research/reference_validation_20260927 -p test_experiment.py -v
+python -B -m unittest discover -s research/physical_discrimination_20260912 -p test_discrimination.py -v
+python -B research/reference_validation_20260927/experiment.py --output reproduction_01
+python -B research/reference_validation_20260927/render_results.py
 ```
 
 For a layout-only figure regeneration, use `render_results.py --figure-only`;
@@ -32,7 +32,7 @@ new reproduction for the frozen final data.
 
 No dependencies were added. The only imported scientific modules outside this
 folder are the existing `oscillator_pilot.py` and `discrimination_core.py` in
-`research/prl_physical_discrimination_20260912/`. They remain unchanged.
+`research/physical_discrimination_20260912/`. They remain unchanged.
 
 `manuscript_extension.tex` is a standalone section for the existing supplement;
 its labels use the unique `ref20260927` prefix. The leader owns supplement

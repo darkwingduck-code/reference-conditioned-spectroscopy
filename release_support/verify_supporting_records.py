@@ -36,7 +36,7 @@ def main():
         for name,digest in new['reference_sha256'].items():
             assert sha(root/'pole_zero_work/data_prl/full_bz_completion'/name)==digest,name
         checks.append('Historical reference and current active tables match their separate frozen hashes')
-        folder=root/'research/prl_physical_discrimination_20260912'
+        folder=root/'research/physical_discrimination_20260912'
         result=json.loads((folder/'production_v2/diagnostic.json').read_text())
         assert result['rows']==11280 and result['conditional_boxes']==11280
         for name,digest in result['file_sha256'].items():

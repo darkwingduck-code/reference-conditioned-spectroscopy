@@ -20,7 +20,7 @@ from scipy.optimize import least_squares
 
 ROOT = Path(__file__).resolve().parent
 REPO = ROOT.parents[1]
-UPSTREAM = REPO / "research/prl_reference_validation_20260927"
+UPSTREAM = REPO / "research/reference_validation_20260927"
 sys.path.insert(0, str(UPSTREAM))
 from experiment import Q0, physical_setup, physical_response
 
@@ -195,8 +195,8 @@ def main():
         raise ValueError("Use a new direct-child output directory")
     output.mkdir()
     sources = [ROOT/name for name in ("study.py", "test_study.py", "plan.md")]
-    sources += [UPSTREAM/"experiment.py", REPO/"research/prl_physical_discrimination_20260912/oscillator_pilot.py",
-                REPO/"research/prl_physical_discrimination_20260912/discrimination_core.py"]
+    sources += [UPSTREAM/"experiment.py", REPO/"research/physical_discrimination_20260912/oscillator_pilot.py",
+                REPO/"research/physical_discrimination_20260912/discrimination_core.py"]
     hashes = {str(path.relative_to(REPO)): hashlib.sha256(path.read_bytes()).hexdigest() for path in sources}
     snapshot = output/"source_snapshot"
     snapshot.mkdir()

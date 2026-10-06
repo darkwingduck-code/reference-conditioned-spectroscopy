@@ -105,8 +105,8 @@ def main():
 
     checks = {}
     for name, relative, pattern in (
-            ("new_tests", "research/prl_reference_validation_20260927", "test_experiment.py"),
-            ("legacy_tests", "research/prl_physical_discrimination_20260912", "test_discrimination.py")):
+            ("new_tests", "research/reference_validation_20260927", "test_experiment.py"),
+            ("legacy_tests", "research/physical_discrimination_20260912", "test_discrimination.py")):
         process = subprocess.run([sys.executable, "-B", "-m", "unittest", "discover", "-s", relative,
                                   "-p", pattern, "-v"], cwd=REPO, capture_output=True, text=True)
         (out / f"{name}.log").write_text(process.stdout+process.stderr, encoding="utf-8")

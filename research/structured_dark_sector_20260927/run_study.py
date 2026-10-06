@@ -14,7 +14,7 @@ import numpy as np
 
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parents[1]
-sys.path.insert(0, str(REPO / 'research/prl_reference_validation_20260927'))
+sys.path.insert(0, str(REPO / 'research/reference_validation_20260927'))
 from scipy.optimize import linprog
 from experiment import Q0, OMEGA, reference_lp, verify_witness, transformed_data, LP_OPTIONS
 
@@ -154,9 +154,9 @@ def main(output):
     if output.exists():
         raise FileExistsError('Choose a new output directory')
     checks = identity_checks()
-    sources = [Path(__file__), HERE/'plan.md', REPO/'research/prl_reference_validation_20260927/experiment.py',
-               REPO/'research/prl_physical_discrimination_20260912/oscillator_pilot.py',
-               REPO/'research/prl_physical_discrimination_20260912/discrimination_core.py']
+    sources = [Path(__file__), HERE/'plan.md', REPO/'research/reference_validation_20260927/experiment.py',
+               REPO/'research/physical_discrimination_20260912/oscillator_pilot.py',
+               REPO/'research/physical_discrimination_20260912/discrimination_core.py']
     hashes = {p.relative_to(REPO).as_posix(): sha(p) for p in sources}
     k0, gamma = matrices(0, (1.1, 1.35), 0)
     reference = response(OMEGA, k0, gamma)

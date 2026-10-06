@@ -19,15 +19,15 @@
     },
     {
       "name": "Earlier common-known-damping reference experiment",
-      "code_files": ["research/prl_physical_discrimination_20260912/oscillator_pilot.py", "research/prl_physical_discrimination_20260912/discrimination_core.py", "research/prl_physical_discrimination_20260912/run_production.py", "research/prl_physical_discrimination_20260912/run_controls.py", "research/prl_physical_discrimination_20260912/run_controls_reproducible.py", "research/prl_physical_discrimination_20260912/test_discrimination.py"],
+      "code_files": ["research/physical_discrimination_20260912/oscillator_pilot.py", "research/physical_discrimination_20260912/discrimination_core.py", "research/physical_discrimination_20260912/run_production.py", "research/physical_discrimination_20260912/run_controls.py", "research/physical_discrimination_20260912/run_controls_reproducible.py", "research/physical_discrimination_20260912/test_discrimination.py"],
       "external_module_dependencies": ["pole_zero_work/code/weyl_continuum_stress.py", "pole_zero_work/code/weyl_fl_prb_solver.py", "pole_zero_work/code/pole_zero_tomography.py"],
-      "frozen_records": ["research/prl_physical_discrimination_20260912/production_plan.md", "research/prl_physical_discrimination_20260912/production_v2", "research/prl_physical_discrimination_20260912/controls", "research/prl_physical_discrimination_20260912/reproduction_controls_01", "research/prl_physical_discrimination_20260912/analysis/validation.json", "research/prl_physical_discrimination_20260912/analysis/representative_summary.csv", "research/prl_physical_discrimination_20260912/README.md"],
+      "frozen_records": ["research/physical_discrimination_20260912/production_plan.md", "research/physical_discrimination_20260912/production_v2", "research/physical_discrimination_20260912/controls", "research/physical_discrimination_20260912/reproduction_controls_01", "research/physical_discrimination_20260912/analysis/validation.json", "research/physical_discrimination_20260912/analysis/representative_summary.csv", "research/physical_discrimination_20260912/README.md"],
       "note": "11280 conditional boxes and the separate Weyl controls are retained as historical model-conditioned results. They are not pooled with the 792-case study, and the old certified flag is not a model-validity or outward-rounded certificate."
     },
     {
       "name": "Existing 792-case extension and subsequent EPJP studies",
-      "directories_already_in_current_release": ["research/prl_reference_validation_20260927", "research/reference_control_study_20260927", "research/structured_dark_sector_20260927"],
-      "frozen_runs": ["research/prl_reference_validation_20260927/run_02", "research/reference_control_study_20260927/run_01", "research/reference_control_study_20260927/run_03_wide", "research/structured_dark_sector_20260927/run_02"],
+      "directories_already_in_current_release": ["research/reference_validation_20260927", "research/reference_control_study_20260927", "research/structured_dark_sector_20260927"],
+      "frozen_runs": ["research/reference_validation_20260927/run_02", "research/reference_control_study_20260927/run_01", "research/reference_control_study_20260927/run_03_wide", "research/structured_dark_sector_20260927/run_02"],
       "note": "The original 270-line reference extension is retained through reference_methods.tex with only context edits; the restored old body links to it rather than duplicating its 792 cases."
     }
   ],

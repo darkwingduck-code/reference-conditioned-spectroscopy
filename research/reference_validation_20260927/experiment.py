@@ -26,7 +26,7 @@ from scipy.optimize import linprog
 
 ROOT = Path(__file__).resolve().parent
 REPO = ROOT.parents[1]
-LEGACY = REPO / "research/prl_physical_discrimination_20260912"
+LEGACY = REPO / "research/physical_discrimination_20260912"
 sys.path.insert(0, str(LEGACY))
 from oscillator_pilot import stiffness, response, rational_fit, predict
 from discrimination_core import instrument_reference, measure, infer_reference_zero

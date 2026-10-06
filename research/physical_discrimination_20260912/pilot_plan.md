@@ -1,4 +1,4 @@
-﻿# PRL 물리적 판별 연구: 사전 pilot 계획
+﻿# Physical discrimination study: archived pilot plan
 
 이 문서는 pilot 실행 전에 기록한 설계입니다. 2026-09-12. 기존 과학 파일은 읽기만 합니다.
 
